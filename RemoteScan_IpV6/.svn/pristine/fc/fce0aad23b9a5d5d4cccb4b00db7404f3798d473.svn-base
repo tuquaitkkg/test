@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6771E24617E141D90081DC6F /* mergeTiffBinalyToMultiPageTiff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6771E24417E141D90081DC6F /* mergeTiffBinalyToMultiPageTiff.cpp */; };
+		67909F0E17DEFCD60044C02F /* ElementBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67909F0617DEFCD60044C02F /* ElementBase.cpp */; };
+		67909F0F17DEFCD60044C02F /* G3Element.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67909F0817DEFCD60044C02F /* G3Element.cpp */; };
+		67909F1017DEFCD60044C02F /* G4Element.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67909F0A17DEFCD60044C02F /* G4Element.cpp */; };
+		67909F1117DEFCD60044C02F /* NonCompElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67909F0C17DEFCD60044C02F /* NonCompElement.cpp */; };
+		67D73E941765BD8000B75124 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D73E931765BD8000B75124 /* Foundation.framework */; };
+		67D73E991765BD8000B75124 /* ImageProcessing.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 67D73E981765BD8000B75124 /* ImageProcessing.h */; };
+		67D73E9B1765BD8000B75124 /* ImageProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D73E9A1765BD8000B75124 /* ImageProcessing.m */; };
+		67EF533F17A8FD8300BE6B57 /* convertG4toBMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67EF533D17A8FD8300BE6B57 /* convertG4toBMP.cpp */; };
+		7C879333179E522100664479 /* ContentPosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C87932B179E522100664479 /* ContentPosition.cpp */; };
+		7C879334179E522100664479 /* JpegElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C87932D179E522100664479 /* JpegElement.cpp */; };
+		7C879335179E522100664479 /* PDFCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C87932F179E522100664479 /* PDFCreator.cpp */; };
+		7C879336179E522100664479 /* SharpDeskMobileUtility.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7C879332179E522100664479 /* SharpDeskMobileUtility.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		67D73E8E1765BD8000B75124 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				67D73E991765BD8000B75124 /* ImageProcessing.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6771E24417E141D90081DC6F /* mergeTiffBinalyToMultiPageTiff.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mergeTiffBinalyToMultiPageTiff.cpp; sourceTree = "<group>"; };
+		6771E24517E141D90081DC6F /* mergeTiffBinalyToMultiPageTiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mergeTiffBinalyToMultiPageTiff.h; sourceTree = "<group>"; };
+		67909F0617DEFCD60044C02F /* ElementBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ElementBase.cpp; sourceTree = "<group>"; };
+		67909F0717DEFCD60044C02F /* ElementBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementBase.h; sourceTree = "<group>"; };
+		67909F0817DEFCD60044C02F /* G3Element.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = G3Element.cpp; sourceTree = "<group>"; };
+		67909F0917DEFCD60044C02F /* G3Element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G3Element.h; sourceTree = "<group>"; };
+		67909F0A17DEFCD60044C02F /* G4Element.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = G4Element.cpp; sourceTree = "<group>"; };
+		67909F0B17DEFCD60044C02F /* G4Element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G4Element.h; sourceTree = "<group>"; };
+		67909F0C17DEFCD60044C02F /* NonCompElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NonCompElement.cpp; sourceTree = "<group>"; };
+		67909F0D17DEFCD60044C02F /* NonCompElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonCompElement.h; sourceTree = "<group>"; };
+		67D73E901765BD8000B75124 /* libImageProcessing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libImageProcessing.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D73E931765BD8000B75124 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		67D73E971765BD8000B75124 /* ImageProcessing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageProcessing-Prefix.pch"; sourceTree = "<group>"; };
+		67D73E981765BD8000B75124 /* ImageProcessing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageProcessing.h; sourceTree = "<group>"; };
+		67D73E9A1765BD8000B75124 /* ImageProcessing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageProcessing.m; sourceTree = "<group>"; };
+		67EF533D17A8FD8300BE6B57 /* convertG4toBMP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = convertG4toBMP.cpp; sourceTree = "<group>"; };
+		67EF533E17A8FD8300BE6B57 /* convertG4toBMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convertG4toBMP.h; sourceTree = "<group>"; };
+		7C87932A179E522100664479 /* ComDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComDef.h; sourceTree = "<group>"; };
+		7C87932B179E522100664479 /* ContentPosition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ContentPosition.cpp; sourceTree = "<group>"; };
+		7C87932C179E522100664479 /* ContentPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentPosition.h; sourceTree = "<group>"; };
+		7C87932D179E522100664479 /* JpegElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JpegElement.cpp; sourceTree = "<group>"; };
+		7C87932E179E522100664479 /* JpegElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpegElement.h; sourceTree = "<group>"; };
+		7C87932F179E522100664479 /* PDFCreator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PDFCreator.cpp; sourceTree = "<group>"; };
+		7C879330179E522100664479 /* PDFCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFCreator.h; sourceTree = "<group>"; };
+		7C879331179E522100664479 /* SharpDeskMobileUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharpDeskMobileUtility.h; sourceTree = "<group>"; };
+		7C879332179E522100664479 /* SharpDeskMobileUtility.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SharpDeskMobileUtility.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67D73E8D1765BD8000B75124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D73E941765BD8000B75124 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67D73E871765BD8000B75124 = {
+			isa = PBXGroup;
+			children = (
+				67D73E951765BD8000B75124 /* ImageProcessing */,
+				67D73E921765BD8000B75124 /* Frameworks */,
+				67D73E911765BD8000B75124 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67D73E911765BD8000B75124 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67D73E901765BD8000B75124 /* libImageProcessing.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67D73E921765BD8000B75124 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67D73E931765BD8000B75124 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67D73E951765BD8000B75124 /* ImageProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				7C879329179E51CA00664479 /* SharpDeskMobileUtility */,
+				67D73E981765BD8000B75124 /* ImageProcessing.h */,
+				67D73E9A1765BD8000B75124 /* ImageProcessing.m */,
+				67D73E961765BD8000B75124 /* Supporting Files */,
+			);
+			path = ImageProcessing;
+			sourceTree = "<group>";
+		};
+		67D73E961765BD8000B75124 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67D73E971765BD8000B75124 /* ImageProcessing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C879329179E51CA00664479 /* SharpDeskMobileUtility */ = {
+			isa = PBXGroup;
+			children = (
+				7C87932A179E522100664479 /* ComDef.h */,
+				7C87932B179E522100664479 /* ContentPosition.cpp */,
+				7C87932C179E522100664479 /* ContentPosition.h */,
+				67EF533D17A8FD8300BE6B57 /* convertG4toBMP.cpp */,
+				67EF533E17A8FD8300BE6B57 /* convertG4toBMP.h */,
+				67909F0617DEFCD60044C02F /* ElementBase.cpp */,
+				67909F0717DEFCD60044C02F /* ElementBase.h */,
+				67909F0817DEFCD60044C02F /* G3Element.cpp */,
+				67909F0917DEFCD60044C02F /* G3Element.h */,
+				67909F0A17DEFCD60044C02F /* G4Element.cpp */,
+				67909F0B17DEFCD60044C02F /* G4Element.h */,
+				7C87932D179E522100664479 /* JpegElement.cpp */,
+				7C87932E179E522100664479 /* JpegElement.h */,
+				6771E24417E141D90081DC6F /* mergeTiffBinalyToMultiPageTiff.cpp */,
+				6771E24517E141D90081DC6F /* mergeTiffBinalyToMultiPageTiff.h */,
+				67909F0C17DEFCD60044C02F /* NonCompElement.cpp */,
+				67909F0D17DEFCD60044C02F /* NonCompElement.h */,
+				7C87932F179E522100664479 /* PDFCreator.cpp */,
+				7C879330179E522100664479 /* PDFCreator.h */,
+				7C879331179E522100664479 /* SharpDeskMobileUtility.h */,
+				7C879332179E522100664479 /* SharpDeskMobileUtility.mm */,
+			);
+			path = SharpDeskMobileUtility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67D73E8F1765BD8000B75124 /* ImageProcessing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67D73E9E1765BD8000B75124 /* Build configuration list for PBXNativeTarget "ImageProcessing" */;
+			buildPhases = (
+				67D73E8C1765BD8000B75124 /* Sources */,
+				67D73E8D1765BD8000B75124 /* Frameworks */,
+				67D73E8E1765BD8000B75124 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageProcessing;
+			productName = ImageProcessing;
+			productReference = 67D73E901765BD8000B75124 /* libImageProcessing.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67D73E881765BD8000B75124 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Sharp Corporation";
+			};
+			buildConfigurationList = 67D73E8B1765BD8000B75124 /* Build configuration list for PBXProject "ImageProcessing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 67D73E871765BD8000B75124;
+			productRefGroup = 67D73E911765BD8000B75124 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67D73E8F1765BD8000B75124 /* ImageProcessing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67D73E8C1765BD8000B75124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D73E9B1765BD8000B75124 /* ImageProcessing.m in Sources */,
+				7C879333179E522100664479 /* ContentPosition.cpp in Sources */,
+				7C879334179E522100664479 /* JpegElement.cpp in Sources */,
+				7C879335179E522100664479 /* PDFCreator.cpp in Sources */,
+				7C879336179E522100664479 /* SharpDeskMobileUtility.mm in Sources */,
+				67EF533F17A8FD8300BE6B57 /* convertG4toBMP.cpp in Sources */,
+				67909F0E17DEFCD60044C02F /* ElementBase.cpp in Sources */,
+				67909F0F17DEFCD60044C02F /* G3Element.cpp in Sources */,
+				67909F1017DEFCD60044C02F /* G4Element.cpp in Sources */,
+				67909F1117DEFCD60044C02F /* NonCompElement.cpp in Sources */,
+				6771E24617E141D90081DC6F /* mergeTiffBinalyToMultiPageTiff.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		67D73E9C1765BD8000B75124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		67D73E9D1765BD8000B75124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		67D73E9F1765BD8000B75124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ImageProcessing.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageProcessing/ImageProcessing-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67D73EA01765BD8000B75124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ImageProcessing.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageProcessing/ImageProcessing-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67D73E8B1765BD8000B75124 /* Build configuration list for PBXProject "ImageProcessing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D73E9C1765BD8000B75124 /* Debug */,
+				67D73E9D1765BD8000B75124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67D73E9E1765BD8000B75124 /* Build configuration list for PBXNativeTarget "ImageProcessing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D73E9F1765BD8000B75124 /* Debug */,
+				67D73EA01765BD8000B75124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67D73E881765BD8000B75124 /* Project object */;
+}

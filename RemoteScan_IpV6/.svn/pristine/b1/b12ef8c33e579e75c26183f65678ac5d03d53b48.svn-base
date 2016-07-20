@@ -1,0 +1,726 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;CHARSET=UTF-8"/>
+<style type="text/css">body{margin:2pt 3pt 2pt 3pt;font-family:sans-serif;color:#000;background-color:#fff;font-size:10pt}td{vertical-align:top}li{padding:5pt}p{font-size:8pt;margin:1% 1% 1% 1%;padding:3pt}img{border:0pt;height:17pt}</style>
+<title>輔助說明</title>
+</head>
+<body class="manual">
+<a name="top"/>
+<table align="center" border="1" bordercolor="#000000">
+<tr>
+<td align="left">
+<ul>
+<li><a href="#1">設定印表機/掃描器</a></li>
+<ul>
+<li><a href="#11">搜尋印表機/掃描器</a></li>
+<li><a href="#12">手動新增印表機/掃描器</a></li>
+<li><a href="#13">檢視和編輯印表機/掃描器資訊</a></li>
+<li><a href="#14">移動或刪除清單中的印表機/掃描器</a></li>
+</ul>
+<li><a href="#2">使用者資訊設定</a></li>
+<li><a href="#3">應用程式設定</a></li>
+<li><a href="#4">電子郵件設定</a></li>
+<li><a href="#5">掃描</a></li>
+<ul>
+<li><a href="#51">從您的行動裝置掃描</a></li>
+<li><a href="#52">從掃描器操作面板掃描</a></li>
+</ul>
+<li><a href="#6">列印</a></li>
+<ul>
+<li><a href="#61">在應用程式中列印儲存文件</a></li>
+<li><a href="#62">列印照片影像</a></li>
+<li><a href="#63">列印網頁</a></li>
+<li><a href="#64">列印電子郵件</a></li>
+</ul>
+<li><a href="#7">附加檔案到電子郵件</a></li>
+<li><a href="#8">傳送到應用程式</a></li>
+<li><a href="#9">檔案總管</a></li>
+<ul>
+<li><a href="#91">變更檔案和資料夾清單</a></li>
+<li><a href="#92">搜尋檔案/資料夾</a></li>
+<li><a href="#93">預覽檔案</a></li>
+<li><a href="#94">重新命名檔案/資料夾</a></li>
+<li><a href="#95">移動檔案/資料夾</a></li>
+<li><a href="#96">刪除檔案/資料夾</a></li>
+<li><a href="#97">建立資料夾</a></li>
+</ul>
+<li><a href="#10">從外部應用程式列印</a></li>
+<li><a href="#sup">技術支援網站</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<a name="1"/>
+<h4><u>設定印表機/掃描器</u></h4>
+設定可從本應用程式列印的印表機和可從本應用程式接收掃描資料的掃描器。
+<a name="11"/>
+<h4>搜尋印表機/掃描器</h4>
+<ol type="1">
+<li>輕按主畫面的"設定"功能表。</li>
+<li>輕按"印表機/掃描器設定"。</li>
+<li>輕按"搜尋印表機/掃描器"，會自動搜尋出網路中的印表機和掃描器。<br>
+注意：印表機/掃描器必須與行動裝置連接在同一網段內。若使用處於不同網段中的印表機/掃描器，請參閱<a href="#12">手動新增印表機/掃描器</a>。</li>
+<li>從網路中搜尋到的印表機和掃描器會顯示在清單內。<br>
+顯示搜尋印表機/掃描器所搜尋到的"產品名稱"和"位置"。（"產品名稱（位置）"或"產品名稱（IP 位址）"顯示在"IP 位址"上方。）<br>
+注意：在清單中顯示（"產品名稱（位置）"或"產品名稱（IP 位址）"）的格式可以在<a href="#3">應用程式設定</a>中設定。搜尋印表機/掃描器所搜尋到的"產品名稱"中包含的"SHARP"字樣，會忽略不顯示。</li>
+</ol>
+<a name="12"/>
+<h4>手動新增印表機/掃描器</h4>
+<ol type="1">
+<li>輕按主畫面的"設定"功能表。</li>
+<li>輕按"印表機/掃描器設定"。</li>
+<li>若您欲新增任一印表機/掃描器與您的行動裝置在不同網段時(無法透過<a href="#11">搜尋印表機/掃描器</a>新增)，則請按一下"手動新增"。</li>
+<li>下列項目可以設定在“印表機/掃描器資訊”和“操作設定”中設定。<br>
+輕按"儲存"來儲存此設定。若你想欲取消新增，請在輕按"儲存"之前按螢幕外面的返回硬體鍵。
+<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">名稱</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">輸入您欲新增的印表機/掃描器名稱。若沒有輸入名稱，則會以裝置的IP位址當作為名稱。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">IP 位址</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">輸入印表機/掃描器的IP位址。這是必要的欄位。<br>注意：IP 位址已經手動新增則無法再輸入。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">連接埠號</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">輸入印表機/掃描器的連接埠號。這是必要的欄位。<br>注意：要從本應用程式列印則必須設定連接埠號。輸入與印表機設定相同的連接埠號。若輸入不同的連接埠號，則本應用程式無法列印到印表機。<br>請檢查印表機的連接埠號，<br>若在<a href="#3">應用程式設定</a>中沒有勾選"使用Raw列印"：請檢查印表機網頁上的[應用程式設定]-[PC列印設定]設定。印表機和本應用程式預設連接埠號為21。<br>若勾選"使用Raw列印"：請檢查印表機網頁上的[網路設定]-[列印埠設定]-[RAW]選項的設定。預設連接埠號為9100。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">設定成預設的印表機/掃描器</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">若選擇"I(開啟)"，則當你使用"列印"或"掃瞄"時，預設印表機/掃描器會設定此台印表機/掃瞄器。<br>注意：若在<a href="#3">應用程式設定</a>勾選"自動選擇印表機/掃描器"，則無法設定"設定成預設的印表機/掃描器"。</font></td></tr></table>
+</li>
+</ol>
+<a name="13"/>
+<h4>檢視和編輯印表機/掃描器資訊</h4>
+<ol type="1">
+<li>輕按主畫面的"設定"功能表。</li>
+<li>輕按"印表機/掃描器設定"。</li>
+<li>登錄的印表機和掃描器會顯示在清單內。<br>
+此圖示<img src="./icon/mfpa.png" alt="MFPa">是表示為自動新增的印表機/掃描器。<br>
+此圖示<img src="./icon/mfpm.png" alt="MFPm">是表示為手動新增的印表機/掃描器。</li>
+<li>輕按指定的印表機/掃描器可檢視資訊。</li>
+<li>將顯示所選印表機/掃描器的資訊。顯示在這裡的項目可用於<a href="#12">手動新增印表機/掃描器</a>。<br>
+注意：自動新增的印表機/掃描器，IP 位址無法編輯。<br>
+手動新增的印表機/掃描器，產品名稱和位置則無法編輯。當應用程式與印表機/掃描器初次連線時，產品名稱和位置欄位會自動填入。</li>
+<li>當可以使用“從您的行動裝置掃描”時，則下列額外的設定可以在“操作設定”裡設定。
+<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">從您的行動裝置掃描</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">當啟用（選擇“I（開啟）”）時，設定掃描設定並從您的行動裝置掃描。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">顯示名稱</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">在掃描器操作面板和您的行動裝置同時會顯示顯示名稱和驗證碼，以確保掃描到正確的目的掃描器。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">自動產生驗證碼</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">當啟用時（選擇“I(（開啟）”），自動產生驗證碼。若禁用（選擇“O（關閉）“時，您必須在驗證碼欄位中輸入一組碼。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">驗證碼</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">在掃描器操作面板和您的行動裝置同時會顯示驗證碼和顯示名稱，以確保掃描到正確的目的掃描器。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">重新設定掃描參數</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">輕按此處會重新設定上一次操作掃描的掃描設定。</font></td></tr></table>
+</li>
+<li>輕按"儲存"儲存設定。</li>
+</ol>
+<a name="14"/>
+<h4>移動或刪除清單中的印表機/掃描器</h4>
+<ol type="1">
+<li>輕按主畫面的"設定"功能表。</li>
+<li>輕按"印表機/掃描器設定"。</li>
+<li>登錄的印表機和掃描器會顯示在清單內。</li>
+<li>輕按"編輯"按鈕。</li>
+<li>若您欲從清單中刪除印表機/掃描器，則可輕按<img src="./icon/delete.png" alt="delete">然後"刪除"。</li>
+<li>若您欲重新編排印表機/掃描器的順序則可輕按<img src="./icon/order.png" alt="order">並透過手指上下移動。<br>
+注意：刪除的印表機/掃描器能夠使用<a href="#11">搜尋印表機/掃描器</a>再次新增或<a href="#12">手動新增印表機/掃描器</a>。</li>
+</ol>
+<div align="right"><a href="#top">頂端</a></div>
+</td>
+</tr>
+<tr>
+<td>
+<a name="2"/>
+<h4><u>使用者資訊設定</u></h4>
+設定使用者資訊。
+<ol type="1">
+<li>輕按主畫面的"設定"功能表。</li>
+<li>輕按"使用者資訊設定"。</li>
+<li>"程序定義資訊"是為了在"掃描"操作時登錄掃描目的地所需的設定。可用下列設定：
+<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">顯示名稱</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">在掃描器位址目錄中的掃描目的地。預設值與行動裝置設定中關於本機所設定的"名稱"相同。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">檢索字母</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">檢索字母是用於掃描器位址目錄的螢幕中顯示"顯示名稱"的排序分類鍵。</font></td></tr></table>
+</li>
+<li>用戶驗證是當印表機啟用用戶驗證時，欲列印到印表機所需的設定。可用下列的設定：
+<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">使用登入名稱來驗證</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">當印表機啟用使用登入名稱來驗證則選擇此處。輸入“登入名稱”和“密碼”。<br><b>登入名稱</b><br>輸入在這台印表機用戶驗證的登入名稱。<br><b>密碼</b><br>輸入在這台印表機用戶驗證的密碼。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">使用用戶號碼來驗證</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">當印表機啟用使用用戶號碼來驗證則選擇此處。輸入“用戶號碼”。<br><b>用戶號碼</b><br>輸入在這台印表機用戶驗證的用戶號碼。</font></td></tr></table>
+</li>
+<li>當選擇“預設工作ID”時，在操作面板上會顯示“使用者名稱”和“工作名稱”的設定。
+<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">使用者名稱</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">輸入使用者名稱將會顯示於印表機操作面板。若沒有設定，則會使用預設值"SharpdeskM User"。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">工作名稱</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">輸入工作名稱將會顯示於印表機操作面板。若沒有設定，則印表機會使用檔案名稱來列印。</font></td></tr></table>
+</li>
+<li>輕按"儲存"儲存設定。</li>
+</ol>
+<div align="right"><a href="#top">頂端</a></div>
+</td>
+</tr>
+<tr>
+<td>
+<a name="3"/>
+<h4><u>應用程式設定</u></h4>
+設定應用程式的操作。
+<ol type="1">
+<li>輕按主畫面的"設定"功能表。</li>
+<li>輕按"應用程式設定"。</li>
+<li>以下可以在"操作設定"中設定。
+<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">自動刪除程序定義</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">若掃描完成後要刪除掃描器上的目的地，請選擇為"I(開啟)"。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">自動更新程序定義</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">選擇為"I(開啟)"則不需要確認登錄，直接覆蓋上一次的掃描目的地。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">儲存匯入檔案</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">若您欲儲存從其他應用程式接收的檔案以便讓本應用程式來列印，請選擇為"I(開啟)"。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">自動選擇印表機/掃描器</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">選擇為"I(開啟)"，則根據連接到的無線網路(SSID)來自動選擇預設印表機/掃描器。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">高品質列印</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">若您欲列印較高品質則選擇為"I(開啟)"。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">使用Raw列印</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">選擇為"I(開啟)"則使用Raw連接埠（預設連接埠號為9100）則，而不是使用FTP連接埠（預設連接埠號為21）來列印。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">自動新增印表機/掃描器所預設的名稱。</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">自動新增印表機/掃描器可以設定顯示的格式。可以選擇"產品名稱（位置）"或"產品名稱（IP 位址）"。</font></td></tr></table>
+</li>
+<li>"SNMP設定"是當若您的行動裝置連接到網路時，是使用非預設的SNMP GET群體名稱則必須設定。若您在這樣的網路環境中使用本應用程式，則請將"使用Public名稱搜尋"設定為"O(關閉)"，並在"輸入群體名稱"中填入正確的群體名稱。最多可以設定10個名稱。有關於SNMP GET的群體名稱，請洽您的網路管理員。</li>
+<li>輕按"儲存"儲存設定。</li>
+</ol>
+<div align="right"><a href="#top">頂端</a></div>
+</td>
+</tr>
+<tr>
+<td>
+<a name="4"/>
+<h4><u>電子郵件設定</u></h4>
+設定您的電子郵件帳號讓此應用程式列印接收的電子郵件。
+<ol type="1">
+<li>輕按主畫面的"設定"功能表。</li>
+<li>輕按“電子郵件設定”。</li>
+<li>以下為設定可用的電子郵件帳號：
+<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">郵件帳號名稱</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">輸入用戶名稱登錄到您的電子郵件帳號。<br>此欄位當密碼設定時則是必須輸入。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">密碼</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">輸入密碼登錄到您的電子郵件帳號。</font></td></tr></table>
+</li>
+<li>以下為設定可用的電子郵件伺服器設定。請聯絡您的電子郵件管理員取得伺服器資訊。<br>
+注意：電子郵件伺服器必須支援IMAP4。
+<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">主機名稱</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">輸入電子郵件伺服器主機名稱。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">連接埠號</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">輸入電子郵件伺服器連接埠號。這是必填的欄位。若不勾選“SSL” 則預設連接埠號為143，或勾選則為993。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">SSL</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">檢查是否需要使用SSL連接行動裝置和電子郵件伺服器。</font></td></tr></table>
+</li>
+<li>輕按"儲存"儲存設定。</li>
+</ol>
+<div align="right"><a href="#top">頂端</a></div>
+</td>
+</tr>
+<tr>
+<td>
+<a name="5"/>
+<h4><u>掃描</u></h4>
+本功能為接收並儲存掃描的文件。
+<ol type="1">
+<li>輕按主畫面的"掃描"。</li>
+<li>輕按"掃描器:(掃描器名稱)"(在iPad，輕按下方的"掃描")選擇指定的掃描器。<br>
+此圖示<img src="./icon/mfp.png" alt="MFP">是指從印表機/掃描器清單中指定預設的掃描器。</li>
+</ol>
+操作方式取決於掃描器。
+<br>請參閱<a href="#51">從您的行動裝置掃描</a>學習如何從您的行動裝置執行掃描。若掃描設定功能無法在您的行動裝置中使用，請參閱<a href="#52">從掃描器操作面板掃描</a>。
+<a name="51"/>
+<h4>從您的行動裝置掃描</h4>
+請在您的行動裝置完成以下步驟來配置掃描設定。請前往<a href="http://sharp-world.com/products/copier/docu_solutions/mobile/sharpdesk_mobile/index.html">應用程式的網站</a>查詢支援的掃描器列表。
+<br>除了“在掃描器擺放文件”之外，所有的操作都可以在應用程式中完成。
+<br>注意：請確掃描器顯示螢幕的畫面為主畫面或用戶驗證畫面。若啟動外部帳號驗證，將顯示用戶驗證畫面。驗證成功後，將顯示掃描器的主畫面。
+<ol type="1">
+<li>若您選擇支援從您的行動裝置掃描功能的掃描器，將顯示設定功能表和現在的掃描設定。<br>
+注意：當禁用此功能時，您可以啟動從掃描器掃描。請參閱<a href="#52">從掃描器操作面板掃描</a> 取得進一步說明。<br>
+可使用以下設定。若您是使用iPhone，透過輕按“完成”來儲存設定。若您使用iPad，則設定會自動儲存。
+<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">色彩模式</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">設定掃描原稿色彩（自動/全彩/灰階/黑白2階）。預設值為“自動”。<br>注意：若在“原稿”中選擇“原稿規格”為“較長尺寸”時，只支援“黑白2階”。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">原稿</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">設定欲掃描的原稿文件。可設定以下的項目：<br><b>原稿規格</b><br>當預設為“自動”時，掃描器無法偵測非標準原稿紙張規格。您必須要手動變更原稿規格設定。<br><b>偵測到的紙張規格（僅顯示）</b><br>若您在目標的掃描器設定文件，會自動偵測原稿紙張尺寸並且同時顯示在您的行動裝置和掃描器操作面板上。<br><b>儲存尺寸</b><br>可以手動設定掃描影像的尺寸。若手動設定的尺寸與偵測到紙張規格不同，影像將自動調整縮放成適合頁面。預設值為“自動”。<br>注意：當選擇以下任何原稿紙張規格時，您只能選擇”自動“：較長尺寸/日本明信片/名片/2L尺寸/卡片/自訂紙張尺寸。<br><b>登錄自訂紙張尺寸</b><br>可以登錄自訂紙張尺寸。最多可以登錄5個自訂紙張尺寸。<br><b>影像方向</b><br>選擇影像的方向。您可以選擇“關閉旋轉”或“旋轉90度”。預設值為“關閉旋轉”。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">雙面影印</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">選擇單面或雙面原稿。<br>可選擇單面，雙面(書本式)或雙面(便簽式)。預設值為“單面”。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">檔案格式</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">可以設定掃描檔案格式（檔案類型，壓縮模式，和壓縮率）。可以設定以下項目。<br><b>“彩色/灰階”/“黑白”</b><br>可以選擇掃描格式（彩色/灰階，或黑白）。<br><b>檔案類型</b><br>可以選擇掃描檔案類型。<br>當在上述設定選擇“彩色/灰階”，則有PDF，PDF/A，TIFF和JPEG檔案類型可供選擇。<br>當在“色彩”中選擇“黑白”，則有PDF，PDF/A和TIFF檔案類型可供選擇。<br><b>壓縮式PDF</b><br>當在“彩色/灰階”/“黑白”設定中選擇“彩色/灰階”，並且在“檔案類型”中選擇“PDF”或“PDF/A”則可以選擇壓縮式PDF（無，壓縮，或超細緻壓縮）的類型。<br>注意：壓縮式PDF只當掃描器安裝掃描擴充套件時可選擇。<br><b>壓縮比例</b><br>當在“彩色/灰階”/“黑白”中選擇“彩色/灰階”時，可以選擇壓縮率（低，中，高）。此外若掃描器支援黑字增強PDF和“檔案類型”設定為“PDF”則可以選擇“黑字增強”。<br><b>壓縮模式</b><br>當在“色彩”中選擇“黑白”時，可以選擇壓縮模式（無, MH(G3), MMR(G4)）。<br><b>每檔所指定頁面</b><br>此功能當您選擇的檔案類型為“PDF”，“PDF/A”，或“TIFF”時才可使用。當選擇使用時，掃描的文件會拆分指定的頁面數。（例如指定2頁，掃描文件會以2頁方式分組來建立多頁檔案。）<br><b>加密</b><br>當檔案類型選擇“PDF”，可使用加密PDF。當勾選時，必須指定開啟加密PDF的“密碼”。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">解析度</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">掃描解析度可以設定。下列為可供選擇的解析度。<br>100x100dpi, 150x150dpi, 200x200dpi, 300x300dpi, 400x400dpi, 600x600dpi<br>注意：只能在支援的掃描器選擇150x150dpi 的解析度。<br>注意：在“壓縮式PDF”中當選擇“壓縮”或“超細緻壓縮”時，只能使用300x300dpi。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">其他設定</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">額外的掃描設定歸類於“其他”。可以選擇以下項目：<br><b>曝光</b><br>可選擇掃描的曝光（自動，文字，文字/印刷相片，印刷相片，文字/相片，照片，地圖）。<br><b>曝光度</b><br>若“曝光度”設定為“自動”則可選擇掃描曝光度（1到5）。<br><b>空白頁跳過</b><br>當設定不為“關閉”時，若原稿中包含空白頁或背景陰影則掃描器當掃描時會自動刪除或跳過。設定選項為“關閉”，“空白頁跳過”，和“跳過空白和濾除背景“。</font></td></tr></table>
+</li>
+<li>當您完成所有設定後，輕按“掃描從（掃描器名稱）”（在iPad上輕按“掃描”）開始掃描文件。</li>
+<li>在輕按“掃描”按鈕之後，在掃描器操作面板會顯示目標的掃描器資訊（“顯示名稱”和“驗證碼”）並畫面切換到等待階段（準備掃描）。</li>
+<li>確認裝置資訊和在掃描器上設定文件。</li>
+<li>在彈出式對話框中選擇“掃描”然後繼續。</li>
+<li>掃描資料會傳送到本應用程式並且資料會儲存到記憶體中。<br>
+若只接收單份文件，資料的內容會顯示出來。<br>
+至於預覽的操作，請參閱 <a href="#93">預覽檔案</a></li>
+<li>輕擊"儲存此影像"按鈕。</li>
+<li>在此階段可重新命名剛掃描好的檔案名稱。<br>
+若需要則輸入新的檔案名稱並且輕按“儲存”。</li>
+<li>選擇目的資料夾然後輕按在螢幕底部的"儲存到這裡"，來儲存此檔案到資料夾。</li>
+</ol>
+若接收多頁掃描資料，操作步驟如下：
+<ul>
+<li>會列出接收到的資料清單。輕按“大量儲存”然後完成步驟7和8，來儲存檔案到裝置所選的資料夾內。（在步驟7輸入檔案名稱時附加流水編號在後面）。<br>
+注意：從清單中輕按任一資料來預覽接收的資料。然而，此資料只能與剩餘接收的資料一起儲存。</li>
+</ul>
+<a name="52"/>
+<h4>從掃描器操作面板掃描</h4>
+若掃描器不支援“從您的行動裝置掃描”，則從掃描器操作面板依照以下步驟掃描。
+<br>當掃描時，解析度、檔案格式和其它掃描設定必須在MFP操作面板上設定。(請參考步驟3)
+<br>注意：請確定掃描器操作面板不是顯示位址目錄狀態。若畫面停在顯示位址目錄時，則此操作無法正常工作。
+<ol type="1">
+<li>輕按"掃描從(掃描器名稱)"(在iPad，輕按"掃描")。</li>
+<li>當顯示"開始掃描嗎？"對話框時，請輕按"確定"來掃描。此對話框中會顯示“顯示名稱”和“檢索字母”並應用程式會處於等待狀態。</li>
+<li>在掃描器設定文件，並選擇"FTP/桌面（或影像傳送）"來設定解析度，檔案格式，色彩模式或其他設定。<br>
+在位址目錄上選擇選擇目的位址，如同在上一個步驟中行動裝置畫面所顯示"顯示名稱"一樣。</li>
+<li>按掃描器上的啟動按鈕執行掃描。從<a href="#51">從您的行動裝置掃描</a>步驟6開始完成這個過程 。</li>
+</ol>
+<div align="right"><a href="#top">頂端</a></div>
+</td>
+</tr>
+<tr>
+<td>
+<a name="6"/>
+<h4><u>列印</u></h4>
+可列印儲存的文件和照片。
+<a name="61"/>
+<h4>在應用程式中列印儲存文件</h4>
+支援的檔案格式為JPEG、TIFF, PNG和PDF（包括壓縮式PDF和加密PDF）。
+<ol type="1">
+<li>輕按主畫面的"列印"。</li>
+<li>在iPhone，輕按"選擇檔案"。</li>
+<li>會顯示在本應用程式儲存的檔案和資料夾清單。請參閱<a href="#91">修改檔案/資料夾清單</a>來修改檔案/資料夾清單或<a href="#92">搜尋檔案/資料夾</a>來搜尋檔案/資料夾。</li>
+<li>選擇檔案顯示預覽影像和列印設定。<br>
+至於預覽的操作，請參閱 <a href="#93">預覽檔案</a></li>
+<li>以下列印設定可以選擇：
+<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">印表機</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">選擇欲列印的印表機並設定列印設定。<br>此處圖示<img src="./icon/mfp.png" alt="MFP">是指從印表機/掃描器清單中指定預設的掃描器。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">份數</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">若需要則可輕按設定列印份數。份數可以設定從1到99份。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">色彩模式設定</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">輕按來設定色彩模式。可以選擇自動，彩色或灰階。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">紙張尺寸設定</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">輕按來設定列印的紙張尺寸。可以設定下列尺寸：<br>A3寬(305x457mm),A3(297x420mm),A4(210x297mm),A5(148x210mm),日規B4(257x364mm),日規B5(182x257mm),美式帳目報表紙(11x17英吋),美式信紙(8.5x11英吋),美式法定紙(8.5x14英吋),美式行政用紙(7.25x10.5英吋),美式帳單紙(5.5x8.5英吋),美式F4大頁紙(8.5x13英吋),8K紙(270x390mm),16K紙(195x270mm),DL信封(110x220mm),C5信封(162x229mm),美式10號信封(4.12x9.5英吋),Monarch信封(3.87x7.5英吋),日式明信片(100x148mm),日式角形2號信封(240x332mm),日式長形3號信封(120x235mm),日式洋形2號信封(114x162mm),日式洋形4號信封(105x235mm)</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">雙面設定</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">若需要的話可以輕按設定單面列印或雙面列印。在設定雙面列印同時，可以設定書本式或便簽式的裝訂方向。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">多頁合併列印設定</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">輕按縮小影像尺寸以適合讓多頁面在一頁上。<br>多頁合併列印：可供選擇1合1（一張1頁），2合1（一張2頁）或4合1（一張4頁）。<br>順序：2合1列印可選擇“由左至右”或“由右至左”。 4合1列印可選擇“由右，然後向下”，“由下，然後向右“，”由左，然後向下“，和“由下，然後向左”。<br>注意：TIFF檔案，壓縮式PDF，黑字增強PDF和非SHARP掃描器掃描的PDF檔案則無法指定多頁合併列印。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">列印區域</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">設定列印的範圍。<br>所有頁面：列印所有頁面。<br>列印頁面：指定欲列印第一頁和最後一頁的頁碼。<br>直接輸入：輸入頁碼和/或頁面範圍。至於頁面範圍，可使用連字符號。您可以用逗號分開的每一頁或範圍。<br>注意：壓縮式PDF，黑字增強PDF和非SHARP掃描器掃描的PDF檔案則無法指定列印區域。</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">保留</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">輕按“保留”來保留列印檔案到印表機的硬碟，允許當需要列印此工作時透過印表機的操作面板來列印。設定“只保留”至“開啟”來啟用此功能。保留檔案存放位置為印表機的主資料。<br>若“指定密碼”設為為“開啟”，允許儲存機密工作於印表機，密碼設定為（從5到8位數字），且檔案除非在印表機操作面板上輸入正確的密碼則否則無法列印出來。<br>注意：您無法指定保留加密PDF檔案。它可以從步驟7完成機密列印。</font></td></tr></table>
+</li>
+<li>輕按"列印到(印表機名稱)"(在iPad，輕按"列印")，然後會顯示"開始列印嗎？"的對話框。輕按"確定"來列印。<br>
+注意：若選擇的印表機沒有安裝所需的擴充套件來列印檔案，則會顯示錯誤。請選擇另外一台印表機。</li>
+</ol>
+若您欲列印加密PDF，操作步驟如下：
+<br>	注意：以下操作以MX-3610N為例，不同印表機型號的列印步驟可能會有所不同。
+<ol type="1" start="7">
+<li>當顯示"此加密PDF資料在多工緩衝佇列."對話框時，輕按"OK"。</li>
+<li>輕按"工作狀態"。</li>
+<li>選擇"列印"頁籤，然後輕按"多工緩衝"。</li>
+<li>會列出從本應用程式傳送的列印工作。請選擇該工作，然後在動作面板上輕按"輸入加密PDF的密碼."。</li>
+<li>當顯示"請輸入密碼."對話框時，輕按"OK"即可開始列印。</li>
+</ol>
+<a name="62"/>
+<h4>列印照片影像</h4>
+注意：若您在iOS4.3，5.0或5.1中使用本應用程式，必須開啟"定位服務"。輕按[設定]-[定位服務]，然後設定"定位服務"為"I(開啟)"。
+<br>注意：若您在iOS6.0到7中使用本應用程式，必須允許讓本應用程式存取"照片"。輕按[設定]-[隱私]-[照片]則顯示應用程式清單，然後找到"SharpdeskMobile"，並設定為"I(開啟)"。
+<ol type="1">
+<li>輕按主畫面的"列印"。</li>
+<li>輕按"選擇照片"(在iPad，輕按螢幕右上角的"照片"或"相簿")。</li>
+<li>儲存在相簿或裡面的照片將會列出來。輕按任一縮圖來預覽影像。<br>
+至於預覽的操作，請參閱 <a href="#93">預覽檔案</a><br>
+注意：只有JPEG，TIFF和PNG可以列印。</li>
+<li>跳至<a href="#61">在應用程式中列印儲存文件</a>步驟5及其之後步驟。</li>
+</ol>
+<a name="63"/>
+<h4>列印網頁</h4>
+可使用應用程式瀏覽網頁並列印。
+<br>注意：您的行動裝置需要連接網際網路來瀏覽網頁。
+<ol type="1">
+<li>輕按主畫面的"列印"。</li>
+<li>輕按“列印網頁”。</li>
+<li>在應用程式中會開啟網頁瀏覽器。輸入網頁的網址來瀏覽。</li>
+<li>輕按“選擇”。</li>
+<li>將顯示列印設定功能表和欲列印網頁的預覽（請參閱“在應用程式中列印儲存文件”的步驟3）。</li>
+<ul>
+<li>您可以列印多個網頁。若您欲新增另一網頁來列印，則輕按<img src="./icon/add.png" alt="add">。螢幕將返回步驟3。</li>
+<li>若您不想新增另一網頁，則跳至<a href="#61">在應用程式中列印儲存文件</a>步驟5及其之後步驟。</li>
+</ul>
+</ol>
+<a name="64"/>
+<h4>列印電子郵件</h4>
+在應用程式中預覽的電子郵件可以列印出來。
+<br>注意：您的行動裝置需透過網際網路連接來預覽電子郵件。
+<br>注意：您無法透過本應用程式來發送電子郵件。
+<ol type="1">
+<li>輕按主畫面的"列印"。</li>
+<li>輕按“列印電子郵件”。</li>
+<li>從指定的電子郵件伺服器列出儲存的電子郵件。選擇一封電子郵件並開啟檢視。</li>
+<li>將顯示選擇的電子郵件內文。<br>
+預設情況下，不會顯示電子郵件附加的影像檔。輕按“檢視影像”來顯示附加的影像檔。</li>
+<li>輕按“選擇”。</li>
+<li>將顯示列印設定功能表和選擇欲預覽的電子郵件（還未顯示預覽）（請參閱“在應用程式中列印儲存文件”的步驟3）。</li>
+<ul>
+<li>您可以列印多封電子郵件。若您欲新增另一電子郵件來列印，則輕按<img src="./icon/add.png" alt="add">。螢幕將返回步驟3。</li>
+<li>若您不想新增另一封電子郵件，則跳至<a href="#61">在應用程式中列印儲存文件</a>步驟5及其之後步驟。</li>
+</ul>
+</ol>
+<div align="right"><a href="#top">頂端</a></div>
+</td>
+</tr>
+<tr>
+<td>
+<a name="7"/>
+<h4><u>附加檔案到電子郵件</u></h4>
+儲存於本應用程式的文件可以附加到電子郵件。
+<ol type="1">
+<li>輕按主畫面的"附加檔案到電子郵件"。</li>
+<li>會顯示在本應用程式儲存的檔案和資料夾清單。<br>
+請參閱<a href="#91">修改檔案/資料夾清單</a>來修改檔案/資料夾清單或<a href="#92">搜尋檔案/資料夾</a>來搜尋檔案/資料夾。</li>
+<li>輕按任何檔案來預覽。<br>
+至於預覽的操作，請參閱 <a href="#93">預覽檔案</a></li>
+<li>輕按螢幕底部的"附加檔案到電子郵件"(在iPad，輕按"附加檔案")。電子郵件應用程式會執行並且顯示附加檔案的郵件。<br>
+編輯完成後傳送該電子郵件。<br>
+注意：欲使用電子郵件應用程式則必須先設定。</li>
+</ol>
+<div align="right"><a href="#top">頂端</a></div>
+</td>
+</tr>
+<tr>
+<td>
+<a name="8"/>
+<h4><u>傳送到應用程式</u></h4>
+儲存在本應用程式的文件可以傳送到其他應用程式。
+<ol type="1">
+<li>輕按主畫面的"傳送到應用程式"。</li>
+<li>會顯示在本應用程式儲存的檔案和資料夾清單。<br>
+請參閱<a href="#91">修改檔案/資料夾清單</a>來修改檔案/資料夾清單或<a href="#92">搜尋檔案/資料夾</a>來搜尋檔案/資料夾。</li>
+<li>輕按任何檔案來預覽。<br>
+至於預覽的操作，請參閱 <a href="#93">預覽檔案</a></li>
+<li>輕按螢幕底端的"傳送到應用程式"(在iPad，輕按"傳送")。</li>
+<li>檔案傳送時會列出可被傳送的應用程式清單。欲傳送檔案則從應用程式清單中選擇另外的應用程式。<br>
+注意：若您在 iOS 4.3 到 5使用本應用程式則最多僅列出9個應用程式。若所需的應用程式沒有在清單內，請解除安裝不必要的應用程式。</li>
+</ol>
+<div align="right"><a href="#top">頂端</a></div>
+</td>
+</tr>
+<tr>
+<td>
+<a name="9"/>
+<h4><u>檔案總管</u></h4>
+可以管理儲存於應用程式的檔案或資料夾。可用的動作包括列出儲存於應用程式的檔案與資料夾，搜尋檔案和資料夾，預覽檔案，重新命名檔案/資料夾名稱，移動，刪除，或建立資料夾。
+<a name="91"/>
+<h4>變更檔案和資料夾清單</h4>
+您可以搜尋檔案/資料夾或排序檔案/資料夾清單。
+<ol type="1">
+<li>輕按主畫面的“檔案總管”按鈕。</li>
+<li>會顯示儲存本應用程式的檔案和資料夾清單。</li>
+<li>排序按鈕和搜尋工具列是顯示於檔案/資料夾清單（搜尋檔案/資料夾，請參閱<a href="#92">搜尋檔案/資料夾</a>）。<br>
+在排序按鈕顯示以下圖示代表現在的排序條件和順序。</li>
+<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">圖示</font></th>
+<th bgcolor="#333333"><font color="#FFFFFF">排序條件和順序</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000"><img src="./icon/asc_d.png" alt="asc_d"></font></td>
+<td bgcolor="#FFFFFF"><font color="#000000">時間遞增排序</font></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000"><img src="./icon/desc_d.png" alt="desc_d"></font></td>
+<td bgcolor="#FFFFFF"><font color="#000000">時間遞減排序</font></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000"><img src="./icon/asc_n.png" alt="asc_n"></font></td>
+<td bgcolor="#FFFFFF"><font color="#000000">檔案名稱遞增排序</font></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000"><img src="./icon/desc_n.png" alt="desc_n"></font></td>
+<td bgcolor="#FFFFFF"><font color="#000000">檔案名稱遞減排序</font></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000"><img src="./icon/asc_s.png" alt="asc_s"></font></td>
+<td bgcolor="#FFFFFF"><font color="#000000">檔案大小遞增排序</font></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000"><img src="./icon/desc_s.png" alt="desc_s"></font></td>
+<td bgcolor="#FFFFFF"><font color="#000000">檔案大小遞減排序</font></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000"><img src="./icon/asc_t.png" alt="asc_t"></font></td>
+<td bgcolor="#FFFFFF"><font color="#000000">檔案類型遞增排序</font></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000"><img src="./icon/desc_t.png" alt="desc_t"></font></td>
+<td bgcolor="#FFFFFF"><font color="#000000">檔案類型遞減排序</font></td>
+</tr>
+</table>
+<li>輕按排序按鈕來排序。排序條件和順序是可以變更的。排序條件包括時間，檔案名稱，檔案大小和檔案類型。輕按<img src="./icon/asc.png" alt="ascend">升序排列，和輕按<img src="./icon/desc.png" alt="descend">降序排序。</li>
+</ol>
+<a name="92"/>
+<h4>搜尋檔案/資料夾</h4>
+<ol type="1">
+<li>輕按主畫面的“檔案總管”按鈕。</li>
+<li>會顯示在本應用程式儲存的檔案和資料夾清單。</li>
+<li>排序按鈕和搜尋工具列是顯示於檔案/資料夾清單（至於排序檔案檔案/資料夾，請參閱“變更檔案/資料夾清單”）。</li>
+<li>在搜尋工具列輸入您欲搜尋的完整的，或部分檔案名稱。將顯示包含搜尋字元的檔案清單。</li>
+<li>若欲從搜尋結果中可以再次進一步搜尋，則在搜尋工具列的右邊，輕按<img src="./icon/advsearch.png" alt="advsearch">。<br>
+下列條件可以指定為進階搜尋的結果。
+<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">包括子資料夾</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">搜尋包括子資料夾</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">資料夾</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">搜尋包括資料夾</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">PDF</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">搜尋包括PDF</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">TIFF</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">搜尋包括TIFF</font></td></tr>
+<tr>
+<th bgcolor="#333333"><font color="#FFFFFF">影像檔案(JPEG,PNG)</font></th>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><font color="#000000">搜尋包括JPEG和PNG</font></td></tr></table>
+</li>
+<li>您可以變更搜尋結果的顯示順序。請參閱 <a href="#91">變更檔案/資料夾清單</a>。</li>
+</ol>
+<a name="93"/>
+<h4>預覽檔案</h4>
+<ol type="1">
+<li>輕按主畫面的“檔案總管”按鈕。</li>
+<li>會顯示在本應用程式儲存的檔案和資料夾清單。</li>
+<li>輕按任何檔案來預覽。<br>
+注意：若行動裝置的可用記憶體空間不足則無法顯示預覽。<br>
+某些檔案格式無法預覽或旋轉（請參閱操作手冊）。若您想要預覽，輕按"使用其他應用程式開啟"，選擇適合的應用程式來預覽。</li>
+<li>請使用兩根手指來放大/縮小預覽影像。<br>
+輕按<img src="./icon/rotate.png" alt="rotate">會順時針旋轉90度來預覽。<br>
+注意：下列的檔案格式可以旋轉：
+<ul>
+<li>JPEG，TIFF，PNG, 和由Sharp掃描的PDF檔案（除了加密PDF）</li>
+</ul>
+注意：即使在預覽旋轉和/或縮放後執行其他的操作，原稿尺寸和/或影像方向則仍會保持原本的樣子。</li>
+</ol>
+<a name="94"/>
+<h4>重新命名檔案/資料夾</h4>
+<ol type="1">
+<li>輕按主畫面的“檔案總管”按鈕。</li>
+<li>會顯示在本應用程式儲存的檔案和資料夾清單。輕按"編輯"按鈕。</li>
+<li>核選框會顯示於清單的左側且選單列顯示於底部。</li>
+<li>勾選您欲重新命名的檔案/資料夾核選框。在選單列輕按<img src="./icon/name.png" alt="name">。<br>
+注意：您只可以一次重新命名一個檔案/資料夾的名稱。</li>
+<li>會顯示"重新命名檔案(資料夾)"的對話框。輸入新的名稱。<br>
+輕按"儲存"來重新命名。<br>
+注意：檔案的副檔名無法變更。</li>
+</ol>
+<a name="95"/>
+<h4>移動檔案/資料夾</h4>
+<ol type="1">
+<li>輕按主畫面的“檔案總管”按鈕。</li>
+<li>會顯示在本應用程式儲存的檔案和資料夾清單。輕按"編輯"按鈕。</li>
+<li>核選框會顯示於清單的左側且選單列顯示於底部。</li>
+<li>勾選您欲移動的檔案/資料夾核選框（可複選多個檔案/資料夾），並且在選單列輕按<img src="./icon/move.png" alt="move">。</li>
+<li>會顯示"移動"的對話框。選擇目的資料夾並且輕按"移動到這裡"。</li>
+</ol>
+<a name="96"/>
+<h4>刪除檔案/資料夾</h4>
+<ol type="1">
+<li>輕按主畫面的“檔案總管”按鈕。</li>
+<li>會顯示在本應用程式儲存的檔案和資料夾清單。輕按"編輯"按鈕。</li>
+<li>核選框會顯示於清單的左側且選單列顯示於螢幕底部。</li>
+<li>勾選您欲刪除的檔案/資料夾核選框（可複選多個檔案/資料夾），並且在選單列輕按<img src="./icon/del.png" alt="delete">。</li>
+<li>會顯示“刪除檔案/資料夾”的對話框。輕按“確定”來刪除檔案/資料夾。</li>
+</ol>
+您也可以依照以下步驟來刪除單個檔案：
+<ul>
+<li>在步驟2，手指滑過在清單中的檔案，然後輕按"刪除"。</li>
+<li>在預覽畫面底部輕按"刪除此檔案"。<br>
+注意：此操作中無法刪除資料夾。</li>
+</ul>
+<a name="97"/>
+<h4>建立資料夾</h4>
+<ol type="1">
+<li>輕按主畫面的“檔案總管”按鈕。</li>
+<li>會顯示在本應用程式儲存的檔案和資料夾清單。</li>
+<li>移動到您欲建立資料夾的子資料夾下，然後輕按"編輯"按鈕。</li>
+<li>核選框會顯示於清單的左側且選單列顯示於螢幕底部。在選單列輕按<img src="./icon/crf.png" alt="createfolder">。</li>
+<li>會顯示"建立資料夾"對話框。輸入資料夾名稱。<br>
+輕按"儲存"來建立資料夾。</li>
+</ol>
+<div align="right"><a href="#top">頂端</a></div>
+</td>
+</tr>
+<tr>
+<td>
+<a name="10"/>
+<h4><u>從外部應用程式列印</u></h4>
+從行動裝置中其他應用程式所傳送的資料可以從本應用程式列印出來。
+<ol type="1">
+<li>在其他應用程式中開啟您想要列印的檔案(JPEG,TIFF,PNG或PDF)。</li>
+<li>在本應用程式操作"傳送檔案到其他應用程式"。(詳細操作請參考本應用程式的操作手冊)。<br>
+"SharpdeskM"將會是在清單中的其中一個應用程式可以接收此檔案。然後輕按"SharpdeskM"。<br>
+注意：若您在 iOS 4.3 到 5使用本應用程式則最多僅列出9個應用程式。若“Sharpdesk的M”沒有在清單內，請解除安裝不必要的應用程式。</li>
+<li>剩餘的操作與<a href="#61">在應用程式中列印儲存文件</a>步驟5及其之後步驟相同。</li>
+</ol>
+<div align="right"><a href="#top">頂端</a></div>
+</td>
+</tr>
+<tr>
+<td>
+<a name="sup"/>
+<h4><u>技術支援網站</u></h4>
+至於本應用程式的詳細資訊，請參閱以下網站：
+<br><br>
+<a href="http://sharp-world.com/products/copier/docu_solutions/mobile/sharpdesk_mobile/index.html">http://sharp-world.com/products/copier/docu_solutions/mobile/sharpdesk_mobile/index.html</a>
+<div align="right"><a href="#top">頂端</a></div>
+</td>
+</tr>
+</table>
+</body>
+</html>

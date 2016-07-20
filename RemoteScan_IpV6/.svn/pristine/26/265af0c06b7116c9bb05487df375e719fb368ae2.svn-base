@@ -1,0 +1,1275 @@
+
+/* 言語名 */
+"S_LANG" = "JA";
+
+/* ヘルプファイル名 */
+"S_HELP" = "help_Jp";
+
+/*ライセンスファイル名 */
+"S_LICENSE" = "License_Jp";
+
+/* 特別モードヘルプファイル名 */
+"S_HELP_SPECIAL_MODE" = "special_Jpn";
+
+/* No Image */
+"S_LABEL_NO_IMAGE" = "No Image";
+
+/* ヘルプメッセージ */
+"MSG_OPENMANUAL_WITHEXTERNALAPP" = "外部アプリを起動して操作マニュアルを開きます";
+
+/* 写真アルバムが使用できません。 */
+"MSG_ALUBUM_ERR" = "写真アルバムが使用できません。";
+
+/* キャンセル */
+"MSG_BUTTON_CANCEL" = "キャンセル";
+
+/* OK */
+"MSG_BUTTON_OK" = "OK";
+
+/* %@の入力文字種が不正です。(%@) */
+"MSG_CHAR_TYPE_ERR" = "%@の入力文字種が不正です。(%@)";
+
+/* 削除しました。 */
+"MSG_DEL_COMPLETE" = "削除しました。";
+
+/* ファイルを削除します。 */
+"MSG_DEL_CONFIRM" = "ファイルを削除します。";
+
+/* ファイル/フォルダーを削除します。 */
+"MSG_DEL_FILE_FOLDER_CONFIRM" = "ファイル/フォルダーを削除します。";
+
+/* 削除に失敗しました。 */
+"MSG_DEL_ERR" = "削除に失敗しました。";
+
+/* プロファイル削除中です。 */
+"MSG_DEL_PROFILE" = "プロファイル削除中です。";
+
+/* プロファイル削除に失敗しました。 */
+"MSG_DEL_PROFILE_ERR" = "プロファイル削除に失敗しました。";
+
+/* 受信完了です。 */
+"MSG_DID_SCAN" = "受信完了です。";
+
+/* 受信に失敗しました。 */
+"MSG_DID_SCAN_ERR" = "受信に失敗しました。";
+
+/* %@の入力形式が不正です。\r\n%@ */
+"MSG_FORMAT_ERR" = "%@の入力形式が不正です。\r\n%@";
+
+/* メモリーが不足しているため\r\n画像を表示できません。 */
+"MSG_IMAGE_PREVIEW_ERR" = "メモリーが不足しているため\r\n画像を表示できません。";
+
+/* %@の入力可能な文字数を超えています。\r\n(%@) */
+"MSG_LENGTH_ERR" = "%@の入力可能な文字数を超えています。\r\n(%@)";
+
+/* アプリケーションを起動するためのキーワードを入れてください。キーワードは販売店にご確認ください。\r\n\r\n */
+"MSG_LOGIN" = "アプリケーションを起動するためのキーワードを入れてください。キーワードは販売店にご確認ください。\r\n\r\n";
+
+/* キーワードが間違っています。\r\nもう一度試してください。\r\n\r\n\r\n */
+"MSG_LOGIN_ERR" = "キーワードが間違っています。\r\nもう一度試してください。\r\n\r\n\r\n";
+
+/* ファイルサイズが1MBを超えているため、メールを送信できない可能性があります。処理を継続しますか？ */
+"MSG_MAIL_ATTACH_CONFIRM" = "ファイルサイズが1MBを超えているため、メールを送信できない可能性があります。処理を継続しますか？";
+
+/* メールの添付に失敗しました。 */
+"MSG_MAIL_ATTACH_ERR" = "メールの添付に失敗しました。";
+
+/* メールが起動出来ません\r\nこの機能はメール設定後に使用可能です。 */
+"MSG_MAIL_START_ERR" = "メールが起動出来ません。\r\nこの機能はメール設定後に使用可能です。";
+
+/* ネットワークの接続を\r\n確認してください。 */
+"MSG_NETWORK_ERR" = "ネットワークの接続を\r\n確認してください。";
+
+/* 利用できるプリンターがありません。\"設定\"ボタンを押してプリンターを追加してください。 */
+"MSG_NO_PRINTER" = "利用できるプリンターがありません。\"設定\"ボタンを押してプリンターを追加してください。";
+
+/* 取り込まれたファイルの形式は本アプリケーションで利用できません。 */
+"MSG_NO_SCAN_FILE" = "取り込まれたファイルの形式は本アプリケーションで利用できません。";
+
+/* 利用できるスキャナーがありません。\"設定\"ボタンを押してスキャナーを追加してください。 */
+"MSG_NO_SCANNER" = "利用できるスキャナーがありません。\"設定\"ボタンを押してスキャナーを追加してください。";
+
+/* 対応するアプリケーションが\r\nひとつもありません。 */
+"MSG_NO_SEND_APP" = "対応するアプリケーションが\r\nひとつもありません。";
+
+/* 選択したファイルの形式は本アプリケーションで利用できません。 */
+"MSG_NO_VIEW_FILE" = "選択したファイルの形式は本アプリケーションで利用できません。";
+
+/* %@の数値が範囲外です。\r\n(%@) */
+"MSG_NUM_RANGE_ERR" = "%@の数値が範囲外です。\r\n(%@)";
+
+/* ファイルの読込みに\r\n失敗しました。 */
+"MSG_PREVIEW_ERR" = "ファイルの読込みに\r\n失敗しました。";
+
+/* 印刷を中断しました。 */
+"MSG_PRINT_CANCEL" = "印刷を中断しました。";
+
+/* 転送が完了しました。 */
+"MSG_PRINT_COMPLETE" = "転送が完了しました。";
+
+/* 印刷を行います。 */
+"MSG_PRINT_CONFIRM" = "印刷を行います。";
+
+/* 接続中です。 */
+"MSG_PRINT_CONNECT" = "接続中です。";
+
+/* 切断中です。 */
+"MSG_PRINT_DISCONNECT" = "切断中です。";
+
+/* 接続がタイムアウトしました。ネットワーク接続、またはプリンターの状態を確認してください。 */
+"MSG_PRINT_ERR" = "接続がタイムアウトしました。ネットワーク接続、またはプリンターの状態を確認してください。";
+
+/* 印刷に失敗しました。\r\n(送信ファイル不正) */
+"MSG_PRINT_FILE_ERR" = "印刷に失敗しました。\r\n(送信ファイル不正)";
+
+/* 転送中です。\r\n転送中は、この画面を閉じないでください。 */
+"MSG_PRINT_FORWARD" = "転送中です。\r\n転送中は、この画面を閉じないでください。";
+
+/* 使用可能なプリンターが\r\nありません。 */
+"MSG_PRINT_REQ_ERR" = "使用可能なプリンターが\r\nありません。";
+
+/* 呼び出しに失敗しました。 */
+"MSG_RECIEVE_ERR" = "呼び出しに失敗しました。";
+
+/* プロファイル登録中です。 */
+"MSG_REG_PROFILE" = "プロファイル登録中です。";
+
+/* プロファイル情報が重複しています。上書きして処理を継続しますか？ */
+"MSG_REG_PROFILE_CONFIRM" = "プロファイル情報が重複しています。上書きして処理を継続しますか？";
+
+/* プロファイル登録に失敗しました。 */
+"MSG_REG_PROFILE_ERR" = "プロファイル登録に失敗しました。";
+
+/* プロファイル情報の登録に\r\n失敗しました。 */
+"MSG_REG_USER_PROFILE_ERR" = "プロファイル情報の登録に\r\n失敗しました。";
+
+/* %@が未入力です。 */
+"MSG_REQUIRED_ERR" = "%@が未入力です。";
+
+/* 画像を保存しました。 */
+"MSG_SAVE" = "画像を保存しました。";
+
+/* 保存に失敗しました。 */
+"MSG_SAVE_ERR" = "保存に失敗しました。";
+
+/* 取り込みを中断しました。 */
+"MSG_SCAN_CANCEL" = "取り込みを中断しました。";
+
+/* 取り込みが完了しました。 */
+"MSG_SCAN_COMPLETE" = "取り込みが完了しました。";
+
+/* 取り込みを行います。 */
+"MSG_SCAN_CONFIRM" = "取り込みを行います。";
+
+/* 受信中です。 */
+"MSG_SCAN_DOING" = "受信中です。";
+
+/* 使用可能なスキャナーが\r\nありません。 */
+"MSG_SCAN_REQ_ERR" = "使用可能なスキャナーが\r\nありません。";
+
+/* %d台の機器が追加されました。 */
+"MSG_SEARCH_COMPLETE" = "%d台の機器が追加されました。";
+
+/* 新たな機器は見つかりませんでした。 */
+"MSG_SEARCH_COMPLETE_UPDATEONLY" = "新たな機器は見つかりませんでした。";
+
+/* 検索中です。 */
+"MSG_SEARCH_DOING" = "検索中です。";
+
+/* 機器が見つかりませんでした。機器が接続されていることを確認して再度実施してください。 */
+"MSG_SEARCH_NOTHING" = "機器が見つかりませんでした。機器が接続されていることを確認して再度実施してください。";
+
+/* 削除に失敗しました。 */
+"MSG_SETTING_DEL_ERR" = "削除に失敗しました。";
+
+/* 取り込み待ちです。\"FTP/Desktop\"または\"ファクス/イメージ送信\"からアドレス帳を開き、送り先を選択してスキャンしてください。 */
+"MSG_WAIT_SCAN" = "取り込み待ちです。\"FTP/Desktop\"または\"ファクス/イメージ送信\"からアドレス帳を開き、送り先を選択してスキャンしてください。\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+
+/* 取り込み待ちです。スキャナモードキーを押下し、\nワンタッチ送信キー6を押下した後、\nスタートキーを押してスキャンしてください。 */
+"MSG_WAIT_SCAN_NOVA_L" = "取り込み待ちです。スキャナモードキーを押下し、ワンタッチ送信キー6を押下した後、スタートキーを押してスキャンしてください。";
+
+/* Sharpdesk はシャープ株式会社の登録商標です。 */
+"S_TRADEMARK" = "Sharpdesk Mobile はシャープ株式会社の登録商標です。";
+
+/* Sharpdesk Mobile */
+"S_APPLICATIONNAME" = "Sharpdesk Mobile";
+
+/* ® */
+"S_APPLICATIONNAME2" = "®";
+
+/*     リストを自動で更新する */
+"S_BUTTON_AUTO_UPDATE" = "リストを自動で更新する";
+
+/* ヘルプPDFのURL */
+"S_HELPPDF_URL" = "http://www.sharp.co.jp/business/print/download/manuals/";
+/* ヘルプPDFのURL(iPad) */
+"S_HELPPDF_URL_IPAD" = "http://www.sharp.co.jp/business/print/download/manuals/";
+/* ヘルプPDFのファイル名 */
+"S_HELPPDF_NAME" = "sharpdesk_mobile_v22_manual_iphone_ja.pdf";
+/* ヘルプPDFのファイル名(iPad) */
+"S_HELPPDF_NAME_IPAD" = "sharpdesk_mobile_v22_manual_ipad_ja.pdf";
+
+/* 戻る */
+"S_BUTTON_BACK" = "戻る";
+
+/* キャンセル */
+"S_BUTTON_CANCEL" = "キャンセル";
+
+/* 複数選択 */
+"S_BUTTON_MSELECT" = "複数選択";
+
+/* 決定 */
+"S_BUTTON_DECIDE" = "決定";
+
+/*     ファイルを削除する */
+"S_BUTTON_DEL" = "ファイルを削除する";
+
+/* 確定 */
+"S_BUTTON_FIX" = "確定";
+
+/*     手動で追加する */
+"S_BUTTON_MANUAL_ADD" = "手動で追加する";
+
+/* 追加する */
+"S_BUTTON_EXCLUDE_DEVICE_ADD" = "追加する";
+
+/* 初期化する */
+"S_BUTTON_EXCLUDE_DEVICE_INITIALIZE" = "リストを初期化する";
+/*     利用できるプリンターがありません */
+"S_BUTTON_NO_PRINTER" = "利用できるプリンターがありません";
+
+/*     利用できるスキャナーがありません */
+"S_BUTTON_NO_SCANNER" = "利用できるスキャナーがありません";
+
+/*     部数：%@部 */
+"S_BUTTON_NUMBER_OF_SETS" = "部数：%@部";
+
+/*     プリンター：\"%@\" */
+"S_BUTTON_PRINTER" = "プリンター：\"%@\"";
+
+/*     \"%@\"で印刷する */
+"S_BUTTON_PRINTOUT" = "\"%@\"で印刷する";
+
+/* %@部 */
+"S_BUTTON_NUMBER_OF_SETS_IPAD" = "%@部";
+
+/* 写真アルバム */
+"S_BUTTON_PHOTO" = "写真アルバム";
+
+/* 縦表示時のメニュー */
+"S_BUTTON_MENU" = "メニュー";
+"S_BUTTON_FILE_LIST" = "ファイル一覧";
+
+/* ヘルプ */
+"S_BUTTON_HELP" = "ヘルプ";
+
+/* 閉じる */
+"S_BUTTON_CLOSE" = "閉じる";
+
+/* 同意する */
+"S_BUTTON_AGREE" = "同意する";
+
+/*     印刷する */
+"S_BUTTON_PRINTOUT_IPAD" = "印刷する";
+
+/*     画像を保存する */
+"S_BUTTON_SAVE" = "画像を保存する";
+
+/* 保存 */
+"S_BUTTON_SAVEVAL" = "保存";
+
+/*     \"%@\"から取り込む */
+"S_BUTTON_SCAN" = "\"%@\"から取り込む";
+
+/*     スキャナー：\"%@\" */
+"S_BUTTON_SCANNER" = "スキャナー：\"%@\"";
+
+/*     アプリケーションに送る */
+"S_BUTTON_SEND" = "アプリケーションに送る";
+
+/*     メールに添付する */
+"S_BUTTON_SENDMAIL" = "メールに添付する";
+
+/* ここに移動 */
+"S_BUTTON_MOVE" = "ここに移動";
+
+/* ここに保存 */
+"S_BUTTON_SAVE_HERE" = "ここに保存";
+
+/*     取り込む */
+"S_BUTTON_SCAN_IPAD" = "取り込む";
+
+/*     送る */
+"S_BUTTON_SEND_IPAD" = "送る";
+
+/*     添付する */
+"S_BUTTON_SENDMAIL_IPAD" = "添付する";
+
+/* 設定 */
+"S_BUTTON_SETTING" = "設定";
+
+/*     両面印刷：%@ */
+"S_BUTTON_SIDE" = "両面/片面：%@";
+
+/* ©2012 SHARP CORPORATION */
+"S_COPYRIGHT" = "©2012 SHARP CORPORATION";
+
+/* 特別モード実行中 */
+"S_BUTTON_SPECIALMODE" = "特別モード実行中";
+
+/* 印刷範囲拡張有効 */
+"S_BUTTON_PRINT_RANGE_EXPANSION" = "印刷範囲拡張有効";
+
+/* 本ソフトウェアは以下の著作物を含んでいます。 */
+"S_LIBRARY_LICENSE" = "本ソフトウェアは以下の著作物を含んでいます。";
+
+/* 両面印刷 よことじ */
+"S_DUPLEX_SIDE_LONG" = "両面印刷 よことじ";
+
+/* 両面印刷 たてとじ */
+"S_DUPLEX_SIDE_SHORT" = "両面印刷 たてとじ";
+
+/* 部数 */
+"S_LABEL_NUMBER_OF_SETS_IPAD" = "部数";
+
+/* プリンター */
+"S_LABEL_PRINTER_IPAD" = "プリンター";
+
+/* スキャナー */
+"S_LABEL_SCANER_IPAD" = "スキャナー";
+
+/* 両面印刷 */
+"S_LABEL_SIDE_IPAD" = "両面/片面";
+
+/* 片面印刷 */
+"S_ONE_SIDE" = "片面印刷";
+
+/* ファイルを選択する */
+"S_PRINT_SEL_FILE" = "ファイルを選択する";
+
+/* 写真を選択する */
+"S_PRINT_SEL_PICTURE" = "写真を選択する";
+
+/* Webページを印刷する */
+"S_PRINT_SEL_WEBPAGE" = "Webページを印刷する";
+
+/* あ */
+"S_SEARCH_STRING" = "あ";
+
+/* プリンター/スキャナーを設定 */
+"S_SETTING_DEVICE" = "プリンター/スキャナーを設定";
+
+/* 製品名： */
+"S_SETTING_DEVICE_DEVICENAME" = "製品名";
+
+/* IPアドレス： */
+"S_SETTING_DEVICE_IP_ADDRESS" = "IPアドレス";
+
+/* ホスト名*/
+"S_SETTING_DEVICE_HOSTNAME" = "ホスト名";
+
+/* 名称： */
+"S_SETTING_DEVICE_NAME" = "名称";
+
+/* 設置場所： */
+"S_SETTING_DEVICE_PLACE" = "設置場所";
+
+/* ポート番号： */
+"S_SETTING_DEVICE_PORT" = "ポート番号";
+
+/* このプリンター/スキャナーを選択： */
+"S_SETTING_DEVICE_DEFAULT_MFP" = "このプリンター/スキャナーを選択";
+
+/* 除外リストに追加： */
+"S_SETTING_DEVICE_ADD_EXCLUTIONLIST" = "除外リストに追加";
+
+/* 除外プリンター/スキャナーを設定 */
+"S_SETTING_EXCLUDE_MFP" = "除外プリンター/スキャナーを設定";
+
+/* ユーザー情報を設定 */
+"S_SETTING_USERINFO" = "ユーザー情報を設定";
+
+/* プロファイルの自動削除 */
+"S_SETTING_USERINFO_DELETE_MODE" = "プロファイルの自動削除";
+
+/* IPアドレス */
+"S_SETTING_USERINFO_IP_ADDRESS" = "IPアドレス";
+
+/* プロファイルの強制上書き */
+"S_SETTING_USERINFO_MODIFY_MODE" = "プロファイルの強制上書き";
+
+/* 表示名 */
+"S_SETTING_USERINFO_NAME" = "表示名";
+
+/* 他アプリから受けたファイルを残す */
+"S_SETTING_USERINFO_SAVE_OUTSIDE" = "他アプリから受けたファイルを残す";
+
+/* プリンター/スキャナー自動切替 */
+"S_SETTING_USERINFO_AUTOSELECT" = "プリンター/スキャナー自動選択";
+
+/* 高品質で印刷する*/
+"S_SETTING_USERINFO_HIGH_QUALITY" = "高品質で印刷する";
+
+/* 選択プリンター/スキャナーの更新 */
+"S_SETTING_USERINFO_UPDATE_SELECT" = "選択プリンター/スキャナーの更新";
+
+/* 印刷にRawプリントを使用する */
+"S_SETTING_USERINFO_USE_RAWPRINT" = "印刷にRawポートを使用する";
+
+/* 検索文字 */
+"S_SETTING_USERINFO_SEARCH" = "検索文字";
+
+/* プリンター/スキャナー除外設定 */
+"S_SETTING_EXCLCLUDE_DEVICE" = "プリンター/スキャナーの除外設定";
+
+/* 除外リストに追加する */
+"S_SETTING_EXCLCLUDE_DEVICE_ADD" = "除外リストに追加する";
+
+/* 製品名を入力 */
+"S_TITLE_SETTING_ADD_EXCLCLUDE_DEVICENAME" = "製品名を入力";
+
+/* フォルダー作成 */
+"S_TITLE_CREATE_FOLDER" = "フォルダーを作成する";
+
+/* フォルダー名 */
+"S_TITLE_CREATE_FOLDER_NAME" = "フォルダー名";
+
+/* フォルダー */
+"S_LABEL_FOLDER" = "フォルダー";
+
+/* ファイル名を変更する */
+"S_TITLE_CHANGE_FILENAME" = "ファイル名を変更する";
+
+/* ファイル名を指定する */
+"S_TITLE_RENAME_FILENAME" = "ファイル名を指定する";
+
+/* フォルダー名を変更する */
+"S_TITLE_CHANGE_FOLDERNAME" = "フォルダー名を変更する";
+
+/* ファイル名 */
+"S_TITLE_FILE_NAME" = "ファイル名";
+
+/* フォルダー名 */
+"S_TITLE_FOLDER_NAME" = "フォルダー名";
+
+/* ファイル */
+"S_LABEL_FILE" = "ファイル";
+
+/* 整理する */
+"S_TITLE_ARRANGE" = "ファイルを管理する";
+
+/* 移動する */
+"S_TITLE_MOVE" = "移動する";
+
+/* 保存する */
+"S_TITLE_SAVE" = "保存する";
+
+/* 印刷する */
+"S_TITLE_PRINT" = "印刷する";
+
+/* 取り込む */
+"S_TITLE_SCAN" = "取り込む";
+
+/* アプリケーションに送る */
+"S_TITLE_SEND" = "アプリケーションに送る";
+
+/* メールを送信する */
+"S_TITLE_SENDMAIL" = "メールに添付する";
+
+/* 設定 */
+"S_TITLE_SETTING" = "設定";
+
+/* 動作設定 */
+"S_TITLE_SETTING_ACTION" = "動作設定";
+
+/* 手動で追加する */
+"S_TITLE_SETTING_ADD" = "手動で追加する";
+
+/* プリンター/スキャナーを設定 */
+"S_TITLE_SETTING_DEVICE" = "プリンター/スキャナーを設定";
+
+/* プリンター/スキャナー情報 */
+"S_TITLE_SETTING_SHOW_INFO_SEC1" = "プリンター/スキャナー情報";
+
+/* ユーザー情報を設定 */
+"S_TITLE_SETTING_USER" = "ユーザー情報を設定";
+
+/* プロファイル情報 */
+"S_TITLE_SETTING_USER_INFO" = "プロファイル情報";
+
+/* Sharpdesk Mobile */
+"S_TITLE_TOP" = "Sharpdesk Mobile®";
+
+/* バージョン情報 */
+"S_TITLE_VERSION_INFO" = "バージョン情報";
+
+/* 整理する */
+"S_TOP_ARRANGE" = "ファイルを管理する";
+
+/* 印刷する */
+"S_TOP_PRINT" = "印刷する";
+
+/* 取り込む */
+"S_TOP_SCAN" = "取り込む";
+
+/* アプリケーションに送る */
+"S_TOP_SEND_OUTSIDE" = "アプリケーションに送る";
+
+/* メールを送信する */
+"S_TOP_SENDMAIL" = "メールに添付する";
+
+/* 設定 */
+"S_TOP_SUB_SETTING" = "設定";
+
+/* バージョン情報 */
+"S_TOP_SUB_VERSION" = "バージョン情報";
+
+/* Byte */
+"S_UNIT_BYTE" = "Byte";
+
+/* GB */
+"S_UNIT_GB" = "GB";
+
+/* KB */
+"S_UNIT_KB" = "KB";
+
+/* MB */
+"S_UNIT_MB" = "MB";
+
+/* Version %@ */
+"S_VERSION" = "Version %@ (%@)";
+
+/* %@、%@のいずれか */
+"SUBMSG_ERR" = "%@、%@のいずれか";
+
+/* IPアドレス */
+"SUBMSG_IPADDR_ERR" = "IPアドレス";
+
+/* xxx.xxx.xxx.xxx(xxx=0〜255) */
+"SUBMSG_IPADDR_FORMAT" = "xxx.xxx.xxx.xxx(xxx=0〜255)";
+
+/* 表示名 */
+"SUBMSG_NAME_ERR" = "表示名";
+
+/* 半角36文字、全角18文字以内 */
+"SUBMSG_NAME_FORMAT" = "半角36文字、全角18文字以内";
+
+/* 半角数字のみ */
+"SUBMSG_ONLY_HALFCHAR_NUMBER" = "半角数字のみ";
+
+/* ポート番号 */
+"SUBMSG_PORT_ERR" = "ポート番号";
+
+/* 0065535 */
+"SUBMSG_PORTNO_RANGE" = "0〜65535";
+
+/* 検索文字 */
+"SUBMSG_SEARCH_ERR" = "検索文字";
+
+/* 全角/半角10文字以内 */
+"SUBMSG_SEARCH_FORMAT" = "全角/半角10文字以内";
+
+/* 名称 */
+"SUBMSG_DEVICENAME_ERR" = "名称";
+
+/* 半角120文字、全角60文字以内 */
+"SUBMSG_DEVICENAME_FORMAT" = "半角120文字、全角60文字以内";
+
+/* 半角英数字記号255文字以内 */
+"SUBMSG_HOSTNAME_LEN_ERR" = "半角英数字記号255文字以内";
+
+/* 全角/半角200文字以内 */
+"SUBMSG_FILENAME_FORMAT" = "全角/半角200文字以内";
+
+"SUBMSG_DEVICEINPUTNAME_ERR" = "製品名";
+
+"SUBMSG_DEVICEPLACE_ERR" = "設置場所";
+
+/* フォルダー名 */
+"SUBMSG_FOLDERNAME_ERR" = "フォルダー名";
+
+/* ファイル名 */
+"SUBMSG_FILENAME_ERR" = "ファイル名";
+
+"MSG_IMAGE_PDFPREVIEW_ERR" = "メモリーが不足しているため\r\nすべてを表示できませんでした。";
+"MSG_IMAGE_PREVIEW_ERR_PDF" = "PDFファイルの1ページあたりのファイルサイズが%.1fMBを超えているため、画像を表示できません。";
+"MSG_RECIEVE_ERR_PROCESSING" = "%@のため、ファイルを受信できません。SharpdeskMobileを終了してから再度実行してください。";
+"MSG_RECIEVE_ERR_PRINT" = "印刷中または印刷画面にて操作中";
+"MSG_RECIEVE_ERR_SCAN" = "取り込み中または取り込み画面にて操作中";
+"MSG_RECIEVE_ERR_BUSY" = "他処理実行中";
+"MSG_RECIEVE_ERR_SAVE" = "保存中";
+"MSG_SAME_DEVICE_ERR" = "同じ %@を持つプリンター/スキャナーがすでに存在します。";
+"MSG_SAME_DEVICE_ERR_PRINTSERVER" = "同じ %@を持つプリントサーバーがすでに存在します。";
+"MSG_FILENAME_FORMAT" = "%@には次の文字は使えません。\r\n<>:*?\"/|\\¥絵文字";
+"MSG_EXCLUDE_DEVICE" = "このリストに記載されているプリンター/スキャナーは「プリンター/スキャナーを設定」画面で自動検出されません";
+"MSG_EXCLUDE_DEVICE_INITIALIZE" = "リストを初期化します";"MSG_FILE_NO_CHANGE" = "ファイル名が変更されていません。";
+"MSG_CREATE_DIR_FAILED" = "フォルダーの作成に失敗しました。";
+"MSG_CHANGE_FAILED" = "%@変更に失敗しました。";
+"MSG_MOVE_SUCCESS" = "移動しました。";
+"MSG_MOVE_FAILED" = "フォルダー/ファイルの移動に失敗しました。";
+"MSG_MOVE_SAMEDIR" = "同じフォルダーには移動できません。";
+"MSG_MOVE_FILEDIRECTORYSAME" = "指定されたファイル名と同じ名前のフォルダーが既に存在するため移動することができません。";
+"MSG_MOVE_DIRECTORYFILESAME" = "指定されたフォルダー名と同じ名前のファイルが既に存在するため移動することができません。";
+"MSG_MOVE_PATHEXISTS" = "移動先に同じ名前のファイルが存在します。同じ名前のファイルは上書きされます。";
+"MSG_MOVE_SOMEFILES_AND_DIRECTORIES" = "一部のファイル/フォルダーが移動できませんでした。";
+"MSG_MOVE_PARENTCHILD" = "移動元フォルダーのサブフォルダーに移動することはできません。";
+"MSG_SAME_NAME_ERR" = "同じ %@がすでに存在します。";
+
+
+"S_SETTING_APPLICATION" =  "アプリケーションの動作を設定";
+"S_TITLE_SETTING_APPLICATION" = "アプリケーションの動作を設定";
+"S_TITLE_SETTING_USER_AUTH" = "ユーザー認証";
+"S_SETTING_USERINFO_LOGINNAME" = "ログイン名";
+"S_SETTING_USERINFO_LOGINPASSWORD" = "パスワード";
+"SUBMSG_LOGINNAME_ERR" = "ログイン名";
+"SUBMSG_LOGINPASSWORD_ERR" = "パスワード";
+"SUBMSG_LOGINNAME_FORMAT" = "半角255文字、全角127文字以内";
+"SUBMSG_LOGINPASSWORD_FORMAT" = "半角32文字以内";
+
+"S_TITLE_SETTING_RETENTION" = "リテンション設定";
+"S_TITLE_SETTING_SCAN" = "取り込みの設定";
+"S_TITLE_SETTING_PRINT" = "印刷の設定";
+"S_TITLE_SETTING_COMMON" = "共通設定";
+"S_TITLE_SETTING_SNMP" = "SNMP設定";
+
+//"S_SETTING_APPLICATION_JOB_TIME_OUT" = "ジョブ送信のタイムアウト(秒)";
+"S_SETTING_APPLICATION_JOB_TIMEOUT" = "ジョブ送信のタイムアウト(秒)";
+
+"S_SETTING_APPLICATION_SNMP_SEARCH_PUBLIC" = "publicで検索する";
+"S_SETTING_APPLICATION_SNMP_COMMUNITY_STRING" = "Community String\n（改行区切りで入力してください）";
+"S_SETTING_APPLICATION_SNMP_COMMUNITY_STRING_DEFAULT" = "SNMP Community String";
+"SUBMSG_COMMUNITYSTRING_ERR" = "Community String";
+"SUBMSG_COMMUNITYSTRING_FORMAT" = "(10行以内)";
+"SUBMSG_COMMUNITYSTRING_CHARTYPE" = "半角15文字以内";
+"SUBMSG_COMMUNITYSTRING_LENGTH" = "半角15文字以内";
+
+"S_BUTTON_PAPERSIZE" = "用紙サイズ：%@";
+"S_BUTTON_PAPERTYPE" = "用紙タイプ：%@";
+"S_BUTTON_COLORMODE" = "カラーモード：%@";
+"S_PRINT_COLORMODE_AUTO" = "自動";
+"S_PRINT_COLORMODE_COLOR" = "カラー";
+"S_PRINT_COLORMODE_BW" = "グレースケール";
+"S_BUTTON_ORIENTATION" = "印刷の向き：%@";
+"S_PRINT_ORIENTATION_PORTRAIT" = "縦";
+"S_PRINT_ORIENTATION_LANDSCAPE" = "横";
+"S_LABEL_PAPERSIZE_IPAD" = "用紙サイズ";
+"S_LABEL_PAPERTYPE_IPAD" = "用紙タイプ";
+"S_LABEL_COLORMODE_IPAD" = "カラーモード";
+"S_LABEL_ORIENTATION_IPAD" = "印刷の向き";
+
+"S_PRINT_PAPERSIZE_LEGAL" = "リーガル";
+"S_PRINT_PAPERSIZE_A4" = "A4";
+"S_PRINT_PAPERSIZE_LEDGER" = "レジャー";
+"S_PRINT_PAPERSIZE_A3" = "A3";
+"S_PRINT_PAPERSIZE_A3WIDE" = "A3 ワイド";
+"S_PRINT_PAPERSIZE_EXECUTIVE" = "エグゼクティブ";
+"S_PRINT_PAPERSIZE_MONARCH" = "モナーク";
+"S_PRINT_PAPERSIZE_C5" = "C5";
+"S_PRINT_PAPERSIZE_DL" = "DL";
+"S_PRINT_PAPERSIZE_JPOST" = "はがき";
+"S_PRINT_PAPERSIZE_CHOKEI3" = "長形3号";
+"S_PRINT_PAPERSIZE_YOKEI2" = "洋形2号";
+"S_PRINT_PAPERSIZE_YOKEI4" = "洋形4号";
+"S_PRINT_PAPERSIZE_KAKUGATA2" = "角形2号";
+"S_PRINT_PAPERSIZE_A5" = "A5";
+"S_PRINT_PAPERSIZE_INVOICE" = "インボイス";
+"S_PRINT_PAPERSIZE_FOOLSCAP" = "フルスキャップ";
+"S_PRINT_PAPERSIZE_LETTER" = "レター";
+"S_PRINT_PAPERSIZE_COM10" = "COM10";
+"S_PRINT_PAPERSIZE_B4" = "B4";
+"S_PRINT_PAPERSIZE_B5" = "B5";
+"S_PRINT_PAPERSIZE_CHINESE8K" = "8K";
+"S_PRINT_PAPERSIZE_CHINESE16K" = "16K";
+
+// 用紙タイプ
+"S_PRINT_PAPERTYPE_AUTOSELECT" = "自動給紙";
+"S_PRINT_PAPERTYPE_PLAIN" = "普通紙";
+"S_PRINT_PAPERTYPE_LETTERHEAD" = "レターヘッド付き用紙";
+"S_PRINT_PAPERTYPE_PREPRINTED" = "印刷済み用紙";
+"S_PRINT_PAPERTYPE_PREPUNCHED" = "パンチ済み用紙";
+"S_PRINT_PAPERTYPE_RECYCLED" = "再生紙";
+"S_PRINT_PAPERTYPE_COLOR" = "色紙";
+"S_PRINT_PAPERTYPE_LABELS" = "ラベル紙";
+"S_PRINT_PAPERTYPE_HEAVYPAPER" = "厚紙";
+"S_PRINT_PAPERTYPE_TRANSPARENCY" = "OHPフィルム";
+"S_PRINT_PAPERTYPE_ENVELOPE" = "封筒";
+"S_PRINT_PAPERTYPE_POSTCARD" = "はがき";
+
+"MSG_PRINTEROPTION_GET" = "プリンター/スキャナー情報の取得中です。";
+"MSG_PRINTEROPTION_GET_NETWORK_ERR" = "ネットワークに接続していないため、プリンター/スキャナー情報の取得を行うことができません。プリンター/スキャナーを登録しますか？";
+"MSG_PRINTEROPTION_GET_ERROR" = "プリンター/スキャナー情報の取得に失敗しました。プリンター/スキャナーを登録しますか？";
+"MSG_NO_PRINTOPTION_PCL" = "プリンター拡張キットが装着されていないため、印刷する事ができません。";
+"MSG_NO_PRINTOPTION_PS" = "PS拡張キットが装着されていないため、PDF形式のファイルは印刷することができません。";
+"MSG_NO_PRINTOPTION_OFFICE" = "ダイレクトプリント拡張キットが無いため、OOXMLファイルの印刷は出来ません。";
+"MSG_LOCATION_INFORMATION_OFF" = "位置情報サービスがオフになっているため、ファイルが読込めませんでした。";
+"MSG_PDF_ENCRYPTION_ERR" = "暗号化PDFはプレビュー表示できません。内容を確認する場合は[%@]をタップしてください。";
+"MSG_PREVIEW_INCOMPATIBLE_ERR" = "このファイルはプレビュー表示に対応していません。内容を確認する場合は[%@]をタップしてください。";
+
+"S_ALERT_NAME" = "表示名:%@";
+"S_ALERT_SEARCH" = "検索文字:%@";
+
+"MSG_PRINT_COMPLETE_PDF_ENCRYPTION" = "暗号化PDFの転送が完了しました。プリンター本体の画面でパスワードを入力して印刷してください。";
+"S_SETTING_USERINFO_SAVE_PRINT_SETTING" = "印刷設定を記憶する";
+"MSG_DEL_PROFILE_ERR_SCANNER_PROCESSING" = "スキャナーが処理中のため、プロファイルの削除が出来ませんでした。";
+"S_BUTTON_OTHER_APP" = "他アプリで確認";
+"MSG_OTHER_APP_CHECK" = "他アプリで確認";
+"MSG_SEND_APPLICATION" = "アプリケーションに送る";
+"MSG_SEND_APPLICATION_IPAD" = "送る";
+
+"S_TITLE_SETTING_DEVICENAME_STYLE" = "名称設定方法";
+"S_TITLE_SETTING_DEVICENAME_STYLE_LOCATION" = "製品名(設置場所)";
+"S_TITLE_SETTING_DEVICENAME_STYLE_IP_ADDRESS" = "製品名(IPアドレス)";
+"S_TITLE_SETTING_DEVICENAME_STYLE_HOSTNAME" = "製品名(ホスト名)";
+
+"MSG_REG_PROFILE_ERR_SCANNER_PROCESSING" = "スキャナーが処理中のため、プロファイルの登録が出来ませんでした。";
+
+
+
+"S_RS_XML_AUTO" = "自動";
+////"S_RS_XML_MONOCHROME" = "モノクロ";
+//"S_RS_XML_GRAYSCALE" = "グレースケール";
+//"S_RS_XML_FULLCOLOR" = "フルカラー";
+//"S_RS_XML_LONG" = "long";
+//"S_RS_XML_INVOICE" = "invoice";
+//"S_RS_XML_INVOICE_R" = "invoice_r";
+//"S_RS_XML_LETTER" = "letter";
+//"S_RS_XML_LETTER_R" = "letter_r";
+//"S_RS_XML_FOOLSCAP" = "foolscap";
+//"S_RS_XML_LEGAL" = "legal";
+//"S_RS_XML_LEDGER" = "ledger";
+//"S_RS_XML_A5" = "A5";
+//"S_RS_XML_A5_R" = "A5_r";
+//"S_RS_XML_B5" = "B5";
+//"S_RS_XML_B5_R" = "B5_r";
+//"S_RS_XML_A4" = "A4";
+//"S_RS_XML_A4_R" = "A4_r";
+//"S_RS_XML_B4" = "B4";
+//"S_RS_XML_A3" = "A3";
+//"S_RS_XML_8K" = "8k";
+//"S_RS_XML_16K" = "16k";
+//"S_RS_XML_16K_R" = "16k_r";
+//"S_RS_XML_8_1_2X13_2_5" = "8_1_2x13_2_5";
+//"S_RS_XML_8_1_2X13_1_2" = "8_1_2x13_1_2";
+//"S_RS_XML_MANUAL" = "manual";
+//"S_RS_XML_100" = "100dpi";
+//"S_RS_XML_150" = "150dpi";
+//"S_RS_XML_200" = "200dpi";
+//"S_RS_XML_300" = "300dpi";
+//"S_RS_XML_400" = "400dpi";
+//"S_RS_XML_600" = "600dpi";
+//"S_RS_XML_TEXT" = "文字";
+//"S_RS_XML_TEXT_PRINT_PHOTO" = "文字/印刷写真";
+//"S_RS_XML_PRINT_PHOTO" = "印刷写真";
+//"S_RS_XML_TEXT_PHOTO" = "文字/印画紙写真";
+//"S_RS_XML_PHOTO" = "印画紙写真";
+//"S_RS_XML_MAP" = "地図";
+//"S_RS_XML_SIMPLEX" = "片面";
+//"S_RS_XML_DUPLEX" = "両面";
+//"S_RS_XML_BOOK" = "横綴じ";
+//"S_RS_XML_TABLET" = "縦綴じ";
+"S_RS_XML_NONE" = "なし";
+//"S_RS_XML_MH" = "Modified Huffman, G3 fax";
+//"S_RS_XML_MMR" = "Modified　Modified READ, G4 fax";
+//"S_RS_XML_JPEG" = "JPEG";
+//"S_RS_XML_LOW" = "低";
+//"S_RS_XML_MIDDLE" = "中";
+//"S_RS_XML_HIGH" = "高";
+//"S_RS_XML_ROT_OFF" = "縦";
+//"S_RS_XML_ROT_90" = "横";
+//"S_RS_XML_PDF" = "PDF";
+//"S_RS_XML_PDFA" = "PDFa";
+//"S_RS_XML_ENCRYPT_PDF" = "encrypt_PDF";
+//"S_RS_XML_TIFF" = "TIFF";
+//"S_RS_XML_XPS" = "XPS";
+//"S_RS_XML_COMPACT_PDF" = "compact_PDF";
+//"S_RS_XML_COMPACT_PDF_ULTRA_FINE" = "compact_PDF_ultra_fine";
+//"S_RS_XML_COMPACT_PDFA" = "compact_PDFa";
+//"S_RS_XML_COMPACT_PDFA_ULTRA_FINE" = "compact_PDFa_ultra_fine";
+//"S_RS_XML_ENCRYPT_COMPACT_PDF" = "encrypt_compact_PDF";
+//"S_RS_XML_ENCRYPT_COMPACT_PDF_ULTRA_FINE" = "encrypt_compact_PDF_ultra_fine";
+//"S_RS_XML_PRIORITY_BLACK_PDF" = "priority_black_PDF";
+//"S_RS_XML_PRIORITY_BLACK_PDFA" = "priority_black_PDFa";
+//"S_RS_XML_ENCRYPT_PRIORITY_BLACK_PDF" = "encrypt_priority_black_PDF";
+//"S_RS_XML_JOB_BUILD" = "job_build";
+//"S_RS_XML_JOB_BUILD_MIXED_SOURCE" = "job_build_mixed_source";
+//"S_RS_XML_BLANK_PAGE_SKIP" = "blank_page_skip";
+//"S_RS_XML_BLANK_AND_BACK_SHADOW_SKIP" = "blank_and_back_shadow_skip";
+
+"S_RS_XML_COLORMODE_AUTO" = "自動";
+"S_RS_XML_COLORMODE_FULLCOLOR" = "フルカラー";
+"S_RS_XML_COLORMODE_GRAYSCALE" = "グレースケール";
+"S_RS_XML_COLORMODE_MONOCHROME" = "白黒2値";
+"S_RS_XML_COMPRESSION_NONE" = "圧縮なし";
+"S_RS_XML_COMPRESSION_MH" = "MH(G3)";
+"S_RS_XML_COMPRESSION_MMR" = "MMR(G4)";
+"S_RS_XML_COMPRESSION_JPEG" = "非可逆圧縮(カラー画像用)";
+"S_RS_XML_COMPRESSION_RATIO_LOW" = "低";
+"S_RS_XML_COMPRESSION_RATIO_MIDDLE" = "中";
+"S_RS_XML_COMPRESSION_RATIO_HIGH" = "高";
+"S_RS_XML_DUPLEX_DIR_BOOK" = "よことじ";
+"S_RS_XML_DUPLEX_DIR_TABLET" = "たてとじ";
+"S_RS_XML_DUPLEX_MODE_SIMPLEX" = "片面";
+"S_RS_XML_DUPLEX_MODE_DUPLEX" = "両面原稿";
+"S_RS_XML_EXPOSURE_MODE_TEXT" = "文字";
+"S_RS_XML_EXPOSURE_MODE_TEXT_PRINT_PHOTO" = "文字/印刷写真";
+"S_RS_XML_EXPOSURE_MODE_PRINT_PHOTO" = "印刷写真";
+"S_RS_XML_EXPOSURE_MODE_TEXT_PHOTO" = "文字/印画紙写真";
+"S_RS_XML_EXPOSURE_MODE_PHOTO" = "印画紙写真";
+"S_RS_XML_EXPOSURE_MODE_MAP" = "地図";
+"S_RS_XML_FILE_FORMAT_PDF" = "PDF";
+"S_RS_XML_FILE_FORMAT_PDFA" = "PDF/A-1b";
+"S_RS_XML_FILE_FORMAT_TIFF" = "TIFF";
+"S_RS_XML_FILE_FORMAT_JPEG" = "JPEG";
+"S_RS_XML_FILE_FORMAT_COMPACT_PDF" = "高圧縮";
+"S_RS_XML_FILE_FORMAT_COMPACT_PDF_ULTRA_FINE" = "高圧縮高精細";
+"S_RS_XML_FILE_FORMAT_COMPACT_PDFA" = "高圧縮";
+"S_RS_XML_FILE_FORMAT_COMPACT_PDFA_ULTRA_FINE" = "高圧縮高精細";
+"S_RS_XML_FILE_FORMAT_ENCRYPT_COMPACT_PDF" = "高圧縮";
+"S_RS_XML_FILE_FORMAT_ENCRYPT_COMPACT_PDF_ULTRA_FINE" = "高圧縮高精細";
+"S_RS_XML_FILE_FORMAT_PRIORITY_BLACK_PDF" = "黒文字重視";
+"S_RS_XML_FILE_FORMAT_PRIORITY_BLACK_PDFA" = "黒文字重視";
+"S_RS_XML_FILE_FORMAT_ENCRYPT_PRIORITY_BLACK_PDF" = "黒文字重視";
+"S_RS_XML_ORIGINAL_SIZE_AUTO" = "自動";
+"S_RS_XML_ORIGINAL_SIZE_LONG" = "長尺";
+"S_RS_XML_ORIGINAL_SIZE_INVOICE" = "インボイス";
+"S_RS_XML_ORIGINAL_SIZE_INVOICE_R" = "インボイスR";
+"S_RS_XML_ORIGINAL_SIZE_LETTER" = "レター";
+"S_RS_XML_ORIGINAL_SIZE_LETTER_R" = "レターR";
+"S_RS_XML_ORIGINAL_SIZE_FOOLSCAP" = "フルスキャップ";
+"S_RS_XML_ORIGINAL_SIZE_LEGAL" = "リーガル";
+"S_RS_XML_ORIGINAL_SIZE_LEDGER" = "レジャー";
+"S_RS_XML_ORIGINAL_SIZE_A5" = "A5";
+"S_RS_XML_ORIGINAL_SIZE_A5_R" = "A5R";
+"S_RS_XML_ORIGINAL_SIZE_B5" = "B5";
+"S_RS_XML_ORIGINAL_SIZE_B5_R" = "B5R";
+"S_RS_XML_ORIGINAL_SIZE_A4" = "A4";
+"S_RS_XML_ORIGINAL_SIZE_A4_R" = "A4R";
+"S_RS_XML_ORIGINAL_SIZE_B4" = "B4";
+"S_RS_XML_ORIGINAL_SIZE_A3" = "A3";
+"S_RS_XML_ORIGINAL_SIZE_8K" = "8K";
+"S_RS_XML_ORIGINAL_SIZE_16K" = "16K";
+"S_RS_XML_ORIGINAL_SIZE_16KR" = "16KR";
+"S_RS_XML_ORIGINAL_SIZE_8_1_2X13_2_5" = "8.5x 13.4";
+"S_RS_XML_ORIGINAL_SIZE_8_1_2X13_1_2" = "216x 343";
+"S_RS_XML_ORIGINAL_SIZE_JAPANESE_POSTCARD_A6" = "はがき";
+"S_RS_XML_ORIGINAL_SIZE_BUSINESSCARD" = "名刺";
+
+"S_RS_XML_RESOLUTION_100" = "100dpi";
+"S_RS_XML_RESOLUTION_150" = "150dpi";
+"S_RS_XML_RESOLUTION_200" = "200dpi";
+"S_RS_XML_RESOLUTION_300" = "300dpi";
+"S_RS_XML_RESOLUTION_400" = "400dpi";
+"S_RS_XML_RESOLUTION_600" = "600dpi";
+"S_RS_XML_SEND_SIZE_AUTO" = "自動";
+"S_RS_XML_SEND_SIZE_LONG" = "長尺";
+"S_RS_XML_SEND_SIZE_INVOICE" = "インボイス";
+"S_RS_XML_SEND_SIZE_INVOICE_R" = "インボイスR";
+"S_RS_XML_SEND_SIZE_LETTER" = "レター";
+"S_RS_XML_SEND_SIZE_LETTER_R" = "レターR";
+"S_RS_XML_SEND_SIZE_FOOLSCAP" = "フルスキャップ";
+"S_RS_XML_SEND_SIZE_LEGAL" = "リーガル";
+"S_RS_XML_SEND_SIZE_LEDGER" = "レジャー";
+"S_RS_XML_SEND_SIZE_A5" = "A5";
+"S_RS_XML_SEND_SIZE_A5_R" = "A5R";
+"S_RS_XML_SEND_SIZE_B5" = "B5";
+"S_RS_XML_SEND_SIZE_B5_R" = "B5R";
+"S_RS_XML_SEND_SIZE_A4" = "A4";
+"S_RS_XML_SEND_SIZE_A4_R" = "A4R";
+"S_RS_XML_SEND_SIZE_B4" = "B4";
+"S_RS_XML_SEND_SIZE_A3" = "A3";
+"S_RS_XML_SEND_SIZE_8K" = "8K";
+"S_RS_XML_SEND_SIZE_16K" = "16K";
+"S_RS_XML_SEND_SIZE_16KR" = "16KR";
+"S_RS_XML_SEND_SIZE_8_1_2X13_2_5" = "8.5x 13.4";
+"S_RS_XML_SEND_SIZE_8_1_2X13_1_2" = "216x 343";
+"S_RS_XML_SEND_SIZE_MANUAL" = "マニュアル";
+"S_RS_XML_SPECIAL_MODE_NONE" = "Off";
+"S_RS_XML_SPECIAL_MODE_BLANK_PAGE_SKIP" = "白紙を飛ばす";
+"S_RS_XML_SPECIAL_MODE_BLANK_AND_BACK_SHADOW_SKIP" = "白紙と裏写り原稿を飛ばす";
+"S_RS_XML_SPECIAL_MODE_MULTI_CROP" = "マルチクロップ";
+
+"S_RS_SPECIAL_MODE_DETAIL_NONE" = "白紙のページを含めて取り込みます。";
+"S_RS_SPECIAL_MODE_DETAIL_BLANK_PAGE_SKIP" = "白紙のページをスキップして取り込みます。";
+"S_RS_SPECIAL_MODE_DETAIL_BLANK_AND_BACK_SHADOW_SKIP" = "白紙と裏写りのページをスキップして取り込みます。";
+"S_RS_MULTICROP_DETAIL_OPEN_PLATEN" = "原稿台のカバーを開いた状態でスキャンして下さい。";
+
+"SUBMSG_VERIFY_CODE_ERR" = "確認コード";
+"SUBMSG_ONLY_HALFCHAR" = "半角英数字のみ";
+"SUBMSG_VERIFY_CODE_RANGE" = "半角数字8文字以内";
+
+"SUBMSG_EMOJI" = "絵文字は入力出来ません。";
+"SUBMSG_EMOJI_ERR" = "絵文字";
+"SUBMSG_JOBTIMEOUT_ERR" = "ジョブ送信のタイムアウト(秒)";
+"SUBMSG_JOBTIMEOUT_RANGE" = "60〜300";
+
+"MSG_REMOTESCAN_DOING" = "取り込み中です。";
+
+"MSG_REMOTESCAN_ERR" = "通信中にエラーが発生しました。";
+"MSG_REMOTESCAN_CANCELED" = "スキャナー側でキャンセルされました。";
+"MSG_REMOTESCAN_CANCELING" = "キャンセルしました。";
+"MSG_REMOTESCAN_JAMED" = "紙づまりが発生しました。紙づまりを解消し、%@枚戻してから、端末に表示される取り込みボタンを押してください。";
+"MSG_REMOTESCAN_JAMCLEAR" = "紙づまりが解消しましたので、再度取り込みボタンを押してください。";
+"MSG_REMOTESCAN_NOTSUPPORT" = "スキャナーが端末からのスキャナー操作機能に対応していません。通常の取り込みを行ってください。";
+"MSG_NETSCAN_NOTSUPPORT" = "入力された機器はネットワークスキャナー機能がありません。";
+"MSG_REMOTESCAN_SCREENISNOTHOME" = "接続先の画面をホーム画面にしてください。";
+"MSG_REMOTESCAN_NOTAUTHENTICATED" = "接続先のスキャナーにログインしてから再度行ってください。";
+"MSG_REMOTESCAN_ACCESSDENIED" = "スキャナーが端末からのスキャナー操作モードでなくなりました。取り込み処理を中止します。";
+"MSG_REMOTESCAN_ORIGINALNOTDETECTED" = "用紙が未検知です。用紙をセットし、再度「取り込む」ボタンを押してください。";
+"MSG_REMOTESCAN_LIMITREACHED" = "出力可能枚数が上限に到達しました。";
+"MSG_REMOTESCAN_ORIGINALNOTDETECTED_CONFIRM" = "用紙が未検知です。用紙をセットし、再度取り込みボタンを押してください。";
+"MSG_REMOTESCAN_SCANFAIL" = "取り込みが失敗しました。";
+"MSG_REMOTESCAN_CONFIRM" = "以下の情報がスキャナーに表示されているか確認し、[取り込み]ボタンを押してください。\n端末情報\n表示名：%@\n確認コード:%@";
+"MSG_REMOTESCAN_WAIT" = "以下の情報がスキャナーに表示されているか確認し、原稿をスキャナーにセットしてください。\n端末情報\n表示名：%@\n確認コード:%@";
+"MSG_REMOTESCAN_CONFIRM_MULTICROP_ALERT" = "原稿台のカバーを開いた状態でスキャンして下さい。";
+"MSG_WAIT" = "しばらくお待ちください。";
+
+"S_TITLE_COLORMODE" = "カラーモード";
+"S_TITLE_MANUSCRIPT" = "原稿";
+"S_TITLE_BOTH" = "両面";
+"S_TITLE_FORMAT" = "フォーマット";
+"S_TITLE_RESOLUTION" = "解像度";
+"S_TITLE_OTHER" = "その他の設定";
+"S_TITLE_CUSTOMSIZE" = "カスタムサイズ";
+"S_TITLE_CUSTOMSIZE_REGISTER" = "カスタムサイズの登録";
+"S_BUTTON_REMOTESCAN_READY" = "取り込む";
+"S_BUTTON_REMOTESCAN" = "\"%@\"から取り込む";
+"S_BUTTON_REMOTE_COLORMODE" = "カラーモード：%@";
+"S_BUTTON_MANUSCRIPT" = "原稿：%@";
+"S_BUTTON_BOTH" = "両面：%@";
+"S_BUTTON_FORMAT" = "フォーマット：%@";
+"S_BUTTON_RESOLUTION" = "解像度：%@";
+"S_BUTTON_OTHER" = "その他の設定";
+"S_LABEL_REMOTESWITCH" = "端末からスキャナー操作を行う";
+"S_TITLE_MANUSCRIPT_SIZE" = "原稿サイズ";
+"S_TITLE_MANUSCRIPT_CURRENT_SIZE" = "現在の検知サイズ";
+"S_TITLE_MANUSCRIPT_SAVE_SIZE" = "保存サイズ";
+"S_TITLE_MANUSCRIPT_SET" = "画像セットの方向";
+"S_FOOTER_MANUSCRIPT_SAVE_SIZE" = "原稿サイズと異なるサイズを指定すると、\r\n自動的に画像を拡大/縮小します。";
+"S_MANUSCRIPT_CUSTOMSIZE_REGISTER" = "カスタムサイズの登録";
+"S_BUTTON_FORMAT_COLOR" = "カラー/グレースケール";
+"S_BUTTON_FORMAT_MONOCHROME" = "白黒";
+"S_TITLE_FORMAT_FILE_FORMAT" = "ファイル形式";
+"S_TITLE_FORMAT_COMPACT_PDF" = "高圧縮PDFのタイプ";
+"S_TITLE_FORMAT_COLOR_COMPRESSION" = "圧縮率";
+"S_TITLE_FORMAT_MONOCHROME_COMPRESSION" = "圧縮形式";
+"S_FORMAT_PAGE_PER_FILE" = "ページ毎にファイル化";
+"S_FORMAT_PAGENUM" = "ページ数";
+"S_FORMAT_PAGE" = "ページ";
+"S_FORMAT_PDF_PASSWORD" = "暗号化";
+"S_FORMAT_PASSWORD" = "パスワード";
+"S_TITLE_OTHER_EXPOSURE_MODE" = "濃度";
+"S_TITLE_OTHER_BLANK" = "白紙飛ばし";
+"S_TITLE_OTHER_EXPOSURE_LEVEL" = "濃度レベル";
+// マルチクロップはS_RS_XML_SPECIAL_MODE_MULTI_CROP
+"S_OTHER_LIGHT" = "うすい";
+"S_OTHER_DEEP" = "こい";
+"S_CUSTOMSIZE_NEWADD" = "新規追加";
+"S_CUSTOMSIZE_REGISTER_NAME" = "名称";
+"S_CUSTOMSIZE_REGISTER_SIZE" = "サイズ";
+"S_CUSTOMSIZE_REGISTER_MILLIMETER" = "ミリ";
+"S_CUSTOMSIZE_REGISTER_INCH" = "インチ";
+"S_BUTTON_CUSTOMSIZE_REGISTER_MILLIMETER" = "ミリ";
+"S_BUTTON_CUSTOMSIZE_REGISTER_INCH" = "インチ";
+"S_CUSTOMSIZE_REGISTER_WIDTH" = "横";
+"S_CUSTOMSIZE_REGISTER_HEIGHT" = "縦";
+"MSG_REMOTESCAN_REMOVEDOCUMENT" = "原稿送り装置から原稿を取り除いてください。";
+"MSG_REMOTESCAN_USESTAND" = "原稿台を使用してください。";
+"MSG_REMOTESCAN_USEFEEDER" = "原稿送り装置を使用してください。";
+"MSG_REMOTESCAN_NOTUSE" = "この組み合わせは設定できません。";
+"SUBMSG_PDFPASSWORD_ERR" = "パスワード";
+"SUBMSG_PDFPASSWORD_MAXLENGTH" = "半角32文字以内";
+"SUBMSG_PDFPASSWORD_FORMAT" = "半角英数字のみ";
+
+"S_SETTING_DEVICE_REMOTE_SCAN" = "端末からスキャナー操作を行う";
+"S_SETTING_DEVICE_REMOTE_CODEAUTO" = "確認コードを自動で生成";
+"S_SETTING_DEVICE_REMOTE_CODE" = "確認コード";
+"S_SETTING_DEVICE_REMOTE_RESET_HEADER" = "リセット";
+"S_SETTING_DEVICE_REMOTE_RESET" = "スキャナーの読み取り設定をリセット";
+"MSG_SETTING_DEVICE_REMOTE_RESET" = "スキャナーのカラーモードや解像度などの読み取り設定をデフォルト状態にリセットします。";
+"MSG_REMOTESCAN_NETWORK_ERROR_AND_EXIT" = "スキャナーとの通信に失敗しました。ネットワークとスキャナーの設定を確認し、「端末からスキャナー操作を行う」スイッチをオンにして再度実施してください。";
+"MSG_REMOTESCAN_NETWORK_ERROR" = "スキャナーとの通信に失敗しました。";
+"MSG_REMOTESCAN_ERROR_ALL_PAGE_BLANK" = "全て白紙と認識されました。原稿を確認してください。";
+"MSG_REMOTESCAN_SESSIONID_GET_ERROR" = "スキャナーが使用中です。しばらく待ってから再度実施してください。";
+"MSG_REMOTESCAN_SCREENISNOTLOGIN" = "接続先の画面をログイン画面にしてください。";
+"MSG_REMOTESCAN_FORBIDDEN" = "接続先のスキャナーは、使用を禁止されているため利用できません。";
+"MSG_REMOTESCAN_PAPER_SETTING_ERR" = "この組み合わせは設定できません。";
+"MSG_REMOTESCAN_JAMMING_ERR" = "本体の紙づまりを解消してください。";
+
+"MSG_PRINT_MEMORY_ERROR_PNG" = "メモリ不足のため、印刷用ファイルの作成に失敗しました。";
+"MSG_REMOTESCAN_WIDTH_INCH" = "横は1 ~ 17 インチの範囲内で設定可能です。 ";
+"MSG_REMOTESCAN_HEIGHT_INCH" = "縦は1 ~ 11 5/8 インチの範囲内で設定可能です。";
+"MSG_REMOTESCAN_WIDTH_MILLIMETER" = "横は25 ~ 432 ミリの範囲内で設定可能です。 ";
+"MSG_REMOTESCAN_HEIGHT_MILLIMETER" = "縦は25 ~ 297 ミリの範囲内で設定可能です。 ";
+"S_RS_SCAN" = "取り込み";
+"S_RS_UNKNOWN" = "未検知";
+"S_RS_XML_SEND_SIZE_BUSINESSCARD" = "名刺";
+"S_RS_XML_SEND_SIZE_LTYPE" = "L判";
+"S_RS_XML_SEND_SIZE_2LTYPE" = "2L判";
+"S_RS_XML_SEND_SIZE_CARD" = "カード";
+"S_RS_CUSTOMSIZE_MILLIMETER" = "ミリ";
+"S_RS_CUSTOMSIZE_INCH" = "インチ";
+"S_RS_CUSTOMSIZE_50LETTER" = "全角/半角50文字以内";
+"MSG_PRINT_MEMORY_ERROR_PNG" = "メモリ不足のため、印刷用ファイルの作成に失敗しました。";
+"MSG_REMOTESCAN_SESSIONID_GET_ERROR" = "スキャナーが使用中です。しばらく待ってから再度実施してください。";
+"MSG_CONFIRM_PRINT_WEB_PAGE" = "ページの読み込みが完了していないため、正常に印刷されない可能性があります。\n印刷しますか？";
+
+"S_SEARCH_PLACEHOLDER" = "検索ワードを入力してください";
+"S_BUTTON_SEARCH" = "検索";
+"S_TITLE_SEARCHRESULT" = "検索結果(%d件)";
+"S_TITLE_ADVANCEDSEARCH" = "詳細検索";
+"S_LABEL_SEARCH_SCOPE" = "検索範囲";
+"S_LABEL_SEARCH_TARGET" = "検索対象";
+"S_LABEL_INCLUDE_SUBFOLDERS" = "サブフォルダーを含める";
+"S_LABEL_FILTER_FOLDER" = "フォルダー";
+"S_LABEL_FILTER_PDF" = "PDF";
+"S_LABEL_FILTER_TIFF" = "TIFF";
+"S_LABEL_FILTER_IMAGE" = "画像ファイル(JPEG、PNG)";
+"S_LABEL_FILTER_OFFICE" = "OOXMLファイル(DOCX、XLSX、PPTX)";
+
+"S_SORT_TITLE" = "並べ替え";
+"S_SORT_BUTTON_DATE" = "タイムスタンプ";
+"S_SORT_BUTTON_NAME" = "ファイル名";
+"S_SORT_BUTTON_SIZE" = "ファイルサイズ";
+"S_SORT_BUTTON_TYPE" = "ファイルの種類";
+
+"S_SETTING_USERINFO_STYLE_LOFIN" = "認証にログイン名を使用する";
+"S_SETTING_USERINFO_STYLE_USER" = "認証にユーザー番号を使用する";
+"S_SETTING_USERINFO_USERNO" = "ユーザー番号";
+"S_TITLE_SETTING_USER_JOB" = "デフォルトジョブID";
+"S_SETTING_USERINFO_USERNAME" = "ユーザー名";
+"S_SETTING_USERINFO_JOBNAME" = "ジョブ名";
+"S_SETTING_USERINFO_USE_LOGINNAME_FOR_USERNAME" = "ユーザー名にログイン名を使用する";
+"SUBMSG_USERNO_ERR" = "ユーザー番号";
+"SUBMSG_USERNAME_ERR" = "ユーザー名";
+"SUBMSG_JOBNAME_ERR" = "ジョブ名";
+"SUBMSG_USERNO_FORMAT" = "半角数値5〜8桁";
+"SUBMSG_USERNAME_FORMAT" = "半角32文字、全角16文字以内";
+"SUBMSG_JOBNAME_FORMAT" = "半角80文字、全角40文字以内";
+"MSG_CANNOT_PRINT_WEB_PAGE" = "このページは印刷出来ません。";
+"S_SETTING_MAIL_SERVERINFO" = "メールを設定";
+"S_TITLE_SETTING_MAILSERVER" = "メールを設定";
+"S_TITLE_SETTING_EMAIL_ACCOUNT" = "メールアカウント";
+"S_TITLE_SETTING_EMAIL_SERVER_SETTING" = "メールサーバー設定";
+"S_TITLE_SETTING_EMAIL_DISPLAY_SETTING" = "メール表示設定";
+
+"MAIL_SETTING_DISPLAY_TEN" = "10";
+"MAIL_SETTING_DISPLAY_THIRTY" = "30";
+"MAIL_SETTING_DISPLAY_FIFTY" = "50";
+"MAIL_SETTING_DISPLAY_HUNDRED" = "100";
+
+"S_TITLE_SETTING_MAILSERVER_FILTER_0" = "全て";
+"S_TITLE_SETTING_MAILSERVER_FILTER_1" = "未読のみ";
+"S_TITLE_SETTING_MAILSERVER_FILTER_2" = "今日のメール";
+"S_TITLE_SETTING_MAILSERVER_FILTER_3" = "30日以内のメール";
+
+"S_SETTING_EMAIL_ACCOUNT_NAME" = "アカウント名";
+"S_SETTING_EMAIL_PASSWORD" = "パスワード";
+"S_SETTING_EMAIL_HOST_NAME" = "ホスト名";
+"S_SETTING_EMAIL_PORT_NUMBER" = "ポート番号";
+"S_SETTING_EMAIL_SSL" = "SSL";
+"S_SETTING_EMAIL_GET_NUMBER" = "取得件数";
+"S_SETTING_EMAIL_FILTER_SETTING" = "フィルタリング設定";
+
+"S_PRINT_SEL_EMAIL" = "メールを印刷する";
+"S_TITLE_EMAIL_PRINT" = "メールを印刷する";
+"S_EMAIL_HEADER_FROM" = "From";
+"S_EMAIL_HEADER_SUBJECT" = "件名";
+"S_EMAIL_HEADER_DATE" = "日付";
+"S_EMAIL_HEADER_TO" = "To";
+"S_EMAIL_INBOX_PREVIOUS" = "前の%d件を取得";
+"S_EMAIL_INBOX_NEXT" = "次の%d件を取得";
+"S_BUTTON_SHOW_IMAGE" = "画像を取得";
+"S_BUTTON_HIDE_IMAGE" = "画像非表示";
+
+"SUBMSG_ACCOUNTNAME_ERR" = "アカウント名";
+"SUBMSG_HOSTNAME_ERR" = "ホスト名";
+"MSG_EMAIL_CONNECT_ERROR" = "サーバー接続に失敗しました。";
+"MSG_EMAIL_ACCOUNT_ERROR" = "メールサーバの%@が未設定です。";
+"SUBMSG_LOGINACCOUNT_ERR" = "ログインアカウント";
+
+"S_RS_COMPACT_PDF_TYPE_NONE" = "なし";
+"MSG_SETTING_DEVICE_GETMFP" = "プリンター/スキャナー情報の取得中です。";
+
+"S_TITLE_WIFI_CONNECT" = "接続先:%@";
+"S_TITLE_WIFI_UNCONNECT" = "Wi-Fi未接続";
+
+"MSG_MAIL_NOTSUPPORT_ERR" = "このメールはサポートされていない形式のため表示できません。";
+"S_IMAGE_FILE_SELECT" = "選択";
+
+"SUBMSG_PRINTNUMBER" = "数値、ハイフン、スペース、\r\nカンマのみ";
+"SUBMSG_PRINTNUMBER_FORMAT" = "1, 2, 4-5 の形式で指定してください。";
+
+"S_TITLE_SETTING_DEVICENAME_STYLE" = "名称設定方法";
+
+"S_TITLE_RETENTION" = "リテンション";
+"S_RETENTION_HOLDOFF" = "ホールドしない";
+"S_RETENTION_HOLDON" = "ホールドする";
+"S_RETENTION_NOPRINT" = "印刷せずにホールド";
+"S_RETENTION_AUTHENTICATE" = "パスワードを指定";
+"S_RETENTION_PASSWORD" = "パスワード";
+"S_TITLE_PRINT_RANGE" = "印刷範囲";
+"S_PRINT_RANGE_ALL" = "全てのページ";
+"S_PRINT_RANGE_RANGE" = "範囲指定";
+"S_PRINT_RANGE_DIRECT" = "直接指定";
+"S_PRINT_WHAT_SELECTED" = "選択されたシート";
+"S_PRINT_WHAT_ALL" = "ブック全体";
+
+"S_TITLE_FINISHING" = "仕上げ";
+"S_TITLE_N_UP" = "ページ集約";
+"S_N_UP_ORDER" = "順序";
+"S_PRINTRELEASE_ENABLE" = "有効";
+"S_PRINTRELEASE_DISABLE" = "無効";
+"S_TITLE_FINISHING" = "仕上げ";
+
+"S_BUTTON_FINISHING" = "仕上げ：%@";
+"S_BUTTON_N_UP" = "ページ集約：%@";
+"S_BUTTON_PRINT_RANGE" = "印刷範囲：%@";
+"S_BUTTON_PRINT_WHAT" = "印刷対象：%@";
+"S_BUTTON_RETENTION" = "リテンション：%@";
+"S_BUTTON_PRINTRELEASE" = "プリントリリース：%@";
+
+"S_BUTTON_FINISHING_IPAD" = "仕上げ";
+"S_BUTTON_N_UP_IPAD" = "ページ集約";
+"S_BUTTON_PRINT_RANGE_IPAD" = "印刷範囲";
+"S_BUTTON_PRINT_WHAT_IPAD" = "印刷対象";
+"S_BUTTON_RETENTION_IPAD" = "リテンション";
+"S_BUTTON_PRINTRELEASE_IPAD" = "プリントリリース";
+
+"S_FINISHING_BINDINGEDGE" = "とじ位置";
+"S_PRINT_BINDINGEDGE_LEFT" = "左とじ";
+"S_PRINT_BINDINGEDGE_RIGHT" = "右とじ";
+"S_PRINT_BINDINGEDGE_TOP" = "上とじ";
+
+"S_FINISHING_STAPLE" = "ステープル";
+"S_PRINT_STAPLE_NONE" = "なし";
+"S_PRINT_STAPLE_1STAPLE" = "1箇所とじ";
+"S_PRINT_STAPLE_2STAPLES" = "2箇所とじ";
+"S_PRINT_STAPLE_STAPLELESS" = "針なしステープル";
+"S_PRINT_STAPLE_ENABLED" = "ステープル";
+"S_PRINT_FINISHING_DISABLED" = "なし";
+
+"S_FINISHING_PUNCH" = "パンチ";
+"S_PRINT_PUNCH_NONE" = "なし";
+"S_PRINT_PUNCH_2HOLES" = "2穴";
+"S_PRINT_PUNCH_3HOLES" = "3穴";
+"S_PRINT_PUNCH_4HOLES" = "4穴";
+"S_PRINT_PUNCH_4HOLESWIDE" = "4穴(幅広)";
+"S_PRINT_PUNCH_ENABLED" = "パンチ";
+
+"S_PRINT_N_UP_ONE_UP" = "1-Up";
+"S_PRINT_N_UP_TWO_UP" = "2-Up";
+"S_PRINT_N_UP_FOUR_UP" = "4-Up";
+
+"S_PRINT_TWO_UP_LEFT_TO_RIGHT" = "左から右へ";
+"S_PRINT_TWO_UP_RIGHT_TO_LEFT" = "右から左へ";
+"S_PRINT_FOUR_UP_UPPERLEFT_TO_RIGHT" = "左上から右方向へ";
+"S_PRINT_FOUR_UP_UPPERLEFT_TO_BOTTOM" = "左上から下方向へ";
+"S_PRINT_FOUR_UP_UPPERRIGHT_TO_LEFT" = "右上から左方向へ";
+"S_PRINT_FOUR_UP_UPPERRIGHT_TO_BOTTOM" = "右上から下方向へ";
+
+"S_TITLE_SETTING_REMOTE_SCAN" = "スキャナーの動作設定";
+
+"S_TITLE_SETTING_EMAIL_SERVER_IMAP" = "IMAPサーバーの設定を登録してください。";
+
+"MSG_SCAN_CONFIRM_FREESIZE" = "保存領域が少なくなっているため、取り込みに失敗する可能性があります。";
+"S_EMAIL_HEADER_CC" = "Cc";
+"SUBMSG_RETENTION_FORMAT" = "半角数値5〜8桁";
+
+"MSG_REMOTESCAN_ACCESSDENIED_MAIN" = "接続先のスキャナーは、使用を禁止されているため利用できません。";
+"S_PRINT_TWO_UP_TOP_TO_BOTTOM" = "上から下へ";
+
+"S_BUTTON_ATTACH_IMAGE" = "添付ファイル印刷";
+"S_ENCRYPTZIP_PASSWORD" = "パスワード";
+"S_TITLE_ATTACH_PRINT" = "添付ファイルを印刷する";
+"MSG_ENCRYPTZIP_ERROR" = "ZIPファイルの操作中にエラーが発生しました。";
+"MSG_PRINT_COMPLETE_ATTACHMENT_MAIL" = "続けて印刷を行いますか？";
+"MSG_BUTTON_YES" = "はい";
+"MSG_BUTTON_NO" = "いいえ";
+"MSG_PRINT_CONFIRM_NUP_DISABLE" = "選択したプリンターにはページ集約を指定することが出来ません。ページ集約を無効にして印刷を続行しますか？";
+
+"MSG_MAILCOUNT" = "%sパーセント取得中です。";
+"MSG_NOTPRINT_ALL" = "以下の理由により印刷できるファイルがありません。";
+"MSG_NOTPRINT_PS" = "・PS拡張キットが無いため、PDFの印刷は出来ません。";
+"MSG_NOTPRINT_NUP" = "・ページ集約に対応していないファイルが含まれています。";
+//"MSG_NOTPRINT_CONFIRM" = "以下の理由により印刷できないファイルがあります。\r\n暗号化PDFはリテンションが出来ません";
+"MSG_PRINT_MAILATTACHMENT_CONFIRM" = "登録したメール本文を破棄し、添付ファイルの印刷を行いますか？";
+"MSG_REMOTESCAN_NOTSCANNERMODE" = "本体に接続できませんでした。本体がスキャナーモードになっているか確認してください。";
+"MSG_REMOTESCAN_SPFISNOTBOTHSIZE" = "原稿送り装置にセットされている原稿サイズでは両面読み取りが出来ません。";
+
+"MSG_NOTPRINT_CONFIRM" = "以下の理由により印刷できないファイルがあります。\r\n印刷できないファイルを除いて印刷を続行しますか？";
+//"MSG_NOTPRINT_ALL" = "以下の理由により印刷できないファイルがあります。";
+//"MSG_NOTPRINT_PS" = "・PS拡張キットが無いため、PDFの印刷は出来ません。";
+//"MSG_NOTPRINT_NUP" = "・ページ集約に対応していないファイルが含まれています。";
+"MSG_NOTPRINT_RETENTION" = "・暗号化PDFはリテンションが出来ません。";
+
+"S_FORMAT_OCR" = "OCR(文字認識)";
+"S_FORMAT_CORRECT_IMAGE_ROTATION" = "画像の向き検知";
+"S_FORMAT_EXTRACT_FILE_NAME" = "ファイル名自動抽出";
+"S_RS_XML_OCRLANGUAGE_DEFAULT" = "デフォルト";
+"S_RS_XML_OCRLANGUAGE_JA" = "日本語";
+"S_RS_XML_OCRLANGUAGE_EN" = "英語";
+"S_RS_XML_OCRLANGUAGE_DE" = "ドイツ語";
+"S_RS_XML_OCRLANGUAGE_FR" = "フランス語";
+"S_RS_XML_OCRLANGUAGE_ES" = "スペイン語";
+"S_RS_XML_OCRLANGUAGE_IT" = "イタリア語";
+"S_RS_XML_OCRLANGUAGE_NL" = "オランダ語";
+"S_RS_XML_OCRLANGUAGE_CA_ES" = "カタロニア語";
+"S_RS_XML_OCRLANGUAGE_SV" = "スウェーデン語";
+"S_RS_XML_OCRLANGUAGE_NO" = "ノルウェー語";
+"S_RS_XML_OCRLANGUAGE_FI" = "フィンランド語";
+"S_RS_XML_OCRLANGUAGE_DA" = "デンマーク語";
+"S_RS_XML_OCRLANGUAGE_CS" = "チェコ語";
+"S_RS_XML_OCRLANGUAGE_PL" = "ポーランド語";
+"S_RS_XML_OCRLANGUAGE_HU" = "ハンガリー語";
+"S_RS_XML_OCRLANGUAGE_EL" = "ギリシャ語";
+"S_RS_XML_OCRLANGUAGE_RU" = "ロシア語";
+"S_RS_XML_OCRLANGUAGE_PT" = "ポルトガル語";
+"S_RS_XML_OCRLANGUAGE_TR" = "トルコ語";
+"S_RS_XML_OCRLANGUAGE_SK" = "スロバキア語";
+"S_RS_XML_OCRLANGUAGE_ZH_CN" = "中国語簡体字";
+"S_RS_XML_OCRLANGUAGE_ZH_TW" = "中国語繁体字";
+"S_RS_XML_OCRLANGUAGE_KO" = "韓国語";
+"S_RS_XML_OCROUTPUTFONT_DEFAULT" = "デフォルト";
+"S_RS_XML_OCROUTPUTFONT_MS_GOTHIC" = "ＭＳゴシック";
+"S_RS_XML_OCROUTPUTFONT_MS_MINCHO" = "ＭＳ明朝";
+"S_RS_XML_OCROUTPUTFONT_MS_PGOTHIC" = "ＭＳ Ｐゴシック";
+"S_RS_XML_OCROUTPUTFONT_MS_PMINCHO" = "ＭＳ Ｐ明朝";
+"S_RS_XML_OCROUTPUTFONT_SIMSUN" = "SimSun";
+"S_RS_XML_OCROUTPUTFONT_SIMHEI" = "SimHei";
+"S_RS_XML_OCROUTPUTFONT_MINGLIU" = "MingLiU";
+"S_RS_XML_OCROUTPUTFONT_PMINGLIU" = "PMingLiU";
+"S_RS_XML_OCROUTPUTFONT_DOTUM" = "Dotum";
+"S_RS_XML_OCROUTPUTFONT_BATANG" = "Batang";
+"S_RS_XML_OCROUTPUTFONT_MALGUN_GOTHIC" = "Malgun Gothic";
+"S_RS_XML_OCROUTPUTFONT_ARIAL" = "Arial";
+"S_RS_XML_OCROUTPUTFONT_TIMES_NEW_ROMAN" = "Times New Roman";
+"S_RS_XML_OCRACCURACY_AUTO" = "自動";
+"S_RS_XML_OCRACCURACY_PRIORITY_TEXT" = "文字重視";
+"S_TITLE_FORMAT_OCR_LANGUAGE" = "言語設定";
+"S_TITLE_FORMAT_OCR_OUTPUT_FONT" = "フォント";
+"S_TITLE_FORMAT_OCR_ACCURACY" = "OCR精度";
+
+"S_RS_XML_TRUE" = "true";
+"S_RS_XML_FALSE" = "false";
+"S_RS_XML_FILE_FORMAT_PDFA_1A" = "PDF/A-1a";
+"S_RS_XML_FILE_FORMAT_DOCX" = "DOCX";
+"S_RS_XML_FILE_FORMAT_XLSX" = "XLSX";
+"S_RS_XML_FILE_FORMAT_PPTX" = "PPTX";
+"S_RS_XML_FILE_FORMAT_COMPACT_PDFA_1A" = "高圧縮";
+"S_RS_XML_FILE_FORMAT_COMPACT_PDFA_1A_ULTRA_FINE" = "高圧縮高精細";
+"S_RS_XML_FILE_FORMAT_PRIORITY_BLACK_PDFA_1A" = "黒文字重視";
+"MSG_NOTPRINT_OFFICE" = "・ダイレクトプリント拡張キットが無いため、OOXMLファイルの印刷は出来ません。";
+
+"S_TITLE_PRINTRELEASE" = "プリントリリース";
+"S_SETTING_MAILSERVER_CONNECT_TEST" = "接続テスト";
+"MSG_SERVER_CONNECT_SUCCESS" = "接続に成功しました。設定を保存してください。";
+"MSG_SERVER_CONNECT_FAILED" = "接続に失敗しました。設定を確認してください。";
+
+"MSG_ACCESS_INHIBIT_PHOTOS_ERR" = "写真の取得に失敗しました。";
+"MSG_ENTERED_FOLDERNAME_ERR" = "入力された名前は使用できません。";
+"MSG_MOVEFOLDER_FOLDERNAME_ERR" = "移動できないフォルダーが選択されています。";
+"MSG_UPGRADING_INTERNALDATA" = "内部データの更新中です。";
+"MSG_UPGRADE_INTERNALDATA_COMPLETE" = "内部データの更新が終了しました。";
+"MSG_UPGRADE_INTERNALDATA_ERR" = "更新に失敗したファイルはScanFileフォルダーに保存しました。「ファイルを管理する」よりご確認ください。";
+
+

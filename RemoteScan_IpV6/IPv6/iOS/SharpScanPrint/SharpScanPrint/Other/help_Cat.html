@@ -1,0 +1,754 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;CHARSET=UTF-8" />
+	<style type="text/css">
+		body{
+			margin: 2pt 3pt 2pt 3pt;
+			font-family: sans-serif;
+			color: #000000;
+			background-color: #FFFFFF;
+			font-size: 10pt;
+		}
+		
+		td{
+			vertical-align: top;
+		}
+		
+		li{
+			padding: 5pt;
+		}
+		
+		p{
+			font-size: 8pt;
+			margin: 1% 1% 1% 1%;
+			padding: 3pt;
+		}
+		
+		img{
+			border:0pt;
+			height:17pt;
+		}
+	</style>
+	<title>Help</title>
+</head>
+<body class="manual">
+	<a name="top" />
+	<table align="center" border="1" bordercolor="#000000">
+		<tr>
+			<td align="left">
+				<ul>
+					<li><a href="#1">Printer/Scanner Settings</a></li>
+						<ul>
+							<li><a href="#11">Find Printers/Scanners</a></li>
+							<li><a href="#12">Add Printers/Scanners Manually</a></li>
+							<li><a href="#13">View and Edit Printer/Scanner Information</a></li>
+							<li><a href="#14">Move or Delete Printer/Scanner in the List</a></li>
+						</ul>
+					<li><a href="#2">User Settings</a></li>
+					<li><a href="#3">Application Settings</a></li>
+					<li><a href="#4">E-mail Settings</a></li>
+					<li><a href="#5">Scan</a></li>
+						<ul>
+							<li><a href="#51">Scan from Your Mobile Device</a></li>
+							<li><a href="#52">Scan from the Scanner Operation Panel</a></li>
+						</ul>
+					<li><a href="#6">Print</a></li>
+						<ul>
+							<li><a href="#61">Print a Stored Document in this Application</a></li>
+							<li><a href="#62">Print a Photo Image</a></li>
+							<li><a href="#63">Print Web Pages</a></li>
+							<li><a href="#64">Print E-mails</a></li>
+						</ul>
+					<li><a href="#7">Attach to E-mail</a></li>
+					<li><a href="#8">Send to Application</a></li>
+					<li><a href="#9">Manage Files</a></li>
+						<ul>
+							<li><a href="#91">Modify Files/Folders List</a></li>
+							<li><a href="#92">Search Files/Folders</a></li>
+							<li><a href="#93">Preview a File</a></li>
+							<li><a href="#94">Rename a File/Folder</a></li>
+							<li><a href="#95">Move Files/Folders</a></li>
+							<li><a href="#96">Delete Files/Folders</a></li>
+							<li><a href="#97">Create a Folder</a></li>
+						</ul>
+					<li><a href="#10">Print from External Application</a></li>
+					<li><a href="#sup">Support Web Site</a></li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<a name="1" />
+				<h4><u>Printer/Scanner Settings</u></h4>
+				Set up printers and scanners to print from and send data to this application.
+				<a name="11" />
+				<h4>Find Printers/Scanners</h4>
+				<ol type="1">
+					<li>Tap "Settings" on the main screen.</li>
+					<li>Tap "Printer/Scanner Settings."</li>
+					<li>Tap "Find Printers/Scanners." Printers and scanners on the network are discovered automatically.<br>
+					Note: The printers/scanners must be on the same network segment where your device is connected. If you use a printer/scanner on a different network segment, see <a href="#12">Add Printers/Scanners Manually</a>.</li>
+					<li>Discovered printers and scanners are displayed in a list.<br>
+					"Product Name" and "Location" information retrieved from a printer/scanner is displayed. ("Product Name(Location)" or "Product Name(IP Address)" is displayed above "IP address").<br>
+					Note: The display format ("Product Name(Location)" or "Product Name(IP Address)") in the list can be configured in <a href="#3">Application Settings</a>. "SHARP" which is included in the "Product Name" retrieved from the printer/scanner is not displayed.</li>
+				</ol>
+				<a name="12" />
+				<h4>Add Printers/Scanners Manually</h4>
+				<ol type="1">
+					<li>Tap "Settings" on the main screen.</li>
+					<li>Tap "Printer/Scanner Settings."</li>
+					<li>Tap "Add Manually" if you wish to add any printers/scanners that are not in the same network segment as your device (cannot be added on <a href="#11">Find Printers/Scanners</a>).</li>
+					<li>The following items can be set under "Printer/Scanner Information" and "Behavior Settings".<br>
+					Tap "Save" to save the settings. If you wish to cancel the addition, press "Back" button before tapping "Save."
+					<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Name</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Enter printer/scanner name that you wish to add. If a name is not entered, the device's IP address will appear as the name.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">IP Address</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Enter printer/scanner IP address. This is a required field.<br>Note: The IP address that has already been added manually cannot be entered.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Port Number</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Enter a port number for the printer/scanner. This is a required field.<br>Port Number is necessary to print from this application. Enter the same port number as configured on the printer. If different port number is entered, this application cannot print to the printer.<br>To check the port number in the printer,<br>If "Use Raw Print" in <a href="#3">Application Settings</a> is unchecked: See [Application Settings]-[Setting for Print from the PC] on the printer's web page. The default port number for both printer and this application is 21.<br>If it is checked: See [Network Settings]-[Print Port Settings]-[RAW] tab in the printer’s Web page. The default port number is 9100.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Set as Default Printer/Scanner</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">When selected "I(ON)", the default printer/scanner is set to use this printer/scanner for "Print" or "Scan". <br>Note: "Set as Default Printer/Scanner" cannot be configured if "Auto Printer/Scanner Selection" is checked under <a href="#3">Application Settings</a>.</font></td></tr></table>
+					</li>
+				</ol>
+				<a name="13" />
+				<h4>View and Edit Printer/Scanner Information</h4>
+				<ol type="1">
+					<li>Tap "Settings" on the main screen.</li>
+					<li>Tap "Printer/Scanner Settings."</li>
+					<li>Registered printers and scanners are displayed as list.<br>
+					The icon <img src="./icon/mfpa.png" alt="MFPa"> indicates automatically added printers/scanners.<br>
+					The icon <img src="./icon/mfpm.png" alt="MFPm"> indicates manually added printers/scanners.</li>
+					<li>Tap a printer/scanner to view its information.</li>
+					<li>The information about the selected printer/scanner is displayed. The items displayed here are available in <a href="#12">Add Printers/Scanners Manually</a>.<br>
+					Note: For automatically added printers/scanners, IP address is not editable.<br>
+					For manually added printers/scanners, Product Name and Location is not editable. Product Name and Location fields are auto-filled when the application establishes an initial contact with the printer/scanner.</li>
+					<li>When "scan from mobile device" is available, the following additional settings are available under "Operation Settings".
+					<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Scan from your mobile device</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">When enabled (select "I(ON)"), configure scan settings and scan on your mobile device.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Display Name</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Display Name will be displayed along with Verification Code on both scanner operation panel and your mobile device to ensure your target scanner.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Automatically generate verification codes</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">When enabled (select "I(ON)"), automatically generate a Verification Code. If it is disabled (select "O(OFF)"), you need to enter a code in the Verification Code field.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Verification Code</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Verification Code will be displayed along with Display Name on both scanner operation panel and your mobile device to ensure your target scanner.  </font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Reset scan parameters</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Tap this to reset scan settings configured for the last scan operation.</font></td></tr></table>
+					</li>
+					<li>Tap "Save" to save the settings. </li>
+				</ol>
+				<a name="14" />
+				<h4>Move or Delete Printer/Scanner in the List</h4>
+				<ol type="1">
+					<li>Tap "Settings" on the main screen.</li>
+					<li>Tap "Printer/Scanner Settings."</li>
+					<li>Registered printers and scanners are displayed as a list.</li>
+					<li>Tap "Edit".</li>
+					<li>Tap <img src="./icon/delete.png" alt="delete">, then tap "Delete" if you wish to delete a printer/scanner from the list.</li>
+					<li>If you wish to rearrange the order of the list, tap and hold <img src="./icon/order.png" alt="order">, then drag it to the desired location.<br>
+					Note: Deleted printers/scanners can be added again with <a href="#11">Find Printers/Scanners</a> or <a href="#12">Add Printers/Scanners Manually</a>.</li>
+				</ol>
+				<div align="right"><a href="#top">Top</a></div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<a name="2" />
+				<h4><u>User Settings</u></h4>
+				Set up the user information.
+				<ol type="1">
+					<li>Tap "Settings" on the main screen.</li>
+					<li>Tap "User Settings."</li>
+					<li>"Profile Information" is the setting required for registering destination to a scanner on "Scan" operation. The following settings are available:
+					<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Display Name</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Displayed in the scanner address book as a scan destination. The default value is same as the value of "Name" configured in User Information in the device's settings.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Initial</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Initial is used for a sort key on displaying "Display Name" in the address book screen of the scanner.</font></td></tr></table>
+					</li>
+					<li>"User Authentication" is the setting required for printing to a printer on which user authentication is enabled. The following settings are available:
+					<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Use Login Name for authentication</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Select this when Login Name is used for user authentication on the printers. Type in "Login Name" and "Password".<br><b>Login Name</b><br>Enter your login name used for user authentication on the printers.<br><b>Password</b><br>Enter your password used for user authentication on the printers.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Use User Number for authentication</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Select this when User Number is used for user authentication on the printers in your network. Type in "User Number".<br><b>User Number</b><br>Enter your user number used for user authentication on the printers.</font></td></tr></table>
+					</li>
+					<li>When "Default Job ID" is selected, printers display "User Name" and "Job Name" configured here on the operation panel.
+					<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">User Name</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Enter a user name which will be displayed on printer operation panel. If this is not set, the printer uses the value, "SharpdeskM User".</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Job Name</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Enter a job name which will be displayed on printer operation panel. If this is not set, the printer uses the name of the file to be printed.</font></td></tr></table>
+					</li>
+					<li>Tap "Save" to save the settings.</li>
+				</ol>
+				<div align="right"><a href="#top">Top</a></div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<a name="3" />
+				<h4><u>Application Settings</u></h4>
+				Set up the operation of the application.
+				<ol type="1">
+					<li>Tap "Settings" on the main screen.</li>
+					<li>Tap "Application Settings."</li>
+					<li>The following settings can be set in "Operation Settings."
+					<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Profile Automatic Delete</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Select "I(ON)" to delete the destination on the scanner after scan is completed.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Auto Profile Update</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Select "I(ON)" to overwrite the destination that was registered at last scanning without confirmation.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Save Imported Files</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Select "I(ON)" to keep a file received from other application for printing from this application.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Auto Printer/Scanner Selection</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Select "I(ON)" to automatically set a default printer/scanner in the connected wireless network (SSID).</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">High Quality Print</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Select "I(ON)" for higher quality printing.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Use Raw Print</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Select "I(ON)" to use Raw port (default port number is 9100) instead of FTP port (default port number is 21) for printing.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Default Name for Automatically Added Printer/Scanner</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Display format can be set for the printers/scanners that are automatically added. "Product Name(Location)" or "Product Name(IP Address)" can be selected.</font></td></tr></table>
+					</li>
+					<li>"SNMP Settings" is required to set if the network to which your device is connected uses other than default SNMP GET Community string. Select "O(OFF)" in "Public Get Community" if you use this application in such a network, and enter the strings that are used in the network in "Enter Community String(s)." Up to 10 strings can be entered. For further assistance, please ask your network administrator about SNMP GET Community string.</li>
+					<li>Tap "Save" to save the settings.</li>
+				</ol>
+				<div align="right"><a href="#top">Top</a></div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<a name="4" />
+				<h4><u>E-mail Settings</u></h4>
+				Set up your e-mail account to receive and print e-mails from this application.
+				<ol type="1">
+					<li>Tap "Settings" on the main screen.</li>
+					<li>Tap "E-mail Settings".</li>
+					<li>The following settings are available for the e-mail account:
+					<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Account Name</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Enter user name to login to your e-mail account.<br>This field is required when password is set.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Password</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Enter a password to login to your e-mail account.</font></td></tr></table>
+					</li>
+					<li>The following settings are available for the e-mail server. Contact your e-mail administrator for server information.<br>
+					Note: E-mail server must support IMAP4.
+					<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Host Name</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Enter e-mail server host name.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Port Number</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Enter e-mail server port number. This is a required field. The default port number is 143 if "SSL" is not checked, or 993 if checked.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">SSL</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Check if SSL is required to connect your mobile device with e-mail server.</font></td></tr></table>
+					</li>
+					<li>Tap "Save" to save the settings.</li>
+				</ol>
+				<div align="right"><a href="#top">Top</a></div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<a name="5" />
+				<h4><u>Scan</u></h4>
+				This function receives and stores scanned documents.
+				<ol type="1">
+					<li>Tap "Scan" on the main screen.</li>
+					<li>Tap "Scanner: (scanner name)" (on iPad, tap the button under "Scanner") to select the desired scanning device.<br>
+					This icon <img src="./icon/mfp.png" alt="MFP"> identifies the scanner assigned as the default scanner.</li>
+				</ol>
+Operations may vary depending on scanner.
+				<br>Please go to <a href="#51">Scan from Your Mobile Device</a> to learn how to execute a scan from your mobile device. If scan setting option is not available on your mobile device, please go to <a href="#52">Scan from the Scanner Operation Panel</a>.
+				<a name="51" />
+				<h4>Scan from Your Mobile Device</h4>
+				Please complete the following steps to configure scan settings on your mobile device. Go to <a href="http://sharp-world.com/products/copier/docu_solutions/mobile/sharpdesk_mobile/index.html">the application's Web site</a> for a list of supported scanners.
+				<br>All operations except "setting a document on the scanner" shall be completed within the application.
+				<br>Note: Please confirm scanner home screen or user authentication screen is displayed on the scanner. When external authentication is enabled, user authentication screen will be displayed. Upon successful authentication, scanner home screen will be displayed.
+				<ol type="1">
+					<li>If you selected the scanner that supports Scan from Your Mobile Device feature, the setting menus and current scan settings will be displayed.<br>
+					Note: When you disable this feature, you can initiate scan from scanner. Please go to <a href="#52">Scan from the Scanner Operation Panel</a> for further instructions.<br>
+					The following settings are available. If you are using iPhone, settings can be stored by tapping "Complete". If you are using iPad, settings are automatically stored.
+					<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Color Mode</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Settings to scan color originals (Auto/Full Color/Grayscale/Mono2). The default value is "Auto".<br>Note: When "Long Size" is selected for "Original Size" under "Original", only "Mono2" is available.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Original</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Settings for original document to be scanned. The following items can be set:<br><b>Original Size</b><br>While "Auto" is set as default, non-standard original paper size cannot be detected by the scanner. You need to manually change the original size setting.<br><b>Detected paper size (display only)</b><br>When you set a document on the target scanner, the original paper size will be automatically detected and displayed on your mobile device and on the scanner operation panel.<br><b>Store Size</b><br>The size of the scanned image can be manually set. If this size is different than the detected paper size,  the image will be automatically adjusted to fit the page. The default value is "Auto".<br>Note: You can only select "Auto" when any of the following original paper sizes is selected: Long Size/Japanese Postcard/Business Card/2L Size/Card/Custom Size.<br><b>Custom Size Registration</b><br>Custom original paper sizes can be registered.  Up to 5 custom sizes can be registered.<br><b>Image Orientation</b><br>Select orientation of the image.  You can select either "Rotation Off" or "Rotation 90 Degrees".  The default value is "Rotation Off".</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">2-Sided Copy</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Select 1-sided or 2-sided original.<br>1-Sided, 2-Sided(Book) or 2-Sided(Tablet) can be selected. The default value is "1-Sided".</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">File Format</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Scan file format (file type, compresson mode, and compression ratio) can be set.  The following items can be set.<br><b>"Color/Grayscale"/"B/W"</b><br>Format mode for scanning (Color/Grayscale, or B/W) can be selected.<br><b>File Type</b><br>Scan file type can be selected.<br>When "Color/Grayscale" is selected in the above setting, PDF, PDF/A, TIFF or JPEG file types are available.<br>When "B/W (monochrome)" is selected in "Color", PDF, PDF/A, and TIFF file types are available.<br><b>Compact PDF</b><br>The type of Compact PDF (None, Compact or Compact Ultra Fine) can be selected when "Color/Grayscale" is selected in the "Color/Grayscale"/"B/W" setting, and "PDF" or "PDF/A" is selected in "File Type".<br>Note: Compact PDF is available only if the Scanner Expansion Kit is installed in the scanner.<br><b>Comp. Ratio</b><br>Compression Ratio (low, middle, high) can be selected when "Color/Grayscale" is selected in the "Color/Grayscale"/"B/W" setting. In addition, "Bk Letter Emphasis" can be selected if the scanner supports Bk letter emphasis PDF and "PDF" is set as the "File Type".<br><b>Compression Mode</b><br>Compression Mode (none, MH(G3), MMR(G4)) can be selected when "B/W" is selected in "Color".<br><b>Specified Pages per File</b><br>This feature is available when you select "PDF", "PDF/A", or "TIFF" file type.  When selected, scanned document is split into files by specified number of pages. (E.g. when 2 pages is specified,  the scanned document is grouped by 2 pages to create multiple files.)<br><b>Encryption</b><br>When "PDF" file type is selected, encrypted PDF option is available.  When checked, a "Password" should be assigned to open the encrypted PDF.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Resolution</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Scan resolution can be set. The following resolution options are available.<br>100x100dpi, 150x150dpi, 200x200dpi, 300x300dpi, 400x400dpi, 600x600dpi<br>Note: 150x150dpi can be selected only on the scanners that support the resolution.<br>Note: Only 300x300dpi is available when you select "Compact" or "Compact Ultra Fine" under "Compact PDF". </font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Other Settings</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Additional scan settings are available under "Others". The following items are available:<br><b>Exposure</b><br>Exposure (Auto, Characters, Text/Prtd.Photo, Printed Photo, Text/Photo, Photo, Map) for scanning can be selected.<br><b>Exposure Level</b><br>Exposure level (1 to 5) for scanning can be selected. This can be set if "Auto" is selected for "Exposure".<br><b>Blank Page Skip</b><br>If set to other than "Off", if the original contains blank pages or back shadow, the scanner will automatically detect them and skip them when scanning. Setting options are "Off", "Skip Blank Page", and "Skip Blank and Back Shadow".</font></td></tr></table>
+					</li>
+					<li>When you complete all settings, tap "Scan from (scanner name)" (on iPad, tap "Scan") to start scanning the document.</li>
+					<li>After tapping "Scan" button, the information of the target scanner ("Display Name" and "Verification Code") will be displayed on the scanner operation panel and move to a waiting (scanning ready) stage.</li>
+					<li>Confirm the device information and set document on the scanner.</li>
+					<li>Select “Scan” on a pop-up dialogue to continue.</li>
+					<li>Scanned data is sent to this application and the data is stored into the memory.<br>
+					If a single data is received, the preview of the data is displayed.<br>
+					For preview operation, go to <a href="#93">Preview a File</a>.</li>
+					<li>Tap "Save this Image".</li>
+					<li>Scanned data, already named at the scanner, can be renamed at this stage.<br>
+					If desired, enter a new file name and then tap "Save".</li>
+					<li>Select the destination folder and tap "Save Here" at the bottom of the screen to store this data as a file into the folder.</li>
+				</ol>
+				If multiple scanned data is received, please complete the following steps:
+				<ul>
+					<li>The received data is listed. Tap "Bulk Save" and then complete steps 7 and 8 to store the files into the selected folder in the device. (A sequential number is added to the end of the file name entered in step 7.)<br>
+					Note: You may tap any data in the list to preview. However, this data can only be stored together with the rest of the received data.</li>
+				</ul>
+				<a name="52" />
+				<h4>Scan from the Scanner Operation Panel</h4>
+				If “Scan from your mobile device” is not available on the scanner, use following steps to scan from scanner operation panel.
+				<br>Resolution, file format and other scan settings must be configured on the MFP operation panel when scanning. (see step 3)
+				<br>Note: Please be sure address book is not displayed on the scanner operation panel. If address book is displayed, this operation will not work.
+				<ol type="1">
+					<li>Tap "Scan from (scanner name)" (on iPad, tap "Scan").</li>
+					<li>Tap "OK" when the dialog "Do you want to Scan?" is displayed. The dialog with "Display Name" and "Initial" is displayed indication the application is in the waiting state.</li>
+					<li>Set a document on the scanner and select "FTP/Desktop (or IMAGE SEND)" to configure resolution, file format, color mode or other settings.<br>
+					Select the destination on the address book so that the destination is the same as "Display Name" displayed in the dialog of the device's screen in the previous step.</li>
+					<li>Push Start button on the scanner to execute scanning. Begin at step 6 in <a href="#51">Scan from Your Mobile Device(Remote Scan)</a> to complete the process.</li>
+				</ol>
+				<div align="right"><a href="#top">Top</a></div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<a name="6" />
+				<h4><u>Print</u></h4>
+				The documents stored in this application, photo images, Web pages and received e-mail can be printed. 
+				<a name="61" />
+				<h4>Print a Stored Document in this Application</h4>
+				Supported file formats are JPEG, TIFF, PNG and PDF (including compact PDF and encrypted PDF).
+				<ol type="1">
+					<li>Tap "Print" on the main screen.</li>
+					<li>On iPhone, tap "Select File".</li>
+					<li>Files and folders stored in this application are listed. See <a href="#91">Modify Files/Folders List</a> to Modify files/folders list or <a href="#92">Search Files/Folders</a> to search files/folders.</li>
+					<li>Select a file to display a preview with print settings.<br>
+					For preview operation, see <a href="#93">Preview a File</a>.</li>
+					<li>The following print settings are available:
+					<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Printer</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Select the printer to print and configure print settings.<br>This icon <img src="./icon/mfp.png" alt="MFP"> identifies  the printer assigned as the default printer.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Quantity</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Tap to configure print quantity if necessary. Quantity can be configured from 1 set to 99 sets.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Color Mode</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Tap to configure color mode. Either Auto, Color or Grayscale can be selected.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Paper Size</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Tap to configure paper size to be printed. The following sizes can be configured:<br>A3 Wide, A3, A4, A5, B4, B5, Ledger, Letter, Legal, Executive, Invoice, Foolscap, 8K, 16K, DL, C5, COM10, Monarch, Japanese Postcard, 240 x 332, Choukei 3, Japanese You #2, Japanese You #4</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Duplex Settings</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Tap to configure 1-sided print or 2-sided print if necessary. Regarding 2-sided print, it can be configured along with binding direction of Tablet or Book.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">N-Up Settings</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Tap to reduce image size and fit multiple pages on a single page.<br>N-Up: 1-Up(1 page per a single sheet), 2-Up(2 pages per a single sheet) or 4-Up(4 pages per a single sheet) can be selected.<br>Order: For 2-Up printing select "Left to Right" or "Right to Left". For 4-Up printing select "Right, and Down", "Down, and Right", "Left, and Down" or "Down, and Left". <br>Note: You cannot specify N-Up for TIFF, compact PDF, Bk letter emphasis PDF and PDFs other than those scanned by Sharp scanners.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Print Area</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Configure print range to print.<br>All Pages: Print all pages.<br>Print Pages: Specify the number of the first and last pages that you want ot print.<br>Direct Input: Enter page numbers and/or page ranges. For page ranges, use a hyphen. You can separate each page or range with a comma.<br>Note: You cannot specify print area for compact PDF, Bk letter emphasis PDF and PDFs other than those scanned by Sharp scanners.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Retention</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Tap "Retention" to hold a print job as a file on the printer's hard disk, allowing the job to be printed from the printer operation panel when needed.  Set "Hold Only" to "ON" to enable this feature.  Main folder is specified as the location of the held file.<br>If "Specify Password" is set to "ON", the password (from 5 to 8 digit number) allows a confidential job to be stored on the printing device and the file cannot be printed unless the correct password is entered at the printing device's operation panel.<br>Note: You cannot specify retention for Encrypted PDF. It can be securely printed by completing the operations from step 7.</font></td></tr></table>
+					</li>
+					<li>Tap "Print to (printer name)" (on iPad, tap "Print"), then the dialog "Do you want to Print?" is displayed. Tap "OK" to print.<br>
+					Note: If selected printer does not have appropriate options to print the file, an error message is displayed. Please select another printer.</li>
+				</ol>
+				To print an encrypted PDF, complete the following steps:
+				<br>				Note: The following operation is an example using MX-2610N/MX-3110N/MX-3610N, and the steps for print may vary per printer model.
+				<ol type="1" start="7">
+					<li>The dialog "The encrypted PDF data is in the spool queue." is displayed. Tap "OK".</li>
+					<li>Tap "Job Status".</li>
+					<li>Select "Print" tab, and then tap "Spool".</li>
+					<li>The print jobs sent from this application are listed. Select the job, and then tap "Enter Password for Encrypted PDF" in Action Panel.</li>
+					<li>The dialog "Please enter Password." is displayed. Tap "OK" to start printing.</li>
+				</ol>
+				<a name="62" />
+				<h4>Print a Photo Image</h4>
+				Note: If you use this application on iOS 4.3 through 5, "Location Services" shall be granted to use. Tap [Settings]-[Location Services], and then set "Location Services" to "ON".
+				<br>If you use this application on iOS 6 through 7, access to "Photos" from this application shall be granted. Tap [Settings]-[Privacy]-[Photos] to display the application list, and then find "Sharpdesk Mobile" and set to "ON".
+				<ol type="1">
+					<li>Tap "Print" on the main screen.</li>
+					<li>Tap "Select Photo" (on iPad, tap "Photo" or "Photo Album" on the upper right of the screen).</li>
+					<li>The photo images stored in Photo or Photo Album are listed. Tap any thumbnail to preview the image.<br>
+					For preview operation, see <a href="#93">Preview a File</a>.<br>
+					Note: JPEG, TIFF and PNG can be printed.</li>
+					<li>Go to step 5 in <a href="#61">Print a Stored Document in this Application</a> for the subsequent steps.</li>
+				</ol>
+				<a name="63" />
+				<h4>Print Web Pages</h4>
+				Web pages browsed within this application can be printed.
+				<br>Note: Your mobile device requires an internet connection to browse web pages.
+				<ol type="1">
+					<li>Tap "Print" on the main screen.</li>
+					<li>Tap "Print Web Pages".</li>
+					<li>The web browser will be opened in the application. Enter URL of the web page to view.</li>
+					<li>Tap "Select".</li>
+					<li>Print setting menu (see step 3 in "Print a Stored Document in this Application") with a print preview of the web page will be displayed.</li>
+					<ul>
+						<li>You can print multiple web pages. If you wish to add another web page to print, tap <img src="./icon/add.png" alt="add">. The screen goes back to step 3.</li>
+						<li>If you do not wish to add another page, go to step 5 in <a href="#61">Print a Stored Document in this Application</a> for the subsequent steps.</li>
+				</ul>
+				</ol>
+				<a name="64" />
+				<h4>Print E-mails</h4>
+				E-mails previewed in this application can be printed.
+				<br>Note: Your mobile device requires an internet connection to preview e-mails.
+				<br>Note: You cannot send e-mails from this application.
+				<ol type="1">
+					<li>Tap "Print" on the main screen.</li>
+					<li>Tap "Print E-mails".</li>
+					<li>E-mails stored on the specified e-mail server are listed. Select an e-mail to open and view.</li>
+					<li>The body of the selected e-mail is displayed.<br>
+					Images attached in e-mail are not displayed by default. Tap "View Image" to display the attached images.</li>
+					<li>Tap "Select".</li>
+					<li>Print setting menu (see step 3 of "Print a Stored Document in this Application") with a print preview of the selected e-mail will be displayed.</li>
+					<ul>
+						<li>You can print multiple e-mails. If you wish to add another e-mail to print, tap <img src="./icon/add.png" alt="add"> . The screen goes back to step 3.</li>
+						<li>If you do not wish to add another e-mail, go to step 5 in <a href="#61">Print a Stored Document in this Application</a> for the subsequent steps.</li>
+					</ul>
+				</ol>
+				<div align="right"><a href="#top">Top</a></div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<a name="7" />
+				<h4><u>Attach to E-mail</u></h4>
+				The document stored in this application can be attached to E-mail.
+				<ol type="1">
+					<li>Tap "Attach to E-mail" on the main screen.</li>
+					<li>Files and folders stored in this application are listed.<br>
+					See <a href="#91">Modify Files/Folders List</a> to Modify files/folders list or <a href="#92">Search Files/Folders</a> to search files/folders.</li>
+					<li>Tap any file to preview.<br>
+					For preview operation, see <a href="#93">Preview a File</a>.</li>
+					<li>Tap "Attach to E-mail" (on iPad, tap "Attach") at the bottom of the screen. E-mail application is invoked and the e-mail that the file is attached is displayed.<br>
+					Send the e-mail after editing it.<br>
+					Note: E-mail application has to be configured beforehand.</li>
+				</ol>
+				<div align="right"><a href="#top">Top</a></div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<a name="8" />
+				<h4><u>Send to Application</u></h4>
+				The documents stored in this application can be sent to other application.
+				<ol type="1">
+					<li>Tap "Send to Application" on the main screen.</li>
+					<li>Files and folders stored in this application are listed. <br>
+					See <a href="#91">Modify Files/Folders List</a> to Modify files/folders list or <a href="#92">Search Files/Folders</a> to search files/folders.</li>
+					<li>Tap any file to preview.<br>
+					For preview operation, see <a href="#93">Preview a File</a>.</li>
+					<li>Tap "Send to Application" (on iPad, tap "Send") at the bottom of the screen.</li>
+					<li>The applications that can be sent are listed. To send the file to another application select the application from the list.<br>
+					Note: If you use this application on iOS 4.3 through 5, up to 9 applications are listed. If target application is not listed, please uninstall unnecessary applications.</li>
+				</ol>
+				<div align="right"><a href="#top">Top</a></div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<a name="9" />
+				<h4><u>Manage Files</u></h4>
+				Files or folders stored in the application can be managed. Available actions include listing files and folders stored in the application, searching for files and folders, previewing files, changing a file/folder name, move, delete, or create a folder.
+				<a name="91" />
+				<h4>Modify Files/Folders List</h4>
+				You can search files/folders or sort the files/folders list.
+				<ol type="1">
+					<li>Tap "Manage Files" on the main screen.</li>
+					<li>Files and folders stored in this application are listed.</li>
+					<li>Sort button and search bar are displayed in the files/folders list (for searching files/folders, see <a href="#92">Search Files/Folders</a>).<br>
+					One of the following icons expressing current sort condition and order is indicated in the Sort button.</li>
+					<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Icon</font></th>
+					<th bgcolor="#333333"><font color="#FFFFFF">Sort condition and order</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000"><img src="./icon/asc_d.png" alt="asc_d"></font></td>
+					<td bgcolor="#FFFFFF"><font color="#000000">Ascending order of time stamp</font></td>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000"><img src="./icon/desc_d.png" alt="desc_d"></font></td>
+					<td bgcolor="#FFFFFF"><font color="#000000">Descending order of time stamp</font></td>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000"><img src="./icon/asc_n.png" alt="asc_n"></font></td>
+					<td bgcolor="#FFFFFF"><font color="#000000">Ascending order of file name</font></td>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000"><img src="./icon/desc_n.png" alt="desc_n"></font></td>
+					<td bgcolor="#FFFFFF"><font color="#000000">Descending order of file name</font></td>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000"><img src="./icon/asc_s.png" alt="asc_s"></font></td>
+					<td bgcolor="#FFFFFF"><font color="#000000">Ascending order of file size</font></td>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000"><img src="./icon/desc_s.png" alt="desc_s"></font></td>
+					<td bgcolor="#FFFFFF"><font color="#000000">Descending order of file size</font></td>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000"><img src="./icon/asc_t.png" alt="asc_t"></font></td>
+					<td bgcolor="#FFFFFF"><font color="#000000">Ascending order of file format</font></td>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000"><img src="./icon/desc_t.png" alt="desc_t"></font></td>
+					<td bgcolor="#FFFFFF"><font color="#000000">Descending order of file format</font></td>
+					</tr>
+					</table>
+					<li>Tap the sort button to sort. Sort condition and order can be changed. Sort conditions include time stamp, file name, file size and file format. Tap <img src="./icon/asc.png" alt="ascend"> for ascending order and <img src="./icon/desc.png" alt="descend"> for descending order.</li>
+				</ol>
+				<a name="92" />
+				<h4>Search Files/Folders</h4>
+				<ol type="1">
+					<li>Tap "Manage Files" on the main screen.</li>
+					<li>Files and folders stored in this application are listed.</li>
+					<li>Sort button and search bar are displayed in the files/folders list (for sorting files/folders, see "Modify Files/Folders List").</li>
+					<li>Enter the entire file name, or a portion of the file name that you would like to find into the search bar. A list of files containing the searched-for characters will be displayed.</li>
+					<li>Further search from the search result can be conducted with tapping "Advanced Search" to the right of the search bar.<br>
+					The following conditions can be specified for advanced search result.
+					<table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Include subfolders</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Include subfolders in search.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Folder</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Include folders in search.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">PDF</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Include PDF in search.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">TIFF</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Include TIFF in search.</font></td></tr>
+					<tr>
+					<th bgcolor="#333333"><font color="#FFFFFF">Image File(JPEG,PNG)</font></th>
+					</tr>
+					<tr>
+					<td bgcolor="#FFFFFF"><font color="#000000">Include JPEG and PNG in search.</font></td></tr></table>
+					</li>
+					<li>You can change the display order of the search results. See <a href="#91">Modify Files/Folders List</a>.</li>
+				</ol>
+				<a name="93" />
+				<h4>Preview a File</h4>
+				<ol type="1">
+					<li>Tap "Manage Files" on the main screen.</li>
+					<li>Files and folders stored in this application are listed.</li>
+					<li>Tap any file to preview.<br>
+					Note: Preview is not displayed if free memory in the device is not sufficient.<br>
+					Some file formats cannot be previewed or rotated (see the Operation Manual). If you wish to preview, tap "Check with other application" to select an application to preview the file.</li>
+					<li>Use two fingers to zoom in/out the preview image.<br>
+					Tap <img src="./icon/rotate.png" alt="rotate"> to rotate the preview 90 degrees clockwise.<br>
+					Note: The files with the following formats can be rotated:
+					<ul>
+						<li>JPEG, TIFF, PNG, and PDF scanned by Sharp scanners(except encrypted PDFs)</li>
+					</ul>
+					Note: Original size and/or orientation of the image is kept even if another operation is performed after the preview was rotated and/or zoomed.</li>
+				</ol>
+				<a name="94" />
+				<h4>Rename a File/Folder</h4>
+				<ol type="1">
+					<li>Tap "Manage Files" on the main screen.</li>
+					<li>Files and folders stored in this application are listed. Tap "Edit" button. </li>
+					<li>Check boxes appear in the left of the list and the menu bar appears in the bottom.</li>
+					<li>Tap the check box of the file/folder you wish to rename, then tap <img src="./icon/name.png" alt="name"> in the menu bar.<br>
+					Note: You can rename only 1 file/folder at one operation.</li>
+					<li>The dialog "Change File(Folder) Name" appears. Enter a new name.<br>
+					Tap "Save" to rename.<br>
+					Note: The extension name of the file cannot be changed.</li>
+				</ol>
+				<a name="95" />
+				<h4>Move Files/Folders</h4>
+				<ol type="1">
+					<li>Tap "Manage Files" on the main screen.</li>
+					<li>Files and folders stored in this application are listed. Tap "Edit" button. </li>
+					<li>Check boxes appear in the left of the list and the menu bar appears in the bottom.</li>
+					<li>Tap the check box of the file/folder you wish to move (multiple files/folders can be checked) and tap <img src="./icon/move.png" alt="move"> in the menu bar.</li>
+					<li>"Move" dialog is displayed. Select the destination folder and tap "Move Here."</li>
+				</ol>
+				<a name="96" />
+				<h4>Delete Files/Folders</h4>
+				<ol type="1">
+					<li>Tap "Manage Files" on the main screen.</li>
+					<li>Files and folders stored in this application are listed. Tap "Edit" button. </li>
+					<li>Check boxes appear in the left of the list and the menu bar appears in the bottom.</li>
+					<li>Tap the check box of the file/folder you wish to delete (multiple files/folders can be checked) and tap <img src="./icon/del.png" alt="delete"> in the menu bar.</li>
+					<li>"Delete file(s)/folder(s)" dialog is displayed. Tap "OK" to delete the files/folders.</li>
+				</ol>
+				You can also delete a file in the following ways:
+				<ul>
+					<li>In step 2, swipe the file in the list and tap "Delete".</li>
+					<li>Tap "Delete this File" at the bottom of the preview screen.<br>
+					Note: Folders cannot be deleted in this operation.</li>
+				</ul>
+				<a name="97" />
+				<h4>Create a Folder</h4>
+				<ol type="1">
+					<li>Tap "Manage Files" on the main screen.</li>
+					<li>Files and folders stored in this application are listed.</li>
+					<li>Move to the folder under which you wish to create a new folder, then tap "Edit" button. </li>
+					<li>Check boxes appear in the left of the list and the menu bar appears in the bottom. Tap <img src="./icon/crf.png" alt="createfolder"> in the menu bar.</li>
+					<li>"Create Folder" dialog is displayed. Enter a new folder name.<br>
+					Tap "Save" to create the folder.</li>
+				</ol>
+				<div align="right"><a href="#top">Top</a></div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<a name="10" />
+				<h4><u>Print from External Application</u></h4>
+				Data sent from other applications in your device can be printed from this application.
+				<ol type="1">
+					<li>Open the file that you wish to print (JPEG, TIFF, PNG or PDF) in other application.</li>
+					<li>Operate "send the file to another application" on that application. (see the operation manual of the application for details).<br>
+					"Sharpdesk M" is listed as one of the applications that can receive this file. Then tap "Sharpdesk M".<br>
+					Note: If you use this application on iOS 4.3 through 5, up to 9 applications are listed. If "Sharpdesk M" is not listed, please uninstall unnecessary applications.</li>
+					<li>The rest of the operation is the same as step 5 and after  <a href="#61">Print a Stored Document in this Application</a>.</li>
+				</ol>
+				<div align="right"><a href="#top">Top</a></div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<a name="sup" />
+				<h4><u>Support Web Site</u></h4>
+				For more information about the Sharpdesk Mobile application, please visit:
+				<br><br>
+				<a href="http://sharp-world.com/products/copier/docu_solutions/mobile/sharpdesk_mobile/index.html">http://sharp-world.com/products/copier/docu_solutions/mobile/sharpdesk_mobile/index.html</a>
+				<div align="right"><a href="#top">Top</a></div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

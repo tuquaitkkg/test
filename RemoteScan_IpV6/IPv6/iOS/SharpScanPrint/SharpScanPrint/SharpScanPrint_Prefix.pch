@@ -1,0 +1,40 @@
+//
+// Prefix header for all source files of the 'SharpScanPrint' target in the 'SharpScanPrint' project
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import "NSDate+zeroTimeDate.h"
+    #import "NSString+SizeWithFont.h"
+    #import "UIViewController+ContentSizeForViewInPopover.h"
+    #import "Define.h"
+#endif
+
+#ifdef DEBUG
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define DLog(...)
+#endif
+
+// ALog always displays output regardless of the DEBUG alarm
+#define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+#import "Define.h"
+
+#ifdef DEBUG
+#  define LOG(...)				NSLog(__VA_ARGS__)
+#  define LOG_METHOD			NSLog(@"%s", __func__)
+#  define TRACE(fmt, ...)		NSLog((@"%s(%d) " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#  define LOG(...) ;
+#  define LOG_METHOD ;
+#  define TRACE(...);
+#endif
+

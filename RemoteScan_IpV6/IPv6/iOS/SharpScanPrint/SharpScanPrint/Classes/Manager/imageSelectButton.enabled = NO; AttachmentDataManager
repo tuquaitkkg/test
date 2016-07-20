@@ -1,0 +1,13 @@
+//
+//  imageSelectButton.enabled = NO; AttachmentDataManager
+//  SharpScanPrint
+//
+//  Created by fsi on 2013/10/24.
+//
+//
+
+#import "imageSelectButton.h"
+
+@implementation imageSelectButton
+
+@end

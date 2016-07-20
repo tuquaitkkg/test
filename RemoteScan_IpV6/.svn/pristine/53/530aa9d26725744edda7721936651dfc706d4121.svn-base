@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA747D9F0F9514B9006C5449 /* myFtpServer_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* myFtpServer_Prefix.pch */; };
+		DCB84CC3123A64DA00389490 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB84CC2123A64DA00389490 /* CFNetwork.framework */; };
+		DCB84CE6123A64EF00389490 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB84CE5123A64EF00389490 /* CoreGraphics.framework */; };
+		DCB84D3C123A64FE00389490 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB84D3B123A64FE00389490 /* UIKit.framework */; };
+		DCB84E15123A652800389490 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB84E14123A652800389490 /* Foundation.framework */; };
+		EA493EDC11FECEB000D13592 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EA493ECF11FECEB000D13592 /* AsyncSocket.h */; };
+		EA493EDD11FECEB000D13592 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EA493ED011FECEB000D13592 /* AsyncSocket.m */; };
+		EA493EDE11FECEB000D13592 /* FtpConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = EA493ED111FECEB000D13592 /* FtpConnection.h */; };
+		EA493EDF11FECEB000D13592 /* FtpConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = EA493ED211FECEB000D13592 /* FtpConnection.m */; };
+		EA493EE011FECEB000D13592 /* FtpDataConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = EA493ED311FECEB000D13592 /* FtpDataConnection.h */; };
+		EA493EE111FECEB000D13592 /* FtpDataConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = EA493ED411FECEB000D13592 /* FtpDataConnection.m */; };
+		EA493EE211FECEB000D13592 /* FtpDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EA493ED511FECEB000D13592 /* FtpDefines.h */; };
+		EA493EE311FECEB000D13592 /* DiddyFtpServer.h in Headers */ = {isa = PBXBuildFile; fileRef = EA493ED611FECEB000D13592 /* DiddyFtpServer.h */; };
+		EA493EE411FECEB000D13592 /* DiddyFtpServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA493ED711FECEB000D13592 /* DiddyFtpServer.m */; };
+		EA493EE511FECEB000D13592 /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = EA493ED811FECEB000D13592 /* list.h */; };
+		EA493EE611FECEB000D13592 /* list.m in Sources */ = {isa = PBXBuildFile; fileRef = EA493ED911FECEB000D13592 /* list.m */; };
+		EA493EE711FECEB000D13592 /* NetworkController.h in Headers */ = {isa = PBXBuildFile; fileRef = EA493EDA11FECEB000D13592 /* NetworkController.h */; };
+		EA493EE811FECEB000D13592 /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA493EDB11FECEB000D13592 /* NetworkController.m */; };
+		EAFF21D317BA6AC8006ED764 /* FtpServer.h in Headers */ = {isa = PBXBuildFile; fileRef = EAFF21D117BA6AC8006ED764 /* FtpServer.h */; };
+		EAFF21D417BA6AC8006ED764 /* FtpServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFF21D217BA6AC8006ED764 /* FtpServer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA747D9E0F9514B9006C5449 /* myFtpServer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myFtpServer_Prefix.pch; sourceTree = "<group>"; };
+		D2AAC07E0554694100DB518D /* libmyFtpServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmyFtpServer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB84CC2123A64DA00389490 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DCB84CE5123A64EF00389490 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DCB84D3B123A64FE00389490 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCB84E14123A652800389490 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA493ECF11FECEB000D13592 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = src/AsyncSocket.h; sourceTree = "<group>"; };
+		EA493ED011FECEB000D13592 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = src/AsyncSocket.m; sourceTree = "<group>"; };
+		EA493ED111FECEB000D13592 /* FtpConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FtpConnection.h; path = src/FtpConnection.h; sourceTree = "<group>"; };
+		EA493ED211FECEB000D13592 /* FtpConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FtpConnection.m; path = src/FtpConnection.m; sourceTree = "<group>"; };
+		EA493ED311FECEB000D13592 /* FtpDataConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FtpDataConnection.h; path = src/FtpDataConnection.h; sourceTree = "<group>"; };
+		EA493ED411FECEB000D13592 /* FtpDataConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FtpDataConnection.m; path = src/FtpDataConnection.m; sourceTree = "<group>"; };
+		EA493ED511FECEB000D13592 /* FtpDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FtpDefines.h; path = src/FtpDefines.h; sourceTree = "<group>"; };
+		EA493ED611FECEB000D13592 /* DiddyFtpServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiddyFtpServer.h; path = src/DiddyFtpServer.h; sourceTree = "<group>"; };
+		EA493ED711FECEB000D13592 /* DiddyFtpServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiddyFtpServer.m; path = src/DiddyFtpServer.m; sourceTree = "<group>"; };
+		EA493ED811FECEB000D13592 /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = list.h; path = src/list.h; sourceTree = "<group>"; };
+		EA493ED911FECEB000D13592 /* list.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = list.m; path = src/list.m; sourceTree = "<group>"; };
+		EA493EDA11FECEB000D13592 /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkController.h; path = src/NetworkController.h; sourceTree = "<group>"; };
+		EA493EDB11FECEB000D13592 /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkController.m; path = src/NetworkController.m; sourceTree = "<group>"; };
+		EA493F7511FED1BB00D13592 /* ftp_commands.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ftp_commands.plist; sourceTree = "<group>"; };
+		EAFF21D117BA6AC8006ED764 /* FtpServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FtpServer.h; path = src/FtpServer.h; sourceTree = "<group>"; };
+		EAFF21D217BA6AC8006ED764 /* FtpServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FtpServer.m; path = src/FtpServer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB84CC3123A64DA00389490 /* CFNetwork.framework in Frameworks */,
+				DCB84CE6123A64EF00389490 /* CoreGraphics.framework in Frameworks */,
+				DCB84D3C123A64FE00389490 /* UIKit.framework in Frameworks */,
+				DCB84E15123A652800389490 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libmyFtpServer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* myFtpServer2 */ = {
+			isa = PBXGroup;
+			children = (
+				EA493FA911FED5C400D13592 /* Resource */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = myFtpServer2;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCB84E14123A652800389490 /* Foundation.framework */,
+				DCB84D3B123A64FE00389490 /* UIKit.framework */,
+				DCB84CE5123A64EF00389490 /* CoreGraphics.framework */,
+				DCB84CC2123A64DA00389490 /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EAFF21D117BA6AC8006ED764 /* FtpServer.h */,
+				EAFF21D217BA6AC8006ED764 /* FtpServer.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EAFF21D017BA6A70006ED764 /* Lib */,
+				AA747D9E0F9514B9006C5449 /* myFtpServer_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		EA493FA911FED5C400D13592 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EA493F7511FED1BB00D13592 /* ftp_commands.plist */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		EAFF21D017BA6A70006ED764 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				EA493ECF11FECEB000D13592 /* AsyncSocket.h */,
+				EA493ED011FECEB000D13592 /* AsyncSocket.m */,
+				EA493ED111FECEB000D13592 /* FtpConnection.h */,
+				EA493ED211FECEB000D13592 /* FtpConnection.m */,
+				EA493ED311FECEB000D13592 /* FtpDataConnection.h */,
+				EA493ED411FECEB000D13592 /* FtpDataConnection.m */,
+				EA493ED511FECEB000D13592 /* FtpDefines.h */,
+				EA493ED611FECEB000D13592 /* DiddyFtpServer.h */,
+				EA493ED711FECEB000D13592 /* DiddyFtpServer.m */,
+				EA493ED811FECEB000D13592 /* list.h */,
+				EA493ED911FECEB000D13592 /* list.m */,
+				EA493EDA11FECEB000D13592 /* NetworkController.h */,
+				EA493EDB11FECEB000D13592 /* NetworkController.m */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* myFtpServer_Prefix.pch in Headers */,
+				EA493EDC11FECEB000D13592 /* AsyncSocket.h in Headers */,
+				EA493EDE11FECEB000D13592 /* FtpConnection.h in Headers */,
+				EA493EE011FECEB000D13592 /* FtpDataConnection.h in Headers */,
+				EA493EE211FECEB000D13592 /* FtpDefines.h in Headers */,
+				EA493EE311FECEB000D13592 /* DiddyFtpServer.h in Headers */,
+				EA493EE511FECEB000D13592 /* list.h in Headers */,
+				EA493EE711FECEB000D13592 /* NetworkController.h in Headers */,
+				EAFF21D317BA6AC8006ED764 /* FtpServer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* myFtpServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "myFtpServer" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myFtpServer;
+			productName = myFtpServer2;
+			productReference = D2AAC07E0554694100DB518D /* libmyFtpServer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "myFtpServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* myFtpServer2 */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* myFtpServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA493EDD11FECEB000D13592 /* AsyncSocket.m in Sources */,
+				EA493EDF11FECEB000D13592 /* FtpConnection.m in Sources */,
+				EA493EE111FECEB000D13592 /* FtpDataConnection.m in Sources */,
+				EA493EE411FECEB000D13592 /* DiddyFtpServer.m in Sources */,
+				EA493EE611FECEB000D13592 /* list.m in Sources */,
+				EA493EE811FECEB000D13592 /* NetworkController.m in Sources */,
+				EAFF21D417BA6AC8006ED764 /* FtpServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/myFtpServer2.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = myFtpServer_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				PRODUCT_NAME = myFtpServer;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/myFtpServer2.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = myFtpServer_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				PRODUCT_NAME = myFtpServer;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "myFtpServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "myFtpServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
