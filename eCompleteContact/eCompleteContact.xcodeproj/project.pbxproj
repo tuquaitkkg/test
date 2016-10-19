@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90F0F4401DB6277E00A092B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0F43F1DB6277E00A092B7 /* AppDelegate.swift */; };
+		90F0F4421DB6277E00A092B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0F4411DB6277E00A092B7 /* ViewController.swift */; };
+		90F0F4441DB6277E00A092B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F0F4431DB6277E00A092B7 /* Assets.xcassets */; };
+		90F0F4471DB6277E00A092B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F0F4451DB6277E00A092B7 /* Main.storyboard */; };
+		90F0F4521DB6277E00A092B7 /* eCompleteContactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0F4511DB6277E00A092B7 /* eCompleteContactTests.swift */; };
+		90F0F45D1DB6277E00A092B7 /* eCompleteContactUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0F45C1DB6277E00A092B7 /* eCompleteContactUITests.swift */; };
+		C04BA62F877F7DA2E87E3632 /* Pods_eCompleteContact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED91012CF1932B0BF6BEC2C2 /* Pods_eCompleteContact.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90F0F44E1DB6277E00A092B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90F0F4341DB6277E00A092B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90F0F43B1DB6277E00A092B7;
+			remoteInfo = eCompleteContact;
+		};
+		90F0F4591DB6277E00A092B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90F0F4341DB6277E00A092B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90F0F43B1DB6277E00A092B7;
+			remoteInfo = eCompleteContact;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D6E808FEF39A425C23D3BA2 /* Pods-eCompleteContact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCompleteContact.release.xcconfig"; path = "Pods/Target Support Files/Pods-eCompleteContact/Pods-eCompleteContact.release.xcconfig"; sourceTree = "<group>"; };
+		90F0F43C1DB6277E00A092B7 /* eCompleteContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eCompleteContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F0F43F1DB6277E00A092B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90F0F4411DB6277E00A092B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90F0F4431DB6277E00A092B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90F0F4461DB6277E00A092B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90F0F4481DB6277E00A092B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F0F44D1DB6277E00A092B7 /* eCompleteContactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eCompleteContactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F0F4511DB6277E00A092B7 /* eCompleteContactTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eCompleteContactTests.swift; sourceTree = "<group>"; };
+		90F0F4531DB6277E00A092B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F0F4581DB6277E00A092B7 /* eCompleteContactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eCompleteContactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F0F45C1DB6277E00A092B7 /* eCompleteContactUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eCompleteContactUITests.swift; sourceTree = "<group>"; };
+		90F0F45E1DB6277E00A092B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED91012CF1932B0BF6BEC2C2 /* Pods_eCompleteContact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eCompleteContact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3E2B9C90A88F763F735A60 /* Pods-eCompleteContact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCompleteContact.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eCompleteContact/Pods-eCompleteContact.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90F0F4391DB6277E00A092B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04BA62F877F7DA2E87E3632 /* Pods_eCompleteContact.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F0F44A1DB6277E00A092B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F0F4551DB6277E00A092B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EC24C3D0DF34A9B27932289 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD3E2B9C90A88F763F735A60 /* Pods-eCompleteContact.debug.xcconfig */,
+				3D6E808FEF39A425C23D3BA2 /* Pods-eCompleteContact.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90F0F4331DB6277E00A092B7 = {
+			isa = PBXGroup;
+			children = (
+				90F0F43E1DB6277E00A092B7 /* eCompleteContact */,
+				90F0F4501DB6277E00A092B7 /* eCompleteContactTests */,
+				90F0F45B1DB6277E00A092B7 /* eCompleteContactUITests */,
+				90F0F43D1DB6277E00A092B7 /* Products */,
+				2EC24C3D0DF34A9B27932289 /* Pods */,
+				B5F12C93CE266A318C12F727 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90F0F43D1DB6277E00A092B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90F0F43C1DB6277E00A092B7 /* eCompleteContact.app */,
+				90F0F44D1DB6277E00A092B7 /* eCompleteContactTests.xctest */,
+				90F0F4581DB6277E00A092B7 /* eCompleteContactUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90F0F43E1DB6277E00A092B7 /* eCompleteContact */ = {
+			isa = PBXGroup;
+			children = (
+				90F0F43F1DB6277E00A092B7 /* AppDelegate.swift */,
+				90F0F4411DB6277E00A092B7 /* ViewController.swift */,
+				90F0F4431DB6277E00A092B7 /* Assets.xcassets */,
+				90F0F4451DB6277E00A092B7 /* Main.storyboard */,
+				90F0F4481DB6277E00A092B7 /* Info.plist */,
+			);
+			path = eCompleteContact;
+			sourceTree = "<group>";
+		};
+		90F0F4501DB6277E00A092B7 /* eCompleteContactTests */ = {
+			isa = PBXGroup;
+			children = (
+				90F0F4511DB6277E00A092B7 /* eCompleteContactTests.swift */,
+				90F0F4531DB6277E00A092B7 /* Info.plist */,
+			);
+			path = eCompleteContactTests;
+			sourceTree = "<group>";
+		};
+		90F0F45B1DB6277E00A092B7 /* eCompleteContactUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90F0F45C1DB6277E00A092B7 /* eCompleteContactUITests.swift */,
+				90F0F45E1DB6277E00A092B7 /* Info.plist */,
+			);
+			path = eCompleteContactUITests;
+			sourceTree = "<group>";
+		};
+		B5F12C93CE266A318C12F727 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED91012CF1932B0BF6BEC2C2 /* Pods_eCompleteContact.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90F0F43B1DB6277E00A092B7 /* eCompleteContact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90F0F4611DB6277E00A092B7 /* Build configuration list for PBXNativeTarget "eCompleteContact" */;
+			buildPhases = (
+				E224AC0C4432A1BF04C17827 /* [CP] Check Pods Manifest.lock */,
+				90F0F4381DB6277E00A092B7 /* Sources */,
+				90F0F4391DB6277E00A092B7 /* Frameworks */,
+				90F0F43A1DB6277E00A092B7 /* Resources */,
+				231D2482C248529559C473AD /* [CP] Embed Pods Frameworks */,
+				BCC6025F9C317CCFB758CD0F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eCompleteContact;
+			productName = eCompleteContact;
+			productReference = 90F0F43C1DB6277E00A092B7 /* eCompleteContact.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90F0F44C1DB6277E00A092B7 /* eCompleteContactTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90F0F4641DB6277E00A092B7 /* Build configuration list for PBXNativeTarget "eCompleteContactTests" */;
+			buildPhases = (
+				90F0F4491DB6277E00A092B7 /* Sources */,
+				90F0F44A1DB6277E00A092B7 /* Frameworks */,
+				90F0F44B1DB6277E00A092B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90F0F44F1DB6277E00A092B7 /* PBXTargetDependency */,
+			);
+			name = eCompleteContactTests;
+			productName = eCompleteContactTests;
+			productReference = 90F0F44D1DB6277E00A092B7 /* eCompleteContactTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90F0F4571DB6277E00A092B7 /* eCompleteContactUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90F0F4671DB6277E00A092B7 /* Build configuration list for PBXNativeTarget "eCompleteContactUITests" */;
+			buildPhases = (
+				90F0F4541DB6277E00A092B7 /* Sources */,
+				90F0F4551DB6277E00A092B7 /* Frameworks */,
+				90F0F4561DB6277E00A092B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90F0F45A1DB6277E00A092B7 /* PBXTargetDependency */,
+			);
+			name = eCompleteContactUITests;
+			productName = eCompleteContactUITests;
+			productReference = 90F0F4581DB6277E00A092B7 /* eCompleteContactUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90F0F4341DB6277E00A092B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = 3Si;
+				TargetAttributes = {
+					90F0F43B1DB6277E00A092B7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					90F0F44C1DB6277E00A092B7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90F0F43B1DB6277E00A092B7;
+					};
+					90F0F4571DB6277E00A092B7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90F0F43B1DB6277E00A092B7;
+					};
+				};
+			};
+			buildConfigurationList = 90F0F4371DB6277E00A092B7 /* Build configuration list for PBXProject "eCompleteContact" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90F0F4331DB6277E00A092B7;
+			productRefGroup = 90F0F43D1DB6277E00A092B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90F0F43B1DB6277E00A092B7 /* eCompleteContact */,
+				90F0F44C1DB6277E00A092B7 /* eCompleteContactTests */,
+				90F0F4571DB6277E00A092B7 /* eCompleteContactUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90F0F43A1DB6277E00A092B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F0F4441DB6277E00A092B7 /* Assets.xcassets in Resources */,
+				90F0F4471DB6277E00A092B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F0F44B1DB6277E00A092B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F0F4561DB6277E00A092B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		231D2482C248529559C473AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eCompleteContact/Pods-eCompleteContact-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCC6025F9C317CCFB758CD0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eCompleteContact/Pods-eCompleteContact-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E224AC0C4432A1BF04C17827 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90F0F4381DB6277E00A092B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F0F4421DB6277E00A092B7 /* ViewController.swift in Sources */,
+				90F0F4401DB6277E00A092B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F0F4491DB6277E00A092B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F0F4521DB6277E00A092B7 /* eCompleteContactTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F0F4541DB6277E00A092B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F0F45D1DB6277E00A092B7 /* eCompleteContactUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90F0F44F1DB6277E00A092B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90F0F43B1DB6277E00A092B7 /* eCompleteContact */;
+			targetProxy = 90F0F44E1DB6277E00A092B7 /* PBXContainerItemProxy */;
+		};
+		90F0F45A1DB6277E00A092B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90F0F43B1DB6277E00A092B7 /* eCompleteContact */;
+			targetProxy = 90F0F4591DB6277E00A092B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90F0F4451DB6277E00A092B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90F0F4461DB6277E00A092B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90F0F45F1DB6277E00A092B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90F0F4601DB6277E00A092B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		90F0F4621DB6277E00A092B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD3E2B9C90A88F763F735A60 /* Pods-eCompleteContact.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = eCompleteContact/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "-s.eCompleteContact";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		90F0F4631DB6277E00A092B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6E808FEF39A425C23D3BA2 /* Pods-eCompleteContact.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = eCompleteContact/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "-s.eCompleteContact";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		90F0F4651DB6277E00A092B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = eCompleteContactTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-s.eCompleteContactTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eCompleteContact.app/Contents/MacOS/eCompleteContact";
+			};
+			name = Debug;
+		};
+		90F0F4661DB6277E00A092B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = eCompleteContactTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-s.eCompleteContactTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eCompleteContact.app/Contents/MacOS/eCompleteContact";
+			};
+			name = Release;
+		};
+		90F0F4681DB6277E00A092B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = eCompleteContactUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-s.eCompleteContactUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = eCompleteContact;
+			};
+			name = Debug;
+		};
+		90F0F4691DB6277E00A092B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = eCompleteContactUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-s.eCompleteContactUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = eCompleteContact;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90F0F4371DB6277E00A092B7 /* Build configuration list for PBXProject "eCompleteContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F0F45F1DB6277E00A092B7 /* Debug */,
+				90F0F4601DB6277E00A092B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90F0F4611DB6277E00A092B7 /* Build configuration list for PBXNativeTarget "eCompleteContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F0F4621DB6277E00A092B7 /* Debug */,
+				90F0F4631DB6277E00A092B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90F0F4641DB6277E00A092B7 /* Build configuration list for PBXNativeTarget "eCompleteContactTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F0F4651DB6277E00A092B7 /* Debug */,
+				90F0F4661DB6277E00A092B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90F0F4671DB6277E00A092B7 /* Build configuration list for PBXNativeTarget "eCompleteContactUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F0F4681DB6277E00A092B7 /* Debug */,
+				90F0F4691DB6277E00A092B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90F0F4341DB6277E00A092B7 /* Project object */;
+}
