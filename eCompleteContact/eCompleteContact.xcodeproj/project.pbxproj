@@ -7,41 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		901C30C01DB9C5390019F53F /* EOfficeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30BF1DB9C5390019F53F /* EOfficeViewController.swift */; };
-		901C30C21DB9C5470019F53F /* EOfficeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30C11DB9C5470019F53F /* EOfficeViewModel.swift */; };
-		901C30C41DB9C5960019F53F /* EPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30C31DB9C5960019F53F /* EPhoneViewController.swift */; };
-		901C30C61DB9C5A20019F53F /* EPhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30C51DB9C5A20019F53F /* EPhoneViewModel.swift */; };
-		901C30C81DB9C70B0019F53F /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30C71DB9C70B0019F53F /* FacebookViewController.swift */; };
-		901C30CA1DB9C7180019F53F /* FacebookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30C91DB9C7180019F53F /* FacebookViewModel.swift */; };
-		901C30CC1DB9C7510019F53F /* ECloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30CB1DB9C7510019F53F /* ECloudViewController.swift */; };
-		901C30CE1DB9C77B0019F53F /* ECloudViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30CD1DB9C77B0019F53F /* ECloudViewModel.swift */; };
-		901C30D01DB9C7BD0019F53F /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30CF1DB9C7BD0019F53F /* TwitterViewController.swift */; };
-		901C30D21DB9C7CF0019F53F /* TwitterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30D11DB9C7CF0019F53F /* TwitterViewModel.swift */; };
-		901C30D41DB9C8160019F53F /* ECalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30D31DB9C8160019F53F /* ECalendarViewController.swift */; };
-		901C30D61DB9C8240019F53F /* ECalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30D51DB9C8240019F53F /* ECalendarViewModel.swift */; };
-		90E7A46D1DB9B79300848722 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A46C1DB9B79300848722 /* MainViewModel.swift */; };
-		90E7A46F1DB9B7CD00848722 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A46E1DB9B7CD00848722 /* ContactListViewController.swift */; };
-		90E7A4711DB9B7E200848722 /* ContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4701DB9B7E200848722 /* ContactListViewModel.swift */; };
-		90E7A4731DB9B8A300848722 /* DetailContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4721DB9B8A300848722 /* DetailContactListViewController.swift */; };
-		90E7A4751DB9B8BE00848722 /* DetailContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4741DB9B8BE00848722 /* DetailContactListViewModel.swift */; };
-		90E7A4771DB9B97D00848722 /* SpreadSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4761DB9B97D00848722 /* SpreadSheetViewController.swift */; };
-		90E7A4791DB9B99400848722 /* SpreadSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4781DB9B99400848722 /* SpreadSheetViewModel.swift */; };
-		90E7A47B1DB9B9EB00848722 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A47A1DB9B9EB00848722 /* AddContactViewController.swift */; };
-		90E7A47D1DB9B9F900848722 /* AddContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A47C1DB9B9F900848722 /* AddContactViewModel.swift */; };
-		90E7A47F1DB9BA9E00848722 /* SearchContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A47E1DB9BA9E00848722 /* SearchContactViewController.swift */; };
-		90E7A4811DB9BAB000848722 /* SearchContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4801DB9BAB000848722 /* SearchContactViewModel.swift */; };
-		90E7A4831DB9BB0C00848722 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4821DB9BB0C00848722 /* OptionsViewController.swift */; };
-		90E7A4851DB9BB1D00848722 /* OptionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4841DB9BB1D00848722 /* OptionsViewModel.swift */; };
-		90E7A4871DB9BBF300848722 /* TeamMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4861DB9BBF300848722 /* TeamMemberViewController.swift */; };
-		90E7A4891DB9BC0200848722 /* TeamMemberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4881DB9BC0200848722 /* TeamMemberViewModel.swift */; };
-		90E7A48B1DB9BC8300848722 /* FieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A48A1DB9BC8300848722 /* FieldsViewController.swift */; };
-		90E7A48D1DB9BC9B00848722 /* FieldsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A48C1DB9BC9B00848722 /* FieldsViewModel.swift */; };
-		90E7A48F1DB9BEA200848722 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A48E1DB9BEA200848722 /* MapViewController.swift */; };
-		90E7A4911DB9BEAD00848722 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4901DB9BEAD00848722 /* MapViewModel.swift */; };
-		90E7A4931DB9BF3300848722 /* EEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4921DB9BF3300848722 /* EEmailViewController.swift */; };
-		90E7A4951DB9BF4300848722 /* EEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4941DB9BF4300848722 /* EEmailViewModel.swift */; };
+		901C30EB1DB9C98F0019F53F /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30DA1DB9C98F0019F53F /* AddContactViewController.swift */; };
+		901C30EC1DB9C98F0019F53F /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30DB1DB9C98F0019F53F /* ContactListViewController.swift */; };
+		901C30ED1DB9C98F0019F53F /* DetailContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30DC1DB9C98F0019F53F /* DetailContactListViewController.swift */; };
+		901C30EE1DB9C98F0019F53F /* ECalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30DD1DB9C98F0019F53F /* ECalendarViewController.swift */; };
+		901C30EF1DB9C98F0019F53F /* ECloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30DE1DB9C98F0019F53F /* ECloudViewController.swift */; };
+		901C30F01DB9C98F0019F53F /* EEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30DF1DB9C98F0019F53F /* EEmailViewController.swift */; };
+		901C30F11DB9C98F0019F53F /* EOfficeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30E01DB9C98F0019F53F /* EOfficeViewController.swift */; };
+		901C30F21DB9C98F0019F53F /* EPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30E11DB9C98F0019F53F /* EPhoneViewController.swift */; };
+		901C30F31DB9C98F0019F53F /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30E21DB9C98F0019F53F /* FacebookViewController.swift */; };
+		901C30F41DB9C98F0019F53F /* FieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30E31DB9C98F0019F53F /* FieldsViewController.swift */; };
+		901C30F51DB9C98F0019F53F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30E41DB9C98F0019F53F /* MainViewController.swift */; };
+		901C30F61DB9C98F0019F53F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30E51DB9C98F0019F53F /* MapViewController.swift */; };
+		901C30F71DB9C98F0019F53F /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30E61DB9C98F0019F53F /* OptionsViewController.swift */; };
+		901C30F81DB9C98F0019F53F /* SearchContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30E71DB9C98F0019F53F /* SearchContactViewController.swift */; };
+		901C30F91DB9C98F0019F53F /* SpreadSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30E81DB9C98F0019F53F /* SpreadSheetViewController.swift */; };
+		901C30FA1DB9C98F0019F53F /* TeamMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30E91DB9C98F0019F53F /* TeamMemberViewController.swift */; };
+		901C30FB1DB9C98F0019F53F /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30EA1DB9C98F0019F53F /* TwitterViewController.swift */; };
+		901C310E1DB9C9970019F53F /* AddContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30FD1DB9C9970019F53F /* AddContactViewModel.swift */; };
+		901C310F1DB9C9970019F53F /* ContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30FE1DB9C9970019F53F /* ContactListViewModel.swift */; };
+		901C31101DB9C9970019F53F /* DetailContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30FF1DB9C9970019F53F /* DetailContactListViewModel.swift */; };
+		901C31111DB9C9970019F53F /* ECalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C31001DB9C9970019F53F /* ECalendarViewModel.swift */; };
+		901C31121DB9C9970019F53F /* ECloudViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C31011DB9C9970019F53F /* ECloudViewModel.swift */; };
+		901C31131DB9C9970019F53F /* EEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C31021DB9C9970019F53F /* EEmailViewModel.swift */; };
+		901C31141DB9C9970019F53F /* EOfficeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C31031DB9C9970019F53F /* EOfficeViewModel.swift */; };
+		901C31151DB9C9970019F53F /* EPhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C31041DB9C9970019F53F /* EPhoneViewModel.swift */; };
+		901C31161DB9C9970019F53F /* FacebookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C31051DB9C9970019F53F /* FacebookViewModel.swift */; };
+		901C31171DB9C9970019F53F /* FieldsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C31061DB9C9970019F53F /* FieldsViewModel.swift */; };
+		901C31181DB9C9970019F53F /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C31071DB9C9970019F53F /* MainViewModel.swift */; };
+		901C31191DB9C9970019F53F /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C31081DB9C9970019F53F /* MapViewModel.swift */; };
+		901C311A1DB9C9970019F53F /* OptionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C31091DB9C9970019F53F /* OptionsViewModel.swift */; };
+		901C311B1DB9C9970019F53F /* SearchContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C310A1DB9C9970019F53F /* SearchContactViewModel.swift */; };
+		901C311C1DB9C9970019F53F /* SpreadSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C310B1DB9C9970019F53F /* SpreadSheetViewModel.swift */; };
+		901C311D1DB9C9970019F53F /* TeamMemberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C310C1DB9C9970019F53F /* TeamMemberViewModel.swift */; };
+		901C311E1DB9C9970019F53F /* TwitterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C310D1DB9C9970019F53F /* TwitterViewModel.swift */; };
 		90F0F4401DB6277E00A092B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0F43F1DB6277E00A092B7 /* AppDelegate.swift */; };
-		90F0F4421DB6277E00A092B7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0F4411DB6277E00A092B7 /* MainViewController.swift */; };
 		90F0F4441DB6277E00A092B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F0F4431DB6277E00A092B7 /* Assets.xcassets */; };
 		90F0F4471DB6277E00A092B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F0F4451DB6277E00A092B7 /* Main.storyboard */; };
 		90F0F4521DB6277E00A092B7 /* eCompleteContactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0F4511DB6277E00A092B7 /* eCompleteContactTests.swift */; };
@@ -68,42 +68,42 @@
 
 /* Begin PBXFileReference section */
 		3D6E808FEF39A425C23D3BA2 /* Pods-eCompleteContact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCompleteContact.release.xcconfig"; path = "Pods/Target Support Files/Pods-eCompleteContact/Pods-eCompleteContact.release.xcconfig"; sourceTree = "<group>"; };
-		901C30BF1DB9C5390019F53F /* EOfficeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOfficeViewController.swift; sourceTree = "<group>"; };
-		901C30C11DB9C5470019F53F /* EOfficeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOfficeViewModel.swift; sourceTree = "<group>"; };
-		901C30C31DB9C5960019F53F /* EPhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPhoneViewController.swift; sourceTree = "<group>"; };
-		901C30C51DB9C5A20019F53F /* EPhoneViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPhoneViewModel.swift; sourceTree = "<group>"; };
-		901C30C71DB9C70B0019F53F /* FacebookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookViewController.swift; sourceTree = "<group>"; };
-		901C30C91DB9C7180019F53F /* FacebookViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookViewModel.swift; sourceTree = "<group>"; };
-		901C30CB1DB9C7510019F53F /* ECloudViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECloudViewController.swift; sourceTree = "<group>"; };
-		901C30CD1DB9C77B0019F53F /* ECloudViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECloudViewModel.swift; sourceTree = "<group>"; };
-		901C30CF1DB9C7BD0019F53F /* TwitterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
-		901C30D11DB9C7CF0019F53F /* TwitterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterViewModel.swift; sourceTree = "<group>"; };
-		901C30D31DB9C8160019F53F /* ECalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECalendarViewController.swift; sourceTree = "<group>"; };
-		901C30D51DB9C8240019F53F /* ECalendarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECalendarViewModel.swift; sourceTree = "<group>"; };
-		90E7A46C1DB9B79300848722 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
-		90E7A46E1DB9B7CD00848722 /* ContactListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
-		90E7A4701DB9B7E200848722 /* ContactListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListViewModel.swift; sourceTree = "<group>"; };
-		90E7A4721DB9B8A300848722 /* DetailContactListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailContactListViewController.swift; sourceTree = "<group>"; };
-		90E7A4741DB9B8BE00848722 /* DetailContactListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailContactListViewModel.swift; sourceTree = "<group>"; };
-		90E7A4761DB9B97D00848722 /* SpreadSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpreadSheetViewController.swift; sourceTree = "<group>"; };
-		90E7A4781DB9B99400848722 /* SpreadSheetViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpreadSheetViewModel.swift; sourceTree = "<group>"; };
-		90E7A47A1DB9B9EB00848722 /* AddContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
-		90E7A47C1DB9B9F900848722 /* AddContactViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewModel.swift; sourceTree = "<group>"; };
-		90E7A47E1DB9BA9E00848722 /* SearchContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchContactViewController.swift; sourceTree = "<group>"; };
-		90E7A4801DB9BAB000848722 /* SearchContactViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchContactViewModel.swift; sourceTree = "<group>"; };
-		90E7A4821DB9BB0C00848722 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
-		90E7A4841DB9BB1D00848722 /* OptionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewModel.swift; sourceTree = "<group>"; };
-		90E7A4861DB9BBF300848722 /* TeamMemberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamMemberViewController.swift; sourceTree = "<group>"; };
-		90E7A4881DB9BC0200848722 /* TeamMemberViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamMemberViewModel.swift; sourceTree = "<group>"; };
-		90E7A48A1DB9BC8300848722 /* FieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldsViewController.swift; sourceTree = "<group>"; };
-		90E7A48C1DB9BC9B00848722 /* FieldsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldsViewModel.swift; sourceTree = "<group>"; };
-		90E7A48E1DB9BEA200848722 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		90E7A4901DB9BEAD00848722 /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
-		90E7A4921DB9BF3300848722 /* EEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EEmailViewController.swift; sourceTree = "<group>"; };
-		90E7A4941DB9BF4300848722 /* EEmailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EEmailViewModel.swift; sourceTree = "<group>"; };
+		901C30DA1DB9C98F0019F53F /* AddContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		901C30DB1DB9C98F0019F53F /* ContactListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		901C30DC1DB9C98F0019F53F /* DetailContactListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailContactListViewController.swift; sourceTree = "<group>"; };
+		901C30DD1DB9C98F0019F53F /* ECalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECalendarViewController.swift; sourceTree = "<group>"; };
+		901C30DE1DB9C98F0019F53F /* ECloudViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECloudViewController.swift; sourceTree = "<group>"; };
+		901C30DF1DB9C98F0019F53F /* EEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EEmailViewController.swift; sourceTree = "<group>"; };
+		901C30E01DB9C98F0019F53F /* EOfficeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOfficeViewController.swift; sourceTree = "<group>"; };
+		901C30E11DB9C98F0019F53F /* EPhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPhoneViewController.swift; sourceTree = "<group>"; };
+		901C30E21DB9C98F0019F53F /* FacebookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookViewController.swift; sourceTree = "<group>"; };
+		901C30E31DB9C98F0019F53F /* FieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldsViewController.swift; sourceTree = "<group>"; };
+		901C30E41DB9C98F0019F53F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		901C30E51DB9C98F0019F53F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		901C30E61DB9C98F0019F53F /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		901C30E71DB9C98F0019F53F /* SearchContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchContactViewController.swift; sourceTree = "<group>"; };
+		901C30E81DB9C98F0019F53F /* SpreadSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpreadSheetViewController.swift; sourceTree = "<group>"; };
+		901C30E91DB9C98F0019F53F /* TeamMemberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamMemberViewController.swift; sourceTree = "<group>"; };
+		901C30EA1DB9C98F0019F53F /* TwitterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
+		901C30FD1DB9C9970019F53F /* AddContactViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewModel.swift; sourceTree = "<group>"; };
+		901C30FE1DB9C9970019F53F /* ContactListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListViewModel.swift; sourceTree = "<group>"; };
+		901C30FF1DB9C9970019F53F /* DetailContactListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailContactListViewModel.swift; sourceTree = "<group>"; };
+		901C31001DB9C9970019F53F /* ECalendarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECalendarViewModel.swift; sourceTree = "<group>"; };
+		901C31011DB9C9970019F53F /* ECloudViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECloudViewModel.swift; sourceTree = "<group>"; };
+		901C31021DB9C9970019F53F /* EEmailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EEmailViewModel.swift; sourceTree = "<group>"; };
+		901C31031DB9C9970019F53F /* EOfficeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOfficeViewModel.swift; sourceTree = "<group>"; };
+		901C31041DB9C9970019F53F /* EPhoneViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPhoneViewModel.swift; sourceTree = "<group>"; };
+		901C31051DB9C9970019F53F /* FacebookViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookViewModel.swift; sourceTree = "<group>"; };
+		901C31061DB9C9970019F53F /* FieldsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldsViewModel.swift; sourceTree = "<group>"; };
+		901C31071DB9C9970019F53F /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		901C31081DB9C9970019F53F /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		901C31091DB9C9970019F53F /* OptionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewModel.swift; sourceTree = "<group>"; };
+		901C310A1DB9C9970019F53F /* SearchContactViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchContactViewModel.swift; sourceTree = "<group>"; };
+		901C310B1DB9C9970019F53F /* SpreadSheetViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpreadSheetViewModel.swift; sourceTree = "<group>"; };
+		901C310C1DB9C9970019F53F /* TeamMemberViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamMemberViewModel.swift; sourceTree = "<group>"; };
+		901C310D1DB9C9970019F53F /* TwitterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterViewModel.swift; sourceTree = "<group>"; };
 		90F0F43C1DB6277E00A092B7 /* eCompleteContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eCompleteContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F0F43F1DB6277E00A092B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90F0F4411DB6277E00A092B7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		90F0F4431DB6277E00A092B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90F0F4461DB6277E00A092B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90F0F4481DB6277E00A092B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -152,6 +152,54 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		901C30D91DB9C98F0019F53F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				901C30DA1DB9C98F0019F53F /* AddContactViewController.swift */,
+				901C30DB1DB9C98F0019F53F /* ContactListViewController.swift */,
+				901C30DC1DB9C98F0019F53F /* DetailContactListViewController.swift */,
+				901C30DD1DB9C98F0019F53F /* ECalendarViewController.swift */,
+				901C30DE1DB9C98F0019F53F /* ECloudViewController.swift */,
+				901C30DF1DB9C98F0019F53F /* EEmailViewController.swift */,
+				901C30E01DB9C98F0019F53F /* EOfficeViewController.swift */,
+				901C30E11DB9C98F0019F53F /* EPhoneViewController.swift */,
+				901C30E21DB9C98F0019F53F /* FacebookViewController.swift */,
+				901C30E31DB9C98F0019F53F /* FieldsViewController.swift */,
+				901C30E41DB9C98F0019F53F /* MainViewController.swift */,
+				901C30E51DB9C98F0019F53F /* MapViewController.swift */,
+				901C30E61DB9C98F0019F53F /* OptionsViewController.swift */,
+				901C30E71DB9C98F0019F53F /* SearchContactViewController.swift */,
+				901C30E81DB9C98F0019F53F /* SpreadSheetViewController.swift */,
+				901C30E91DB9C98F0019F53F /* TeamMemberViewController.swift */,
+				901C30EA1DB9C98F0019F53F /* TwitterViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		901C30FC1DB9C9970019F53F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				901C30FD1DB9C9970019F53F /* AddContactViewModel.swift */,
+				901C30FE1DB9C9970019F53F /* ContactListViewModel.swift */,
+				901C30FF1DB9C9970019F53F /* DetailContactListViewModel.swift */,
+				901C31001DB9C9970019F53F /* ECalendarViewModel.swift */,
+				901C31011DB9C9970019F53F /* ECloudViewModel.swift */,
+				901C31021DB9C9970019F53F /* EEmailViewModel.swift */,
+				901C31031DB9C9970019F53F /* EOfficeViewModel.swift */,
+				901C31041DB9C9970019F53F /* EPhoneViewModel.swift */,
+				901C31051DB9C9970019F53F /* FacebookViewModel.swift */,
+				901C31061DB9C9970019F53F /* FieldsViewModel.swift */,
+				901C31071DB9C9970019F53F /* MainViewModel.swift */,
+				901C31081DB9C9970019F53F /* MapViewModel.swift */,
+				901C31091DB9C9970019F53F /* OptionsViewModel.swift */,
+				901C310A1DB9C9970019F53F /* SearchContactViewModel.swift */,
+				901C310B1DB9C9970019F53F /* SpreadSheetViewModel.swift */,
+				901C310C1DB9C9970019F53F /* TeamMemberViewModel.swift */,
+				901C310D1DB9C9970019F53F /* TwitterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		90F0F4331DB6277E00A092B7 = {
 			isa = PBXGroup;
 			children = (
@@ -177,41 +225,9 @@
 		90F0F43E1DB6277E00A092B7 /* eCompleteContact */ = {
 			isa = PBXGroup;
 			children = (
+				901C30FC1DB9C9970019F53F /* ViewModel */,
+				901C30D91DB9C98F0019F53F /* ViewController */,
 				90F0F43F1DB6277E00A092B7 /* AppDelegate.swift */,
-				90E7A46C1DB9B79300848722 /* MainViewModel.swift */,
-				90F0F4411DB6277E00A092B7 /* MainViewController.swift */,
-				90E7A46E1DB9B7CD00848722 /* ContactListViewController.swift */,
-				90E7A4701DB9B7E200848722 /* ContactListViewModel.swift */,
-				90E7A4721DB9B8A300848722 /* DetailContactListViewController.swift */,
-				90E7A4741DB9B8BE00848722 /* DetailContactListViewModel.swift */,
-				90E7A4761DB9B97D00848722 /* SpreadSheetViewController.swift */,
-				90E7A4781DB9B99400848722 /* SpreadSheetViewModel.swift */,
-				90E7A47A1DB9B9EB00848722 /* AddContactViewController.swift */,
-				90E7A47C1DB9B9F900848722 /* AddContactViewModel.swift */,
-				90E7A47E1DB9BA9E00848722 /* SearchContactViewController.swift */,
-				90E7A4801DB9BAB000848722 /* SearchContactViewModel.swift */,
-				90E7A4821DB9BB0C00848722 /* OptionsViewController.swift */,
-				90E7A4841DB9BB1D00848722 /* OptionsViewModel.swift */,
-				90E7A4861DB9BBF300848722 /* TeamMemberViewController.swift */,
-				90E7A4881DB9BC0200848722 /* TeamMemberViewModel.swift */,
-				90E7A48A1DB9BC8300848722 /* FieldsViewController.swift */,
-				90E7A48C1DB9BC9B00848722 /* FieldsViewModel.swift */,
-				90E7A48E1DB9BEA200848722 /* MapViewController.swift */,
-				90E7A4901DB9BEAD00848722 /* MapViewModel.swift */,
-				90E7A4921DB9BF3300848722 /* EEmailViewController.swift */,
-				90E7A4941DB9BF4300848722 /* EEmailViewModel.swift */,
-				901C30BF1DB9C5390019F53F /* EOfficeViewController.swift */,
-				901C30C11DB9C5470019F53F /* EOfficeViewModel.swift */,
-				901C30C31DB9C5960019F53F /* EPhoneViewController.swift */,
-				901C30C51DB9C5A20019F53F /* EPhoneViewModel.swift */,
-				901C30C71DB9C70B0019F53F /* FacebookViewController.swift */,
-				901C30C91DB9C7180019F53F /* FacebookViewModel.swift */,
-				901C30CB1DB9C7510019F53F /* ECloudViewController.swift */,
-				901C30CD1DB9C77B0019F53F /* ECloudViewModel.swift */,
-				901C30CF1DB9C7BD0019F53F /* TwitterViewController.swift */,
-				901C30D11DB9C7CF0019F53F /* TwitterViewModel.swift */,
-				901C30D31DB9C8160019F53F /* ECalendarViewController.swift */,
-				901C30D51DB9C8240019F53F /* ECalendarViewModel.swift */,
 				90F0F4431DB6277E00A092B7 /* Assets.xcassets */,
 				90F0F4451DB6277E00A092B7 /* Main.storyboard */,
 				90F0F4481DB6277E00A092B7 /* Info.plist */,
@@ -429,41 +445,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				901C30D21DB9C7CF0019F53F /* TwitterViewModel.swift in Sources */,
-				901C30C01DB9C5390019F53F /* EOfficeViewController.swift in Sources */,
-				90E7A4731DB9B8A300848722 /* DetailContactListViewController.swift in Sources */,
-				90E7A4771DB9B97D00848722 /* SpreadSheetViewController.swift in Sources */,
-				90E7A4891DB9BC0200848722 /* TeamMemberViewModel.swift in Sources */,
-				90E7A4931DB9BF3300848722 /* EEmailViewController.swift in Sources */,
-				901C30CE1DB9C77B0019F53F /* ECloudViewModel.swift in Sources */,
-				90E7A48F1DB9BEA200848722 /* MapViewController.swift in Sources */,
-				901C30D61DB9C8240019F53F /* ECalendarViewModel.swift in Sources */,
-				90E7A4711DB9B7E200848722 /* ContactListViewModel.swift in Sources */,
-				901C30D01DB9C7BD0019F53F /* TwitterViewController.swift in Sources */,
-				90E7A4831DB9BB0C00848722 /* OptionsViewController.swift in Sources */,
-				90E7A4811DB9BAB000848722 /* SearchContactViewModel.swift in Sources */,
-				90E7A4951DB9BF4300848722 /* EEmailViewModel.swift in Sources */,
-				90E7A47D1DB9B9F900848722 /* AddContactViewModel.swift in Sources */,
-				90E7A4751DB9B8BE00848722 /* DetailContactListViewModel.swift in Sources */,
-				901C30CA1DB9C7180019F53F /* FacebookViewModel.swift in Sources */,
-				90E7A4871DB9BBF300848722 /* TeamMemberViewController.swift in Sources */,
-				901C30CC1DB9C7510019F53F /* ECloudViewController.swift in Sources */,
-				90E7A4851DB9BB1D00848722 /* OptionsViewModel.swift in Sources */,
-				901C30C21DB9C5470019F53F /* EOfficeViewModel.swift in Sources */,
-				90E7A4911DB9BEAD00848722 /* MapViewModel.swift in Sources */,
-				90E7A4791DB9B99400848722 /* SpreadSheetViewModel.swift in Sources */,
-				901C30C61DB9C5A20019F53F /* EPhoneViewModel.swift in Sources */,
-				90E7A47B1DB9B9EB00848722 /* AddContactViewController.swift in Sources */,
-				90E7A47F1DB9BA9E00848722 /* SearchContactViewController.swift in Sources */,
-				901C30C41DB9C5960019F53F /* EPhoneViewController.swift in Sources */,
-				90F0F4421DB6277E00A092B7 /* MainViewController.swift in Sources */,
-				901C30C81DB9C70B0019F53F /* FacebookViewController.swift in Sources */,
-				90E7A46F1DB9B7CD00848722 /* ContactListViewController.swift in Sources */,
+				901C30EE1DB9C98F0019F53F /* ECalendarViewController.swift in Sources */,
+				901C30FA1DB9C98F0019F53F /* TeamMemberViewController.swift in Sources */,
+				901C30F91DB9C98F0019F53F /* SpreadSheetViewController.swift in Sources */,
 				90F0F4401DB6277E00A092B7 /* AppDelegate.swift in Sources */,
-				901C30D41DB9C8160019F53F /* ECalendarViewController.swift in Sources */,
-				90E7A46D1DB9B79300848722 /* MainViewModel.swift in Sources */,
-				90E7A48D1DB9BC9B00848722 /* FieldsViewModel.swift in Sources */,
-				90E7A48B1DB9BC8300848722 /* FieldsViewController.swift in Sources */,
+				901C30F31DB9C98F0019F53F /* FacebookViewController.swift in Sources */,
+				901C311B1DB9C9970019F53F /* SearchContactViewModel.swift in Sources */,
+				901C311E1DB9C9970019F53F /* TwitterViewModel.swift in Sources */,
+				901C310F1DB9C9970019F53F /* ContactListViewModel.swift in Sources */,
+				901C30F71DB9C98F0019F53F /* OptionsViewController.swift in Sources */,
+				901C31151DB9C9970019F53F /* EPhoneViewModel.swift in Sources */,
+				901C31181DB9C9970019F53F /* MainViewModel.swift in Sources */,
+				901C30FB1DB9C98F0019F53F /* TwitterViewController.swift in Sources */,
+				901C30F51DB9C98F0019F53F /* MainViewController.swift in Sources */,
+				901C31191DB9C9970019F53F /* MapViewModel.swift in Sources */,
+				901C31131DB9C9970019F53F /* EEmailViewModel.swift in Sources */,
+				901C31101DB9C9970019F53F /* DetailContactListViewModel.swift in Sources */,
+				901C30EF1DB9C98F0019F53F /* ECloudViewController.swift in Sources */,
+				901C30F21DB9C98F0019F53F /* EPhoneViewController.swift in Sources */,
+				901C30F61DB9C98F0019F53F /* MapViewController.swift in Sources */,
+				901C310E1DB9C9970019F53F /* AddContactViewModel.swift in Sources */,
+				901C311D1DB9C9970019F53F /* TeamMemberViewModel.swift in Sources */,
+				901C30EB1DB9C98F0019F53F /* AddContactViewController.swift in Sources */,
+				901C30ED1DB9C98F0019F53F /* DetailContactListViewController.swift in Sources */,
+				901C30F81DB9C98F0019F53F /* SearchContactViewController.swift in Sources */,
+				901C30F41DB9C98F0019F53F /* FieldsViewController.swift in Sources */,
+				901C31111DB9C9970019F53F /* ECalendarViewModel.swift in Sources */,
+				901C31121DB9C9970019F53F /* ECloudViewModel.swift in Sources */,
+				901C30F01DB9C98F0019F53F /* EEmailViewController.swift in Sources */,
+				901C31171DB9C9970019F53F /* FieldsViewModel.swift in Sources */,
+				901C30F11DB9C98F0019F53F /* EOfficeViewController.swift in Sources */,
+				901C30EC1DB9C98F0019F53F /* ContactListViewController.swift in Sources */,
+				901C31161DB9C9970019F53F /* FacebookViewModel.swift in Sources */,
+				901C31141DB9C9970019F53F /* EOfficeViewModel.swift in Sources */,
+				901C311C1DB9C9970019F53F /* SpreadSheetViewModel.swift in Sources */,
+				901C311A1DB9C9970019F53F /* OptionsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
