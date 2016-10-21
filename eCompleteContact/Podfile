@@ -8,6 +8,7 @@ target 'eCompleteContact' do
     pod 'SwiftyJSON', '3.1.1'
     pod 'Alamofire',  '4.0'
     pod 'RxAlamofire', '3.0.0-rc.1'
+    pod 'RealmSwift', git: 'https://github.com/realm/realm-cocoa.git', branch: 'master', submodules: true
 end
 
 post_install do |installer|

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BE3230ACFD4647D2A3B8EEC36B11A4C3"
+               BlueprintIdentifier = "BA41584153C1F027AD1FCC7B1DA6BA74"
                BuildableName = "Pods_eCompleteContact.framework"
                BlueprintName = "Pods-eCompleteContact"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BE3230ACFD4647D2A3B8EEC36B11A4C3"
+            BlueprintIdentifier = "BA41584153C1F027AD1FCC7B1DA6BA74"
             BuildableName = "Pods_eCompleteContact.framework"
             BlueprintName = "Pods-eCompleteContact"
             ReferencedContainer = "container:Pods.xcodeproj">

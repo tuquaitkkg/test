@@ -7,8 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90E7A46D1DB9B79300848722 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A46C1DB9B79300848722 /* MainViewModel.swift */; };
+		90E7A46F1DB9B7CD00848722 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A46E1DB9B7CD00848722 /* ContactListViewController.swift */; };
+		90E7A4711DB9B7E200848722 /* ContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4701DB9B7E200848722 /* ContactListViewModel.swift */; };
+		90E7A4731DB9B8A300848722 /* DetailContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4721DB9B8A300848722 /* DetailContactListViewController.swift */; };
+		90E7A4751DB9B8BE00848722 /* DetailContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4741DB9B8BE00848722 /* DetailContactListViewModel.swift */; };
+		90E7A4771DB9B97D00848722 /* SpreadSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4761DB9B97D00848722 /* SpreadSheetViewController.swift */; };
+		90E7A4791DB9B99400848722 /* SpreadSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4781DB9B99400848722 /* SpreadSheetViewModel.swift */; };
+		90E7A47B1DB9B9EB00848722 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A47A1DB9B9EB00848722 /* AddContactViewController.swift */; };
+		90E7A47D1DB9B9F900848722 /* AddContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A47C1DB9B9F900848722 /* AddContactViewModel.swift */; };
+		90E7A47F1DB9BA9E00848722 /* SearchContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A47E1DB9BA9E00848722 /* SearchContactViewController.swift */; };
+		90E7A4811DB9BAB000848722 /* SearchContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4801DB9BAB000848722 /* SearchContactViewModel.swift */; };
+		90E7A4831DB9BB0C00848722 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4821DB9BB0C00848722 /* OptionsViewController.swift */; };
+		90E7A4851DB9BB1D00848722 /* OptionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4841DB9BB1D00848722 /* OptionsViewModel.swift */; };
+		90E7A4871DB9BBF300848722 /* TeamMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4861DB9BBF300848722 /* TeamMemberViewController.swift */; };
+		90E7A4891DB9BC0200848722 /* TeamMemberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4881DB9BC0200848722 /* TeamMemberViewModel.swift */; };
+		90E7A48B1DB9BC8300848722 /* FieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A48A1DB9BC8300848722 /* FieldsViewController.swift */; };
+		90E7A48D1DB9BC9B00848722 /* FieldsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A48C1DB9BC9B00848722 /* FieldsViewModel.swift */; };
+		90E7A48F1DB9BEA200848722 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A48E1DB9BEA200848722 /* MapViewController.swift */; };
+		90E7A4911DB9BEAD00848722 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4901DB9BEAD00848722 /* MapViewModel.swift */; };
+		90E7A4931DB9BF3300848722 /* SelectMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4921DB9BF3300848722 /* SelectMailViewController.swift */; };
+		90E7A4951DB9BF4300848722 /* SelectMailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E7A4941DB9BF4300848722 /* SelectMailViewModel.swift */; };
 		90F0F4401DB6277E00A092B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0F43F1DB6277E00A092B7 /* AppDelegate.swift */; };
-		90F0F4421DB6277E00A092B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0F4411DB6277E00A092B7 /* ViewController.swift */; };
+		90F0F4421DB6277E00A092B7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0F4411DB6277E00A092B7 /* MainViewController.swift */; };
 		90F0F4441DB6277E00A092B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F0F4431DB6277E00A092B7 /* Assets.xcassets */; };
 		90F0F4471DB6277E00A092B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F0F4451DB6277E00A092B7 /* Main.storyboard */; };
 		90F0F4521DB6277E00A092B7 /* eCompleteContactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0F4511DB6277E00A092B7 /* eCompleteContactTests.swift */; };
@@ -35,9 +56,30 @@
 
 /* Begin PBXFileReference section */
 		3D6E808FEF39A425C23D3BA2 /* Pods-eCompleteContact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCompleteContact.release.xcconfig"; path = "Pods/Target Support Files/Pods-eCompleteContact/Pods-eCompleteContact.release.xcconfig"; sourceTree = "<group>"; };
+		90E7A46C1DB9B79300848722 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		90E7A46E1DB9B7CD00848722 /* ContactListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		90E7A4701DB9B7E200848722 /* ContactListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListViewModel.swift; sourceTree = "<group>"; };
+		90E7A4721DB9B8A300848722 /* DetailContactListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailContactListViewController.swift; sourceTree = "<group>"; };
+		90E7A4741DB9B8BE00848722 /* DetailContactListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailContactListViewModel.swift; sourceTree = "<group>"; };
+		90E7A4761DB9B97D00848722 /* SpreadSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpreadSheetViewController.swift; sourceTree = "<group>"; };
+		90E7A4781DB9B99400848722 /* SpreadSheetViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpreadSheetViewModel.swift; sourceTree = "<group>"; };
+		90E7A47A1DB9B9EB00848722 /* AddContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		90E7A47C1DB9B9F900848722 /* AddContactViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewModel.swift; sourceTree = "<group>"; };
+		90E7A47E1DB9BA9E00848722 /* SearchContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchContactViewController.swift; sourceTree = "<group>"; };
+		90E7A4801DB9BAB000848722 /* SearchContactViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchContactViewModel.swift; sourceTree = "<group>"; };
+		90E7A4821DB9BB0C00848722 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		90E7A4841DB9BB1D00848722 /* OptionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewModel.swift; sourceTree = "<group>"; };
+		90E7A4861DB9BBF300848722 /* TeamMemberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamMemberViewController.swift; sourceTree = "<group>"; };
+		90E7A4881DB9BC0200848722 /* TeamMemberViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamMemberViewModel.swift; sourceTree = "<group>"; };
+		90E7A48A1DB9BC8300848722 /* FieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldsViewController.swift; sourceTree = "<group>"; };
+		90E7A48C1DB9BC9B00848722 /* FieldsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldsViewModel.swift; sourceTree = "<group>"; };
+		90E7A48E1DB9BEA200848722 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		90E7A4901DB9BEAD00848722 /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		90E7A4921DB9BF3300848722 /* SelectMailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectMailViewController.swift; sourceTree = "<group>"; };
+		90E7A4941DB9BF4300848722 /* SelectMailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectMailViewModel.swift; sourceTree = "<group>"; };
 		90F0F43C1DB6277E00A092B7 /* eCompleteContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eCompleteContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F0F43F1DB6277E00A092B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90F0F4411DB6277E00A092B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90F0F4411DB6277E00A092B7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		90F0F4431DB6277E00A092B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90F0F4461DB6277E00A092B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90F0F4481DB6277E00A092B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -112,7 +154,28 @@
 			isa = PBXGroup;
 			children = (
 				90F0F43F1DB6277E00A092B7 /* AppDelegate.swift */,
-				90F0F4411DB6277E00A092B7 /* ViewController.swift */,
+				90E7A46C1DB9B79300848722 /* MainViewModel.swift */,
+				90F0F4411DB6277E00A092B7 /* MainViewController.swift */,
+				90E7A46E1DB9B7CD00848722 /* ContactListViewController.swift */,
+				90E7A4701DB9B7E200848722 /* ContactListViewModel.swift */,
+				90E7A4721DB9B8A300848722 /* DetailContactListViewController.swift */,
+				90E7A4741DB9B8BE00848722 /* DetailContactListViewModel.swift */,
+				90E7A4761DB9B97D00848722 /* SpreadSheetViewController.swift */,
+				90E7A4781DB9B99400848722 /* SpreadSheetViewModel.swift */,
+				90E7A47A1DB9B9EB00848722 /* AddContactViewController.swift */,
+				90E7A47C1DB9B9F900848722 /* AddContactViewModel.swift */,
+				90E7A47E1DB9BA9E00848722 /* SearchContactViewController.swift */,
+				90E7A4801DB9BAB000848722 /* SearchContactViewModel.swift */,
+				90E7A4821DB9BB0C00848722 /* OptionsViewController.swift */,
+				90E7A4841DB9BB1D00848722 /* OptionsViewModel.swift */,
+				90E7A4861DB9BBF300848722 /* TeamMemberViewController.swift */,
+				90E7A4881DB9BC0200848722 /* TeamMemberViewModel.swift */,
+				90E7A48A1DB9BC8300848722 /* FieldsViewController.swift */,
+				90E7A48C1DB9BC9B00848722 /* FieldsViewModel.swift */,
+				90E7A48E1DB9BEA200848722 /* MapViewController.swift */,
+				90E7A4901DB9BEAD00848722 /* MapViewModel.swift */,
+				90E7A4921DB9BF3300848722 /* SelectMailViewController.swift */,
+				90E7A4941DB9BF4300848722 /* SelectMailViewModel.swift */,
 				90F0F4431DB6277E00A092B7 /* Assets.xcassets */,
 				90F0F4451DB6277E00A092B7 /* Main.storyboard */,
 				90F0F4481DB6277E00A092B7 /* Info.plist */,
@@ -330,8 +393,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90F0F4421DB6277E00A092B7 /* ViewController.swift in Sources */,
+				90E7A4731DB9B8A300848722 /* DetailContactListViewController.swift in Sources */,
+				90E7A4771DB9B97D00848722 /* SpreadSheetViewController.swift in Sources */,
+				90E7A4891DB9BC0200848722 /* TeamMemberViewModel.swift in Sources */,
+				90E7A4931DB9BF3300848722 /* SelectMailViewController.swift in Sources */,
+				90E7A48F1DB9BEA200848722 /* MapViewController.swift in Sources */,
+				90E7A4711DB9B7E200848722 /* ContactListViewModel.swift in Sources */,
+				90E7A4831DB9BB0C00848722 /* OptionsViewController.swift in Sources */,
+				90E7A4811DB9BAB000848722 /* SearchContactViewModel.swift in Sources */,
+				90E7A4951DB9BF4300848722 /* SelectMailViewModel.swift in Sources */,
+				90E7A47D1DB9B9F900848722 /* AddContactViewModel.swift in Sources */,
+				90E7A4751DB9B8BE00848722 /* DetailContactListViewModel.swift in Sources */,
+				90E7A4871DB9BBF300848722 /* TeamMemberViewController.swift in Sources */,
+				90E7A4851DB9BB1D00848722 /* OptionsViewModel.swift in Sources */,
+				90E7A4911DB9BEAD00848722 /* MapViewModel.swift in Sources */,
+				90E7A4791DB9B99400848722 /* SpreadSheetViewModel.swift in Sources */,
+				90E7A47B1DB9B9EB00848722 /* AddContactViewController.swift in Sources */,
+				90E7A47F1DB9BA9E00848722 /* SearchContactViewController.swift in Sources */,
+				90F0F4421DB6277E00A092B7 /* MainViewController.swift in Sources */,
+				90E7A46F1DB9B7CD00848722 /* ContactListViewController.swift in Sources */,
 				90F0F4401DB6277E00A092B7 /* AppDelegate.swift in Sources */,
+				90E7A46D1DB9B79300848722 /* MainViewModel.swift in Sources */,
+				90E7A48D1DB9BC9B00848722 /* FieldsViewModel.swift in Sources */,
+				90E7A48B1DB9BC8300848722 /* FieldsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
