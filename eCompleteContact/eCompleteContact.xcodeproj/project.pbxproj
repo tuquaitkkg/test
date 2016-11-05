@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DB44B8F1DCD8C93005D60DB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB44B8E1DCD8C93005D60DB /* BaseViewController.swift */; };
 		901C30EB1DB9C98F0019F53F /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30DA1DB9C98F0019F53F /* AddContactViewController.swift */; };
 		901C30EC1DB9C98F0019F53F /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30DB1DB9C98F0019F53F /* ContactListViewController.swift */; };
 		901C30ED1DB9C98F0019F53F /* DetailContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C30DC1DB9C98F0019F53F /* DetailContactListViewController.swift */; };
@@ -68,6 +69,7 @@
 
 /* Begin PBXFileReference section */
 		3D6E808FEF39A425C23D3BA2 /* Pods-eCompleteContact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCompleteContact.release.xcconfig"; path = "Pods/Target Support Files/Pods-eCompleteContact/Pods-eCompleteContact.release.xcconfig"; sourceTree = "<group>"; };
+		3DB44B8E1DCD8C93005D60DB /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		901C30DA1DB9C98F0019F53F /* AddContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
 		901C30DB1DB9C98F0019F53F /* ContactListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 		901C30DC1DB9C98F0019F53F /* DetailContactListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailContactListViewController.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				901C30E81DB9C98F0019F53F /* SpreadSheetViewController.swift */,
 				901C30E91DB9C98F0019F53F /* TeamMemberViewController.swift */,
 				901C30EA1DB9C98F0019F53F /* TwitterViewController.swift */,
+				3DB44B8E1DCD8C93005D60DB /* BaseViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -450,6 +453,7 @@
 				901C30F91DB9C98F0019F53F /* SpreadSheetViewController.swift in Sources */,
 				90F0F4401DB6277E00A092B7 /* AppDelegate.swift in Sources */,
 				901C30F31DB9C98F0019F53F /* FacebookViewController.swift in Sources */,
+				3DB44B8F1DCD8C93005D60DB /* BaseViewController.swift in Sources */,
 				901C311B1DB9C9970019F53F /* SearchContactViewModel.swift in Sources */,
 				901C311E1DB9C9970019F53F /* TwitterViewModel.swift in Sources */,
 				901C310F1DB9C9970019F53F /* ContactListViewModel.swift in Sources */,
